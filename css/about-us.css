@@ -57,4 +57,41 @@ body {
 .nav-left button a {
   color: white;
   font-weight: bold;
+}
+
+.main-header {
+  height: 80%;
+  background-image: url(/image//background/canteen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-header {
+  width: 30%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.572);
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-h1 {
+  display: flex;
+  gap: 15px;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  color: rgb(88, 201, 222);
 }/*# sourceMappingURL=about-us.css.map */

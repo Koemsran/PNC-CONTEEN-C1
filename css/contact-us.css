@@ -57,4 +57,129 @@ body {
 .nav-left button a {
   color: white;
   font-weight: bold;
+}
+
+.main-header {
+  height: 80%;
+  background-image: url(/image//background/canteen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-header {
+  width: 30%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.572);
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-h1 {
+  display: flex;
+  gap: 15px;
+}
+
+h2 {
+  font-size: 40px;
+  color: white;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  color: rgb(88, 201, 222);
+}
+
+main {
+  display: flex;
+  padding: 30px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+}
+
+.contact-card1 {
+  display: flex;
+  background: white;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card1 {
+  padding: 30px;
+  margin: 10px;
+}
+
+p1 {
+  margin-right: 20px;
+  gap: 10px;
+}
+
+p2 {
+  color: blue;
+}
+
+.icon {
+  margin-left: -30px;
+  font-size: 35px;
+  gap: 10px;
+}
+
+.contact-card2 {
+  display: flex;
+  background: white;
+}
+
+.card2 {
+  padding: 30px;
+}
+
+.input {
+  background: white;
+  margin: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  align-items: center;
+}
+
+.name {
+  display: flex;
+  gap: 50px;
+  width: 50px;
+}
+
+.email-number {
+  display: flex;
+  gap: 50px;
+}
+
+.student {
+  display: flex;
+  gap: 45px;
+}
+
+input {
+  border-radius: 3px;
+  background: rgba(211, 208, 208, 0.778);
+}
+
+textarea {
+  border-radius: 3px;
+  background: rgba(211, 208, 208, 0.778);
+}
+
+button {
+  padding: 5px;
+  background: rgb(18, 176, 215);
 }/*# sourceMappingURL=contact-us.css.map */
