@@ -1,1 +1,31 @@
-@import 'main'
+@import 'main';
+.main-content{
+    height: 35%;
+    margin-top: 40px;
+    display: flex;
+    padding: 20px;
+    padding-left: 100px;
+}
+.group-text{
+    width: 80%;
+}
+.group-text h1{
+    font-size: 60px;
+    color: orange;
+}
+.text{
+    display: flex;
+}
+h2{
+    font-family:serif;
+    font-size: 50px;
+}
+.text h1{
+    font-size: 60px;
+    color: black;
+}
+img{
+    padding-right: 50px;
+    width: 100%;
+    height: 100%;
+}

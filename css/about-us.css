@@ -47,6 +47,13 @@ body {
   font-weight: bold;
 }
 
+.nav-center ul li a:hover {
+  background-color: orange;
+  color: white;
+  padding: 8px;
+  border-radius: 20px;
+}
+
 .nav-left button {
   padding: 10px;
   width: 100px;
@@ -57,4 +64,39 @@ body {
 .nav-left button a {
   color: white;
   font-weight: bold;
+}
+
+.bg-img {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  background-image: url(/image/background/pnc.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+.bg-text {
+  background-color: rgba(0, 0, 0, 0.384);
+  width: 40%;
+  height: 25%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  padding: 50px;
+}
+
+.bg-text h1 {
+  color: orange;
+  font-size: 70px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.bg-text p {
+  font-size: 30px;
 }/*# sourceMappingURL=about-us.css.map */
