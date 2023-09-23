@@ -1,1 +1,97 @@
 @import 'main';
+
+.titlle-menu{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.titlle-menu h1:nth-child(2){
+    color: orange;
+}
+
+.sub-tittle{
+    width: 10%;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 0 20px 20px 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.group-card{
+    width: 100%;
+    margin-top: 30px;
+    display:flex;
+    gap: 30px;
+    // flex-direction: column;
+}
+.card {
+    width: 23%;
+    height: 250px;
+    border: 1px solid #000;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.card img{
+    width: 100%;
+    height: 150px;
+    
+    
+} 
+.card p {
+    padding: 20px;
+}
+.card .icon {
+    margin-left: 20px;
+    margin-bottom: 10px;  
+}
+.card .icon i{
+    color: orange;
+}
+
+.tittle-scedule{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.tittle-scedule h1:nth-child(2){
+    color: orange;
+}
+.table-schedul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid;
+    padding: 10px;
+}
+tbody tr:nth-child(1) td:nth-child(1){
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 2;
+}
+tbody tr:nth-child(1) td:nth-child(2){
+    background-color: white;
+}
+tbody tr:nth-child(2) td:nth-child(1){
+    background-color: white;
+}
+tbody tr:nth-child(3) td:nth-child(1){
+    background-color: white;
+}
+
+
+
