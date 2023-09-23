@@ -1,14 +1,13 @@
 
 .bg-img{
     display: flex;
-    align-items: center;
-    
+    align-items: end;
     margin-top: 5px;
     background-image: url(/image/background/pnc.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 650px;
     background-repeat: no-repeat;
 }
 .bg-text{
@@ -22,6 +21,7 @@
     gap: 20px;
     color: white;
     padding: 50px;
+    margin-bottom: 70px;
 }
 .bg-text h1{
     color: orange;
@@ -29,7 +29,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .bg-text p{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 
