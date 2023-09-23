@@ -7,5 +7,10 @@
     border:0;
 }
 body{
+    height: 100vh;
     background-color: #D9D9D9;
 }
+@import './COMPONENTS/group-variable';
+@import './COMPONENTS/group-mixin';
+@import './COMPONENTS/nav';
+@import './COMPONENTS/header';
