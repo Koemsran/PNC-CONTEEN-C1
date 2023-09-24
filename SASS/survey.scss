@@ -16,9 +16,9 @@
 
 }
 .link ul li{
-    width: 10%;
+    width: 8%;
     background-color: orange;
-    padding: 10px;
+    padding: 7px;
     border-radius: 20px;
 
 }
@@ -26,6 +26,7 @@
     display: flex;
     justify-content: center;
     color: white;
+    font-size: 12px;
 
 }
 .link ul li a:hover{
@@ -90,4 +91,13 @@ h3 {
     to {
         opacity: 1;
     }
+}
+.form-body .btn-submit input{
+    margin-top: 20px;
+    background-color: orange;
+    color: white;
+    padding: 7px;
+    width: 8%;
+    border-radius: 10px;
+    font-size: 12px;
 }
