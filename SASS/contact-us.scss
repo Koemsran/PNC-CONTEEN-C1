@@ -1,76 +1,132 @@
 @import 'main';
-main{
+
+main {
     display: flex;
-    padding: 30px
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    margin-top: -40px;
+    width: 80%;
+    margin-left:10%;
+    padding: 20px;
+
 }
-.contact{
+
+.contact {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     padding: 10px;
 }
-.contact-card1{
+
+.contact-card1 {
     display: flex;
-    background:white;
+    background: white;
     justify-content: center;
     flex-direction: column;
-}
-.card1{
-    padding: 30px;
-    margin: 10px;
     
 }
-p1{
+
+.card1 {
+    padding: 30px;
+<<<<<<< HEAD
+    margin: 10px;
+
+}
+
+p {
     margin-right: 20px;
     gap: 10px;
-    
+
 }
-p2{
+
+h5 {
+=======
+
+}
+.card1 :nth-child(4){
     color: blue;
 }
-.icon{
+.card1 :nth-child(6){
+>>>>>>> 4c65a0f68efc8a33a869376c2a454d692dba8857
+    color: blue;
+}
+
+.icon {
     margin-left: -30px;
     font-size: 35px;
     gap: 10px;
 }
-.contact-card2{
+
+.contact-card2 {
     display: flex;
     background: white;
 }
-.card2{
+
+.card2 {
     padding: 30px;
 }
+
+<<<<<<< HEAD
+.input {
+=======
+
 .input{
+>>>>>>> 4c65a0f68efc8a33a869376c2a454d692dba8857
     background: white;
-    margin: 10px;
-    padding: 10px;
-    flex-wrap: wrap;
+    padding: 35px;
     margin-left: 10%;
-    align-items:center;
+    align-items: center;
 }
+
+<<<<<<< HEAD
+.name {
+=======
 .name{
+>>>>>>> 4c65a0f68efc8a33a869376c2a454d692dba8857
     display: flex;
     gap: 50px;
     width: 50px;
 
 }
-.email-number{
+
+.email-number {
     display: flex;
     gap: 50px;
 }
-.student{
+
+.student {
     display: flex;
-    gap: 45px;
+    gap: 50px;
 }
-input{
+
+<<<<<<< HEAD
+input {
     border-radius: 3px;
     background: rgba(211, 208, 208, 0.778);
+=======
+// input{
+//     border-radius: 3px;
+//     background: rgba(211, 208, 208, 0.778);
+    
+// }
+.input h3{
+    text-align: center;
+>>>>>>> 4c65a0f68efc8a33a869376c2a454d692dba8857
 }
+
 textarea {
     border-radius: 3px;
     background: rgba(211, 208, 208, 0.778);
 }
-button{
+
+.card2 input {
     padding: 5px;
     background: rgb(18, 176, 215);
+<<<<<<< HEAD
 }
+=======
+    display: flex;
+}
+
+>>>>>>> 4c65a0f68efc8a33a869376c2a454d692dba8857
