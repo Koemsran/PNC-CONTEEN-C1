@@ -71,6 +71,7 @@ body {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 .main-header {
   height: 80%;
   background-image: url(/image//background/canteen.jpg);
@@ -98,10 +99,14 @@ body {
 }
 
 .bg-img {
+=======
+<<<<<<< HEAD
+.bgc-img {
+>>>>>>> 4c65a0f68efc8a33a869376c2a454d692dba8857
   display: flex;
   align-items: end;
   margin-top: 5px;
-  background-image: url(/image/background/pnc.jpg);
+  background-image: url(/image/background/canteen.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -109,7 +114,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.bg-text {
+.bgc-text {
   background-color: rgba(0, 0, 0, 0.384);
   width: 40%;
   height: 25%;
@@ -123,14 +128,58 @@ body {
   margin-bottom: 70px;
 }
 
-.bg-text h1 {
-  color: orange;
-  font-size: 70px;
+.bgc-text h1 {
+  color: rgb(101, 217, 238);
+  font-size: 50px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-.bg-text p {
-  font-size: 25px;
+.bgc-text h2 {
+  font-size: 40px;
+  color: white;
+}
+
+.bgc-text2 {
+  display: flex;
+  gap: 20px;
+}
+
+.bg-img {
+  display: flex;
+  align-items: end;
+  margin-top: 5px;
+  background-image: url(/image//background/pnc.jpg);
+  background-position: center;
+  background-size: cover;
+=======
+.main-header {
+>>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
+  width: 100%;
+  background-image: url(/image/background/eat\ food.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-main {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.bg-header {
+  width: 50%;
+  margin: 80px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.37);
+}
+
+.text-menu {
+  display: flex;
+  gap: 20px;
+}
+
+.text-menu h1 {
+  font-weight: bold;
+  color: orange;
 }
 
 footer {
@@ -167,6 +216,14 @@ footer .social-media img {
 .foot .right {
   display: flex;
   gap: 50px;
+}
+
+.contact footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: gray;
+  padding: 50px 30px 30px 30px;
 }
 
 .form-container {
