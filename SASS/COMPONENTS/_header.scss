@@ -1,30 +1,19 @@
-<<<<<<< HEAD
 .main-header{
-    height: 80%;
+    width: 100%;
     background-image: url(/image/background/eat\ food.jpg);
-=======
-
-<<<<<<< HEAD
-.main-header{
-   
-    height: 80%;
-    background-image:url(/image//background/canteen.jpg);
->>>>>>> 52f74fdb0e24e098a1d29577fe9e2ce6705522eb
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-<<<<<<< HEAD
-    
+}
+.bg-main{
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 .bg-header{
     width: 50%;
-    margin: 70px;
+    margin: 80px;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.37);
-    display: flex;
-    flex-direction: column;
+    
 }
 .text-menu{
     display: flex;
@@ -34,99 +23,3 @@
     font-weight: bold;
     color: orange;
 }
-// main
-// .main-content{
-//     height: 100vh;
-//     display: flex;
-//     flex-direction: column;
-// }
-// .menu-content{
-//     flex: 1;
-//     background-color: pink;
-
-// }
-// .tittle-menu{
-//     margin-top: 30px;
-//     text-align: center;
-// }
-// .tittle-menu h1:nth-child(2) {
-//     color: orange;
-    
-// }
-// .sub-tittle{
-//     width: 10%;
-//     height: 30px;
-//     border-radius: 0 20px 20px 0;
-//     background-color: black;
-//     color: white;
-//     display: flex;
-//     align-items: center;
-
-// }
-// .group-card .card img{
-//     width: 300px;
-//     height: 40%;
-// }
-=======
-}
-.bg-header{
-    width: 30%;
-    height: 30%;
-    background-color: rgba(0, 0, 0, 0.572);
-    margin: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.text-h1{
-    display: flex;
-    gap: 15px;
-
-}
-h2{
-    font-size: 40px;
-    color: white;
-}
-h1{
-    font-family: sans-serif;
-    font-size: 50px;
-    color: rgb(88, 201, 222);
-}
-=======
-.bg-img{
-    display: flex;
-    align-items: end;
-    margin-top: 5px;
-    background-image: url(/image/background/pnc.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 650px;
-    background-repeat: no-repeat;
-}
-.bg-text{
-    background-color: rgba(0, 0, 0, 0.384);
-    width: 40%;
-    height: 25%;
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    color: white;
-    padding: 50px;
-    margin-bottom: 70px;
-}
-.bg-text h1{
-    color: orange;
-    font-size: 70px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.bg-text p{
-    font-size: 25px;
-}
-
-
->>>>>>> 03e21578c3ed6591a05269578f29d14d242e9ccb
->>>>>>> 52f74fdb0e24e098a1d29577fe9e2ce6705522eb

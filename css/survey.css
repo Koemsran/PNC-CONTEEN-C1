@@ -71,40 +71,33 @@ body {
   font-weight: bold;
 }
 
-.bg-img {
-  display: flex;
-  align-items: end;
-  margin-top: 5px;
-  background-image: url(/image/background/pnc.jpg);
-  background-position: center;
-  background-size: cover;
+.main-header {
   width: 100%;
-  height: 650px;
+  background-image: url(/image/background/eat\ food.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.bg-text {
-  background-color: rgba(0, 0, 0, 0.384);
-  width: 40%;
-  height: 25%;
-  margin-left: 50px;
+.bg-main {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.bg-header {
+  width: 50%;
+  margin: 80px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.37);
+}
+
+.text-menu {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   gap: 20px;
-  color: white;
-  padding: 50px;
-  margin-bottom: 70px;
 }
 
-.bg-text h1 {
+.text-menu h1 {
+  font-weight: bold;
   color: orange;
-  font-size: 70px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-.bg-text p {
-  font-size: 25px;
 }
 
 footer {
