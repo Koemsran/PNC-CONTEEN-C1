@@ -71,20 +71,10 @@ body {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 .main-header {
   height: 80%;
   background-image: url(/image//background/canteen.jpg);
   background-repeat: no-repeat;
-=======
-<<<<<<< HEAD
-.bgc-img {
-  display: flex;
-  align-items: end;
-  margin-top: 5px;
-  background-image: url(/image/background/canteen.jpg);
-  background-position: center;
->>>>>>> 4c65a0f68efc8a33a869376c2a454d692dba8857
   background-size: cover;
   width: 100%;
   height: 650px;
@@ -111,20 +101,9 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-<<<<<<< HEAD
 .text-h1 {
   display: flex;
   gap: 15px;
-=======
-.bgc-text h2 {
-  font-size: 40px;
-  color: white;
-}
-
-.bgc-text2 {
-  display: flex;
-  gap: 20px;
->>>>>>> 4c65a0f68efc8a33a869376c2a454d692dba8857
 }
 
 .bg-img {
@@ -147,7 +126,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-=======
+}
 .main-header {
   width: 100%;
   background-image: url(/image/background/eat\ food.jpg);
@@ -169,7 +148,6 @@ body {
 
 .text-menu {
   display: flex;
->>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
   gap: 20px;
 }
 
@@ -212,18 +190,9 @@ footer .social-media img {
 .foot .right {
   display: flex;
   gap: 50px;
-<<<<<<< HEAD
-=======
+
 }
 
-<<<<<<< HEAD
-.contact footer {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background-color: gray;
-  padding: 50px 30px 30px 30px;
-=======
 body {
   background-color: #F5EEEE;
 }
@@ -438,6 +407,4 @@ tbody tr:nth-child(3) td:nth-child(1) {
   color: #1D74A0;
   font-size: 20px;
   font-weight: bold;
->>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
->>>>>>> 4c65a0f68efc8a33a869376c2a454d692dba8857
 }/*# sourceMappingURL=about-us.css.map */
