@@ -71,6 +71,7 @@ body {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 .bgc-img {
   display: flex;
   align-items: end;
@@ -109,10 +110,76 @@ body {
 }
 
 .bgc-text2 {
+=======
+.main-header {
+  width: 100%;
+  background-image: url(/image/background/eat\ food.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-main {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.bg-header {
+  width: 50%;
+  margin: 80px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.37);
+}
+
+.text-menu {
   display: flex;
   gap: 20px;
 }
 
+.text-menu h1 {
+  font-weight: bold;
+  color: orange;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: gray;
+  padding: 50px 30px 30px 30px;
+}
+
+footer .text-foot {
+  text-align: center;
+}
+
+footer .social-media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+footer .social-media img {
+  width: 40px;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot .right {
+  display: flex;
+  gap: 50px;
+}
+
+main {
+>>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
+  display: flex;
+  gap: 20px;
+}
+
+<<<<<<< HEAD
 .bg-img {
   display: flex;
   align-items: end;
@@ -205,6 +272,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 20px;
+=======
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+>>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
   padding: 10px;
 }
 
@@ -217,6 +290,7 @@ main {
 
 .card1 {
   padding: 30px;
+<<<<<<< HEAD
 }
 
 .card1 :nth-child(4) {
@@ -224,6 +298,17 @@ main {
 }
 
 .card1 :nth-child(6) {
+=======
+  margin: 10px;
+}
+
+p1 {
+  margin-right: 20px;
+  gap: 10px;
+}
+
+p2 {
+>>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
   color: blue;
 }
 
@@ -242,6 +327,7 @@ main {
   padding: 30px;
 }
 
+<<<<<<< HEAD
 .card2 :nth-child(2) {
   color: blue;
 }
@@ -249,6 +335,13 @@ main {
 .input {
   background: white;
   padding: 35px;
+=======
+.input {
+  background: white;
+  margin: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+>>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
   margin-left: 10%;
   align-items: center;
 }
@@ -266,7 +359,11 @@ main {
 
 .student {
   display: flex;
+<<<<<<< HEAD
   gap: 50px;
+=======
+  gap: 45px;
+>>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
 }
 
 input {
@@ -274,11 +371,14 @@ input {
   background: rgba(211, 208, 208, 0.778);
 }
 
+<<<<<<< HEAD
 .input h3 {
   text-align: center;
   gap: 20px;
 }
 
+=======
+>>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
 textarea {
   border-radius: 3px;
   background: rgba(211, 208, 208, 0.778);
@@ -287,9 +387,12 @@ textarea {
 button {
   padding: 5px;
   background: rgb(18, 176, 215);
+<<<<<<< HEAD
   display: flex;
 }
 
 button {
   justify-content: center;
+=======
+>>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
 }/*# sourceMappingURL=contact-us.css.map */

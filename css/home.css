@@ -71,6 +71,7 @@ body {
   font-weight: bold;
 }
 
+<<<<<<< HEAD
 .bgc-img {
   display: flex;
   align-items: end;
@@ -133,20 +134,35 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+=======
+.main-header {
+  width: 100%;
+  background-image: url(/image/background/eat\ food.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-main {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.bg-header {
+  width: 50%;
+  margin: 80px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.37);
+}
+
+.text-menu {
+  display: flex;
+>>>>>>> bb85493aa406331f1d9a025cd607901317cd60cb
   gap: 20px;
-  color: white;
-  padding: 50px;
-  margin-bottom: 70px;
 }
 
-.bg-text h1 {
+.text-menu h1 {
+  font-weight: bold;
   color: orange;
-  font-size: 70px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-.bg-text p {
-  font-size: 25px;
 }
 
 footer {
