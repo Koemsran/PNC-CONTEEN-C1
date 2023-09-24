@@ -71,11 +71,53 @@ body {
   font-weight: bold;
 }
 
+.bgc-img {
+  display: flex;
+  align-items: end;
+  margin-top: 5px;
+  background-image: url(/image/background/canteen.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+}
+
+.bgc-text {
+  background-color: rgba(0, 0, 0, 0.384);
+  width: 40%;
+  height: 25%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  padding: 50px;
+  margin-bottom: 70px;
+}
+
+.bgc-text h1 {
+  color: rgb(101, 217, 238);
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.bgc-text h2 {
+  font-size: 40px;
+  color: white;
+}
+
+.bgc-text2 {
+  display: flex;
+  gap: 20px;
+}
+
 .bg-img {
   display: flex;
   align-items: end;
   margin-top: 5px;
-  background-image: url(/image/background/pnc.jpg);
+  background-image: url(/image//background/pnc.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -138,6 +180,14 @@ footer .social-media img {
 .foot .right {
   display: flex;
   gap: 50px;
+}
+
+.contact footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: gray;
+  padding: 50px 30px 30px 30px;
 }
 
 .form-container {
