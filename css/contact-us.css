@@ -8,15 +8,13 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   height: 100vh;
   background-color: #F5EEEE;
 }
 
 .navbar {
   width: 100%;
-  flex: 0.1;
   display: flex;
   justify-content: space-around;
   padding: 10px;
@@ -71,81 +69,8 @@ body {
   font-weight: bold;
 }
 
-.main-header {
-  height: 80%;
-  background-image: url(/image//background/canteen.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 650px;
-  background-repeat: no-repeat;
-}
-
-.bgc-text {
-  background-color: rgba(0, 0, 0, 0.384);
-  width: 40%;
-  height: 25%;
-  margin-left: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  color: white;
-  padding: 50px;
-  margin-bottom: 70px;
-}
-
-.bgc-text h1 {
-  color: rgb(101, 217, 238);
-  font-size: 50px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-.text-h1 {
-  display: flex;
-  gap: 15px;
-}
-
-.bg-img {
-  display: flex;
-  align-items: end;
-  margin-top: 5px;
-  background-image: url(/image/background/pnc.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 650px;
-  background-repeat: no-repeat;
-}
-
-.bg-text {
-  background-color: rgba(0, 0, 0, 0.384);
-  width: 40%;
-  height: 25%;
-  margin-left: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  color: white;
-  padding: 50px;
-  margin-bottom: 70px;
-}
-
-.bg-text h1 {
-  color: orange;
-  font-size: 70px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-.bg-text p {
-  font-size: 25px;
-}
-
 footer {
   margin-top: 30px;
-  display: flex;
-  flex-direction: column;
   gap: 20px;
   background-color: rgb(172, 166, 166);
   padding: 50px 30px 30px 30px;
@@ -178,24 +103,19 @@ footer .social-media img {
   gap: 50px;
 }
 
-main {
-  display: flex;
-  gap: 20px;
-}
-
-.bg-img {
+.main-header {
   display: flex;
   align-items: end;
   margin-top: 5px;
-  background-image: url(/image//background/pnc.jpg);
+  background-image: url(/image/background/canteen.jpg);
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 650px;
+  height: 500px;
   background-repeat: no-repeat;
 }
 
-.bg-text {
+.bgc-text {
   background-color: rgba(0, 0, 0, 0.384);
   width: 40%;
   height: 25%;
@@ -203,87 +123,65 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
-  color: white;
-  padding: 50px;
-  margin-bottom: 70px;
 }
 
-.bg-text h1 {
-  color: orange;
-  font-size: 70px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-.bg-text p {
-  font-size: 25px;
-}
-
-footer {
-  margin-top: 30px;
+.bg-header {
+  width: 30%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.572);
+  margin: 80px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  background-color: gray;
-  padding: 50px 30px 30px 30px;
-}
-
-footer .text-foot {
-  text-align: center;
-}
-
-footer .social-media {
-  display: flex;
-  gap: 20px;
   justify-content: center;
+  padding: 10px;
+  color: white;
+  border: 1px solid rgba(128, 128, 128, 0.411);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-footer .social-media img {
-  width: 40px;
+.bg-header h2 {
+  font-family: serif;
+  font-size: 35px;
 }
 
-.foot {
+.text-h1 {
   display: flex;
-  justify-content: space-between;
+  gap: 15px;
+  font-size: 30px;
 }
 
-.foot .right {
-  display: flex;
-  gap: 50px;
+.text-h1 h1 {
+  color: #22c2a7;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.contact footer {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background-color: gray;
-  padding: 50px 30px 30px 30px;
+.text-h1 h3 {
+  margin-top: 10px;
+  font-size: 40px;
+  font-family: serif;
 }
 
 main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #D9D9D9;
+  background-color: #F5EEEE;
   margin-top: -40px;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 4%;
   padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
-.contact {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
   padding: 10px;
 }
 
 .contact-card1 {
+  width: 100%;
   display: flex;
   background: white;
   justify-content: center;
@@ -295,25 +193,24 @@ main {
   margin: 10px;
 }
 
-
-
-.card1 :nth-child(4) {
-  color: blue;
-}
-
-.card1 :nth-child(6) {
+p {
   margin-right: 20px;
   gap: 10px;
 }
 
-h5 {
+.card :nth-child(3) {
   color: blue;
 }
 
-.icon {
-  margin-left: -30px;
-  font-size: 35px;
+.card .icon {
+  color: rgb(146, 96, 3);
+  font-size: 25px;
   gap: 10px;
+  background-color: rgba(128, 128, 128, 0.384);
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  padding: 3px;
 }
 
 .contact-card2 {
@@ -321,23 +218,15 @@ h5 {
   background: white;
 }
 
-.card2 {
+.card {
+  display: flex;
+  gap: 20px;
   padding: 30px;
-}
-
-.card2 :nth-child(2) {
-  color: blue;
 }
 
 .input {
   background: white;
   padding: 35px;
-}
-.input {
-  background: white;
-  margin: 10px;
-  padding: 10px;
-  flex-wrap: wrap;
   margin-left: 10%;
   align-items: center;
 }
@@ -355,7 +244,6 @@ h5 {
 
 .student {
   display: flex;
-  gap: 45px;
   gap: 50px;
 }
 
@@ -366,7 +254,6 @@ input {
 
 .input h3 {
   text-align: center;
-  gap: 20px;
 }
 
 textarea {
@@ -377,13 +264,9 @@ textarea {
 .card2 input {
   padding: 5px;
   background: rgb(18, 176, 215);
-}
-button {
-  padding: 5px;
-  background: rgb(18, 176, 215);
   display: flex;
 }
 
-button {
-  justify-content: center;
+.map {
+  margin-top: 50px;
 }/*# sourceMappingURL=contact-us.css.map */
