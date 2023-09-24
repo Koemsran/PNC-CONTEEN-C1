@@ -1,28 +1,36 @@
-footer{
+footer {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: gray;
+    background-color: rgb(172, 166, 166);
     padding: 50px 30px 30px 30px;
 
 }
-footer .text-foot{
+
+footer .text-foot {
     text-align: center;
+    line-height: 2;
 }
-footer .social-media{
+
+footer .social-media {
     display: flex;
     gap: 20px;
     justify-content: center;
 }
-footer .social-media img{
+
+footer .social-media img {
     width: 40px;
+    background-color: rgb(235, 228, 228);
+    border-radius: 5px;
 }
-.foot{
+
+.foot {
     display: flex;
     justify-content: space-between;
 }
-.foot .right{
+
+.foot .right {
     display: flex;
     gap: 50px;
 }

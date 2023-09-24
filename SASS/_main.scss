@@ -4,14 +4,16 @@
     font-family: sans-serif;
     list-style: none;
     text-decoration: none;
-    border:0;
+    border: 0;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #D9D9D9;
+    background-color: #F5EEEE;
 }
+
 @import './COMPONENTS/group-variable';
 @import './COMPONENTS/group-mixin';
 @import './COMPONENTS/nav';

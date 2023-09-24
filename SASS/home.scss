@@ -1,80 +1,98 @@
 @import 'main';
-.main-content{
+
+.main-content {
     height: 50%;
     margin-top: 15px;
     display: flex;
     padding: 20px;
     padding-left: 100px;
 }
-.group-text{
+
+.group-text {
     width: 100%;
 }
-.group-text p{
+
+.group-text p {
     font-size: 25px;
     margin-top: 20px;
 }
-.group-text h1{
+
+.group-text h1 {
     font-size: 60px;
     color: orange;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.text{
+
+.group-text .text {
     display: flex;
     gap: 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h2{
-    font-family:serif;
+
+.text-content h2 {
+    font-family: serif;
     font-size: 50px;
 }
-.text h1{
+
+.text h1 {
     font-size: 60px;
     color: black;
 }
-.main-content img{
+
+.main-content img {
     padding-right: 50px;
     width: 120%;
     height: 110%;
+    rotate: 10deg;
 }
-.main-content .text-content button{
+
+.main-content .text-content button {
     margin-top: 20px;
     background-color: orange;
-    padding: 10px;
+    padding: 7px;
     border-radius: 20px;
     width: 20%;
 }
-.main-content .text-content button a{
+
+.main-content .text-content button a {
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 15px;
 }
-.main-content .text-content button a:hover{
+
+.main-content .text-content button a:hover {
     text-decoration: underline;
 }
-.content-menu{
+
+.content-menu {
     display: flex;
     justify-content: space-evenly;
     margin-top: 150px;
     width: 100%;
 }
-.card-menu{
+
+.card-menu {
     background-color: rgba(0, 0, 0, 0.863);
     width: 18%;
     border-radius: 20px;
 
 }
-.group-img{
+
+.group-img {
     display: flex;
 }
-.group-img img{
+
+.group-img img {
     width: 230px;
     margin-top: -90px;
     margin-left: -70px;
 }
-.card-menu .group-img:nth-child(3){
+
+.card-menu .group-img:nth-child(3) {
     width: 200px;
 }
-.group-img button{
+
+.group-img button {
     width: 40%;
     height: 30px;
     border-radius: 20px 0 0 20px;
@@ -82,18 +100,21 @@ h2{
     background-color: orange;
     color: white;
 }
-.group-card{
+
+.group-card {
     color: white;
     padding-left: 30px;
     padding-bottom: 30px;
     width: 70%;
 }
-.group-icon{
+
+.group-icon {
     color: orange;
     padding-left: 30px;
     padding-bottom: 10px;
 }
-.bg-ingredients{
+
+.bg-ingredients {
     margin-top: 40px;
     background-image: url(/image/background/ingre.jpg);
     background-position: center;
@@ -101,38 +122,46 @@ h2{
     background-size: cover;
     height: 500px;
 }
-.bg-ingredients .bg-ingre{
-    padding-top:150px;
+
+.bg-ingredients .bg-ingre {
+    padding-top: 150px;
     padding-bottom: 200px;
 }
-.bg-ingredients .bg-ingre .title{
+
+.bg-ingredients .bg-ingre .title {
     color: white;
     background-color: rgba(0, 0, 0, 0.568);
     padding: 70px;
 }
-.bg-ingredients .title h1{
+
+.bg-ingredients .title h1 {
     font-size: 60px;
     font-family: serif;
 }
-.group-eqiepment{
+
+.group-eqiepment {
     margin-top: 30px;
     display: flex;
     gap: 30px;
     padding-left: 70px;
 }
-.picture{
-    display:flex;
+
+.picture {
+    display: flex;
     flex-direction: column;
 }
-.picture img{
+
+.picture img {
     width: 150px;
     height: 150px;
     border-radius: 200px;
     border: 1px solid rgb(7, 167, 189);
 }
+
 .group-eqiepment .text {
     margin-top: 50px;
     width: 60%;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }

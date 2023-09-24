@@ -1,4 +1,5 @@
 @import 'main';
+
 .form-container {
     width: 70%;
     margin: 0 auto;
@@ -9,39 +10,47 @@
     border-radius: 7px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.link ul{
+
+.link ul {
     display: flex;
     gap: 20px;
     padding-top: 10px;
 
 }
-.link ul li{
+
+.link ul li {
     width: 8%;
     background-color: orange;
     padding: 7px;
     border-radius: 20px;
 
 }
-.link ul li a{
+
+.link ul li a {
     display: flex;
     justify-content: center;
     color: white;
     font-size: 12px;
 
 }
-.link ul li a:hover{
+
+.link ul li a:hover {
     color: blue;
 }
+
 .form-header {
     border-bottom: 1px solid #ebe1e1;
     padding: 10px;
 }
-.form-header h1{
+
+.form-header h1 {
     font-family: serif;
 }
+
 .form-body {
     padding: 20px;
 }
+
 .form-group {
     margin-top: 20px;
     animation: my_scroll_fade linear both;
@@ -52,32 +61,35 @@
     /* range entry */
     animation-range: entry 50% cover 50%;
 }
+
 .group {
     padding: 8px;
 }
+
 input[type='radio'] {
     /* change size of radio */
     transform: scale(2);
     margin-right: 10px;
 
     /* color select inside radio */
-    accent-color:blue;
+    accent-color: blue;
     cursor: pointer;
 
     /* change text color when click on radio */
     pointer-events: fill;
 }
 
- /* change text color when click on radio */
-input[type='radio']:checked  ~ label {
+/* change text color when click on radio */
+input[type='radio']:checked~label {
     color: blue($color: #000000);
 }
 
 input[type='date'] {
-    border:1px solid #ebe1e1;
+    border: 1px solid #ebe1e1;
     padding: 10px;
     width: 50%
 }
+
 h3 {
     margin-bottom: 10px;
 }
@@ -88,11 +100,13 @@ h3 {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
-.form-body .btn-submit input{
+
+.form-body .btn-submit input {
     margin-top: 20px;
     background-color: orange;
     color: white;
