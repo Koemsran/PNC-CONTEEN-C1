@@ -5,6 +5,7 @@
   list-style: none;
   text-decoration: none;
   border: 0;
+  box-sizing: border-box;
 }
 
 .active {
@@ -93,7 +94,6 @@ footer .social-media {
 
 footer .social-media img {
   width: 40px;
-  background-color: rgb(235, 228, 228);
   border-radius: 5px;
 }
 

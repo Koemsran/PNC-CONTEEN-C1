@@ -15,18 +15,6 @@ body {
     height: 100vh;
     background-color: #F5EEEE;
 }
-<<<<<<< HEAD:SASS/_main.scss
 @import './components/group-variable';
-@import './group-mixins/group-mixin';
 @import './components/nav';
 @import './components/footer';
-=======
-.active {
-    background: orange;
-}
-
-@import './COMPONENTS/group-variable';
-@import './COMPONENTS/group-mixin';
-@import './COMPONENTS/nav';
-@import './COMPONENTS/footer';
->>>>>>> 465fc7b540ad67de047a1b2f1f22098f2fb0f61f:sass/_main.scss

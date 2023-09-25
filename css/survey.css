@@ -18,10 +18,6 @@ body {
   background-color: #F5EEEE;
 }
 
-.active {
-  background: orange;
-}
-
 .navbar {
   width: 100%;
   display: flex;
@@ -207,7 +203,7 @@ h3 {
     opacity: 1;
   }
 }
-.form-body .btn-submit input {
+.form-body .btn-submit button {
   margin-top: 20px;
   background-color: orange;
   color: white;
