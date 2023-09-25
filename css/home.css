@@ -89,7 +89,6 @@ footer .social-media {
 
 footer .social-media img {
   width: 40px;
-  background-color: rgb(235, 228, 228);
   border-radius: 5px;
 }
 
@@ -171,13 +170,13 @@ footer .social-media img {
 .group-text h1 {
   font-size: 60px;
   color: orange;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .group-text .text {
   display: flex;
   gap: 10px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .text-content h2 {
@@ -226,7 +225,6 @@ footer .social-media img {
   background-color: rgba(0, 0, 0, 0.863);
   width: 18%;
   border-radius: 20px;
-
 }
 
 .group-img {
@@ -315,5 +313,4 @@ footer .social-media img {
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */
