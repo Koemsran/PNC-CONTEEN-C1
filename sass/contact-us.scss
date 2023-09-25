@@ -1,35 +1,29 @@
 @import 'main';
 
 .main-header {
+    @include bg-img;
     display: flex;
     align-items: end;
     margin-top: 5px;
     background-image: url(/images/background/canteen.jpg);
-    background-position: center;
-    background-size: cover;
     width: 100%;
     height: 500px;
-    background-repeat: no-repeat;
 }
 
 .bgc-text {
+    @include flex1;
     background-color: rgba(0, 0, 0, 0.384);
     width: 40%;
     height: 25%;
     margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .bg-header {
+    @include flex1;
     width: 30%;
     height: 30%;
     background-color: rgba(0, 0, 0, 0.572);
     margin: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 10px;
     color: white;
     border: 1px solid rgba(128, 128, 128, 0.411);
@@ -55,9 +49,7 @@
     font-family: serif;
 }
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centered;
     background-color: #F5EEEE;
     margin-top: -40px;
     width: 90%;

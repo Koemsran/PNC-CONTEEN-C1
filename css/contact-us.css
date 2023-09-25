@@ -105,35 +105,35 @@ footer .social-media img {
 }
 
 .main-header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   align-items: end;
   margin-top: 5px;
   background-image: url(/images/background/canteen.jpg);
-  background-position: center;
-  background-size: cover;
   width: 100%;
   height: 500px;
-  background-repeat: no-repeat;
 }
 
 .bgc-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.384);
   width: 40%;
   height: 25%;
   margin-left: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .bg-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 30%;
   height: 30%;
   background-color: rgba(0, 0, 0, 0.572);
   margin: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 10px;
   color: white;
   border: 1px solid rgba(128, 128, 128, 0.411);

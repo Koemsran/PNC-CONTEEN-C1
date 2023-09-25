@@ -1,23 +1,16 @@
 @import 'main';
 
 header{
+    @include bg-img;
     background-image: url(/images/background/pnc.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     height: 90%;
     padding: 50px;
 }
 
 .bg-img {
     background-color: rgba(0, 0, 0, 0.486);
-<<<<<<< HEAD
     height: 45%;
     width: 40%;
-=======
-    height: 30%;
-    width: 45%;
->>>>>>> be715101b6f1e01bd42761a7dc1e4e74e5a81a00
     padding: 20px;
     margin-top: 200px;
     color: white;
@@ -48,22 +41,21 @@ header{
 
 .sub-tittle{
     width: 15%;
+    display: flex;
+    align-items: center;
     padding: 10px;
     margin-top: 30px;
     border-radius: 0 20px 20px 0;
     background-color: black;
     color: white;
-    display: flex;
-    align-items: center;
+    
 }
 .sub-tittle h3 {
     margin-left: 40px;
 }
 .group-card{
+    @include flex;
     width: 100%;
-    margin-top: 30px;
-    display:flex;
-    justify-content: center;
     gap: 15px;
 }
 .card {
@@ -93,16 +85,13 @@ header{
 }
 
 .tittle-scedule{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
+    @include flex;
     gap: 15px;
 }
 .tittle-scedule h1:nth-child(2){
     color: orange;
 }
 .table-schedul{
-    // margin-top: 30px;
     display: flex;
     justify-content: center;
     padding: 50px;

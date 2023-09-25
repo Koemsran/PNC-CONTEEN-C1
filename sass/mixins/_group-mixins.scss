@@ -1,0 +1,33 @@
+
+@mixin btn{
+    background-color: orange;
+    padding: 7px;
+    border-radius: 10px;
+}
+@mixin co-fo{
+    color: white;
+    font-size: 12px;
+}
+@mixin bg-img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+// group flex
+@mixin flex{
+    display:flex;
+    justify-content: center; 
+    margin-top: 30px;
+}
+@mixin centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

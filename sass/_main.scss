@@ -16,5 +16,6 @@ body {
     background-color: #F5EEEE;
 }
 @import './components/group-variable';
+@import './mixins/group-mixins';
 @import './components/nav';
 @import './components/footer';
