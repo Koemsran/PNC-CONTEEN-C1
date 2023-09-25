@@ -105,17 +105,17 @@ footer .social-media img {
 }
 
 header {
-  background-image: url(/images/background/pnc.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-image: url(/images/background/pnc.jpg);
   height: 90%;
   padding: 50px;
 }
 
 .bg-img {
   background-color: rgba(0, 0, 0, 0.486);
-  height: 30%;
+  height: 45%;
   width: 40%;
   padding: 20px;
   margin-top: 200px;
@@ -147,13 +147,13 @@ header {
 
 .sub-tittle {
   width: 15%;
+  display: flex;
+  align-items: center;
   padding: 10px;
   margin-top: 30px;
   border-radius: 0 20px 20px 0;
   background-color: black;
   color: white;
-  display: flex;
-  align-items: center;
 }
 
 .sub-tittle h3 {
@@ -161,10 +161,10 @@ header {
 }
 
 .group-card {
-  width: 100%;
-  margin-top: 30px;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
+  width: 100%;
   gap: 15px;
 }
 
@@ -197,9 +197,9 @@ header {
 }
 
 .tittle-scedule {
-  margin-top: 30px;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
   gap: 15px;
 }
 
