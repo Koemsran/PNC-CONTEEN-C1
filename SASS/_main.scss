@@ -8,8 +8,7 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
+    width: 100%;
     height: 100vh;
     background-color: #F5EEEE;
 }
@@ -17,5 +16,4 @@ body {
 @import './COMPONENTS/group-variable';
 @import './COMPONENTS/group-mixin';
 @import './COMPONENTS/nav';
-@import './COMPONENTS/header';
 @import './COMPONENTS/footer';
