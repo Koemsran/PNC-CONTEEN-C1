@@ -115,8 +115,13 @@ header {
 
 .bg-img {
   background-color: rgba(0, 0, 0, 0.486);
+<<<<<<< HEAD
   height: 45%;
   width: 40%;
+=======
+  height: 30%;
+  width: 45%;
+>>>>>>> be715101b6f1e01bd42761a7dc1e4e74e5a81a00
   padding: 20px;
   margin-top: 200px;
   color: white;
