@@ -7,6 +7,10 @@
   border: 0;
 }
 
+.active {
+  border-bottom: 3px solid orange;
+}
+
 body {
   width: 100%;
   height: 100vh;
@@ -104,7 +108,7 @@ footer .social-media img {
 }
 
 header {
-  background-image: url(/image/background/pnc.jpg);
+  background-image: url(/images/background/pnc.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

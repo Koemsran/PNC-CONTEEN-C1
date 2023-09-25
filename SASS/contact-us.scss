@@ -4,7 +4,7 @@
     display: flex;
     align-items: end;
     margin-top: 5px;
-    background-image: url(/image/background/canteen.jpg);
+    background-image: url(/images/background/canteen.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -85,26 +85,12 @@ main {
 
 .card1 {
     padding: 30px;
-<<<<<<< HEAD
 
 }
 .card1 :nth-child(4){
     color: blue;
 }
 .card1 :nth-child(6){
-=======
-    margin: 10px;
-
-}
-
-p {
-    margin-right: 20px;
-    gap: 10px;
-
-}
-
-.card :nth-child(3){
->>>>>>> 01abde90bb5c654721eb4444c7b334059e25d9fc
     color: blue;
 }
 
@@ -130,10 +116,6 @@ p {
     padding: 30px;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 01abde90bb5c654721eb4444c7b334059e25d9fc
 .input{
     background: white;
     padding: 35px;
@@ -158,13 +140,6 @@ p {
     gap: 50px;
 }
 
-<<<<<<< HEAD
-=======
-input {
-    border-radius: 3px;
-    background: rgba(211, 208, 208, 0.778);
-}
->>>>>>> 01abde90bb5c654721eb4444c7b334059e25d9fc
 // input{
 //     border-radius: 3px;
 //     background: rgba(211, 208, 208, 0.778);
@@ -182,12 +157,8 @@ textarea {
 .card2 input {
     padding: 5px;
     background: rgb(18, 176, 215);
-<<<<<<< HEAD
-}
-=======
     display: flex;
 }
 .map{
     margin-top: 50px;
 }
->>>>>>> 01abde90bb5c654721eb4444c7b334059e25d9fc

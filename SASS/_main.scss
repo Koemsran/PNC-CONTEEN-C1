@@ -6,14 +6,15 @@
     text-decoration: none;
     border: 0;
 }
-
+.active{
+    border-bottom: 3px solid orange;
+}
 body {
     width: 100%;
     height: 100vh;
     background-color: #F5EEEE;
 }
-
-@import './COMPONENTS/group-variable';
-@import './COMPONENTS/group-mixin';
-@import './COMPONENTS/nav';
-@import './COMPONENTS/footer';
+@import './components/group-variable';
+@import './group-mixins/group-mixin';
+@import './components/nav';
+@import './components/footer';
