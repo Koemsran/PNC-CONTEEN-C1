@@ -35,25 +35,30 @@
     border: 1px solid rgba(128, 128, 128, 0.411);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.bg-header h2{
+
+.bg-header h2 {
     font-family: serif;
     font-size: 35px;
 }
+
 .text-h1 {
     display: flex;
     gap: 15px;
     font-size: 30px;
 
 }
-.text-h1 h1{
+
+.text-h1 h1 {
     color: #22c2a7;
     font-family: 'Courier New', Courier, monospace;
 }
-.text-h1 h3{
+
+.text-h1 h3 {
     margin-top: 10px;
     font-size: 40px;
     font-family: serif;
 }
+
 main {
     display: flex;
     justify-content: center;
@@ -61,11 +66,13 @@ main {
     background-color: #F5EEEE;
     margin-top: -40px;
     width: 90%;
-    margin-left:4%;
+    margin-left: 4%;
     padding: 20px;
-    box-shadow:rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 
 }
+
+// contact
 
 .contact {
     display: flex;
@@ -80,14 +87,14 @@ main {
     background: white;
     justify-content: center;
     flex-direction: column;
-    
+
 }
 
-
-.card1 :nth-child(4){
+.card1 :nth-child(4) {
     color: blue;
 }
-.card1 :nth-child(6){
+
+.card1 :nth-child(6) {
     color: blue;
 }
 
@@ -97,14 +104,18 @@ main {
     gap: 10px;
     background-color: rgba(128, 128, 128, 0.384);
     border-radius: 30px;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-card2 {
     display: flex;
     background: white;
+    
 }
 
 .card {
@@ -113,21 +124,41 @@ main {
     padding: 30px;
 }
 
+.the-text {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    background-color:skyblue;
+    text-align: center;
+    color: white;
+    padding: 7px;
+    width: 45%;
+    
+}
 
 
-
-.input{
+.input {
     background: gray;
     padding: 35px;
     margin-left: 10%;
     align-items: center;
 }
 
-.name{
+
+.name {
     display: flex;
     gap: 50px;
     width: 50px;
-
+    
+}
+.frist-name.input{
+    display: flex;
+    border-radius: 20px;
+    
 }
 
 .email-number {
@@ -140,8 +171,7 @@ main {
     gap: 50px;
 }
 
-
-.input h3{
+.input h3 {
     text-align: center;
 }
 
@@ -150,11 +180,15 @@ textarea {
     background: rgba(211, 208, 208, 0.778);
 }
 
-.card2 input {
-    padding: 5px;
-    background: rgb(18, 176, 215);
-    display: flex;
-}
-.map{
+.map {
     margin-top: 50px;
+}
+button{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    border-radius: 20px;
+    width: 20%;
+
 }

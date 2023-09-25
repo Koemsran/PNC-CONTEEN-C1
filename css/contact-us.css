@@ -189,10 +189,6 @@ main {
   flex-direction: column;
 }
 
-.card1 {
-  padding: 30px;
-}
-
 .card1 :nth-child(4) {
   color: blue;
 }
@@ -210,6 +206,9 @@ main {
   height: 40px;
   width: 40px;
   padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-card2 {
@@ -223,8 +222,23 @@ main {
   padding: 30px;
 }
 
+.the-text {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button {
+  background-color: skyblue;
+  text-align: center;
+  color: white;
+  padding: 7px;
+  width: 45%;
+}
+
 .input {
-  background: white;
+  background: gray;
   padding: 35px;
   margin-left: 10%;
   align-items: center;
@@ -234,6 +248,11 @@ main {
   display: flex;
   gap: 50px;
   width: 50px;
+}
+
+.frist-name.input {
+  display: flex;
+  border-radius: 20px;
 }
 
 .email-number {
@@ -255,12 +274,15 @@ textarea {
   background: rgba(211, 208, 208, 0.778);
 }
 
-.card2 input {
-  padding: 5px;
-  background: rgb(18, 176, 215);
-  display: flex;
-}
-
 .map {
   margin-top: 50px;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  border-radius: 20px;
+  width: 20%;
 }/*# sourceMappingURL=contact-us.css.map */
