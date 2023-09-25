@@ -69,42 +69,6 @@ body {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
-
-.bg-img {
-  display: flex;
-  align-items: end;
-  margin-top: 5px;
-  background-image: url(/image//background/pnc.jpg);
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 650px;
-  background-repeat: no-repeat;
-}
-
-.bg-text {
-  background-color: rgba(0, 0, 0, 0.384);
-  width: 40%;
-  height: 25%;
-  margin-left: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.text-menu {
-  display: flex;
-  gap: 20px;
-}
-
-.text-menu h1 {
-  font-weight: bold;
-  color: orange;
-}
-
-=======
->>>>>>> 01abde90bb5c654721eb4444c7b334059e25d9fc
 footer {
   margin-top: 30px;
   gap: 20px;
@@ -351,8 +315,5 @@ footer .social-media img {
   display: flex;
   flex-direction: column;
   gap: 10px;
-<<<<<<< HEAD
 }
-=======
-}/*# sourceMappingURL=home.css.map */
->>>>>>> 01abde90bb5c654721eb4444c7b334059e25d9fc
+/*# sourceMappingURL=home.css.map */
