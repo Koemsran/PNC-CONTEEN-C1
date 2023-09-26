@@ -5,29 +5,32 @@ header {
     background-image: url(/images/background/pnc.jpg);
     height: 90%;
     padding: 50px;
-}
 
-.bg-img {
-    background-color: rgba(0, 0, 0, 0.486);
-    height: 45%;
-    width: 40%;
-    padding: 20px;
-    margin-top: 200px;
-    color: white;
-    margin-left: 30px;
-    border: 1px solid rgba(128, 128, 128, 0.411);
-    box-shadow: rgba(50, 50, 93, 0.50) 0px 2px 5px -2px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
+    .bg-img {
+        background-color: $sub-color7;
+        height: 45%;
+        width: 40%;
+        padding: 20px;
+        margin-top: 200px;
+        color: $sub-color1;
+        margin-left: 30px;
+        border: 1px solid $sub-color8;
+        box-shadow: $box-shadow-color;
 
-.bg-text h1 {
-    color: orange;
-    font-size: 50px;
-}
+        .bg-text {
+            h1 {
+                color: $sub-color2;
+                font-size: 50px;
+            }
 
-.bg-text p {
-    margin-top: 10px;
-    line-height: 1.5;
-    color: white;
+            p {
+                margin-top: 10px;
+                line-height: 1.5;
+                color: $sub-color1;
+
+            }
+        }
+    }
 
 }
 
@@ -35,11 +38,12 @@ header {
     margin-top: 30px;
     text-align: center;
 
+    h1:nth-child(2) {
+        color: $sub-color2;
+    }
 }
 
-.titlle-menu h1:nth-child(2) {
-    color: orange;
-}
+
 
 .sub-tittle {
     @include flex;
@@ -49,95 +53,95 @@ header {
     padding: 10px;
     margin-top: 30px;
     border-radius: 0 20px 20px 0;
-    background-color: black;
-    color: white;
+    background-color: $sub-color3;
+    color: $sub-color1;
+
+    h3 {
+        margin-left: 40px;
+    }
 
 }
 
-.sub-tittle h3 {
-    margin-left: 40px;
-}
+
 
 .group-card {
     @include flex;
     width: 100%;
     gap: 15px;
+
+    .card {
+        width: 22%;
+        height: 350px;
+        box-shadow: $box-shadow-color;
+        background-color: $sub-color1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        img {
+            width: 100%;
+            height: 200px;
+        }
+
+        p {
+            padding: 20px;
+        }
+
+        .icon {
+            margin-left: 20px;
+            margin-bottom: 10px;
+
+            i {
+                color: $sub-color2;
+            }
+
+        }
+
+    }
 }
 
-.card {
-    width: 22%;
-    height: 350px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-
-}
-
-.card img {
-    width: 100%;
-    height: 200px;
-}
-
-.card p {
-    padding: 20px;
-}
-
-.card .icon {
-    margin-left: 20px;
-    margin-bottom: 10px;
-}
-
-.card .icon i {
-    color: orange;
-}
 
 .tittle-scedule {
     @include flex;
     gap: 15px;
+
+    h1:nth-child(2) {
+        color: $sub-color2;
+    }
 }
 
-.tittle-scedule h1:nth-child(2) {
-    color: orange;
-}
 
 .table-schedul {
     display: flex;
     justify-content: center;
     padding: 50px;
-}
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+    }
+
 
 }
 
 td {
     border: 1px solid;
     padding: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: $box-shadow-color;
 }
 
 tbody tr:nth-child(1) td:nth-child(1) {
-    background-color: black;
-    color: white;
+    background-color: $sub-color3;
+    color: $sub-color1;
     text-align: center;
     line-height: 2;
 }
 
-tbody tr:nth-child(1) td:nth-child(2) {
-    background-color: white;
-}
-
-tbody tr:nth-child(2) td:nth-child(1) {
-    background-color: white;
-}
-
+tbody tr:nth-child(1) td:nth-child(2),
+tbody tr:nth-child(2) td:nth-child(1),
 tbody tr:nth-child(3) td:nth-child(1) {
-    background-color: white;
+    background-color: $sub-color1;
 }
 
 
@@ -145,54 +149,59 @@ tbody tr:nth-child(3) td:nth-child(1) {
     display: flex;
     justify-content: center;
     gap: 20px;
+
+    h1:nth-child(2) {
+        color: $sub-color2;
+    }
 }
 
-.tittle-cheif h1:nth-child(2) {
-    color: orange;
-}
+
 
 .group-cheif {
     width: 100%;
     margin-top: 20px;
     display: flex;
     justify-content: space-evenly;
-    // background-color: pink;
+
+    .cheif {
+        width: 22%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        img {
+            width: 170px;
+            height: 170px;
+            border: 5px solid $sub-color4;
+            margin-left: 50px;
+            border-radius: 500px;
+            box-shadow: $box-shadow-color;
+        }
+
+        .name-cheif {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h3 {
+                text-align: center;
+                color: $sub-color4;
+                font-family: serif;
+                font-size: 25px;
+            }
+
+            p {
+                text-align: center;
+            }
+
+
+        }
+
+
+    }
 }
 
-.cheif {
-    width: 22%;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-}
-
-.cheif img {
-    width: 170px;
-    height: 170px;
-    border: 5px solid #23BBEA;
-    margin-left: 50px;
-    border-radius: 500px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
-.name-cheif {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.name-cheif h3 {
-    text-align: center;
-    color: #1D74A0;
-    font-family: serif;
-    font-size: 25px;
-}
-
-.name-cheif p {
-    text-align: center;
-}
 
 .tittle-service {
     margin-top: 30px;
@@ -204,47 +213,48 @@ tbody tr:nth-child(3) td:nth-child(1) {
     padding: 30px;
     display: flex;
     justify-content: space-evenly;
-}
 
-.service {
-    width: 22%;
-    height: 260px;
-    border: 2px solid #33A6EA;
-    background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
+    .service {
+        width: 22%;
+        height: 260px;
+        border: 2px solid $sub-color4;
+        background-color: $sub-color1;
+        box-shadow: $box-shadow-color;
 
-.service img {
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 90px;
+        img {
+            width: 100px;
+            height: 100px;
+            margin-top: 30px;
+            margin-left: 90px;
 
-}
+        }
 
-.text-service {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
+        .text-service {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
 
-.text-service h3 {
-    text-align: center;
-}
+            h3 {
+                text-align: center;
+            }
 
-.text-service p {
-    text-align: center;
-}
+            p {
+                text-align: center;
+            }
+        }
 
-.service-icon {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
+        .service-icon {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
 
-.number {
-    color: #1D74A0;
-    font-size: 20px;
-    font-weight: bold;
+            .number {
+                color: $sub-color4;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+
+    }
 }

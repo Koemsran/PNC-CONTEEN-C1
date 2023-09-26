@@ -8,60 +8,74 @@
     margin-top: 50px;
     margin-bottom: 20px;
     border-radius: 7px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
-.link ul li a {
-    display: flex;
-    justify-content: center;
-    color: white;
-    font-size: 12px;
-
-}
-
-.link ul li a:hover {
-    color: blue;
+    box-shadow: $box-shadow-color;
 }
 
 .form-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #ebe1e1;
+    border-bottom: 1px solid $sub-color1;
     padding: 20px;
+
+    .link {
+        line-height: 1.5;
+
+        a {
+            @include co-fo;
+            display: flex;
+            justify-content: center;
+
+            hover {
+                color: $sub-color5;
+            }
+
+
+        }
+    }
+
+    h1 {
+        font-family: serif;
+    }
+
+    ul {
+        @include centered;
+        width: 10%;
+        height: 30px;
+        background-color: $sub-color2;
+        padding: 7px;
+        border-radius: 20px;
+
+        a {
+            @include co-fo;
+            align-items: center;
+            font-weight: bold;
+        }
+    }
+
+
 }
-.form-header .link{
-    line-height: 1.5;
-}
-.form-header h1 {
-    font-family: serif;
-}
-.form-header ul {
-    @include centered;
-    width: 10%;
-    height: 30px;
-    background-color: orange;
-    padding: 7px;
-    border-radius: 20px;
-}
-.form-header ul a{
-    align-items: center;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-}
+
 .form-body {
     padding: 20px;
+
+    .btn-submit {
+        button {
+            @include btn;
+            margin-top: 20px;
+            width: 8%;
+
+            a {
+                @include co-fo;
+            }
+        }
+    }
 }
 
 .form-group {
     margin-top: 20px;
     animation: my_scroll_fade linear both;
-
-    /* make scroll view */
     animation-timeline: view();
-
-    /* range entry */
     animation-range: entry 50% cover 50%;
 }
 
@@ -70,25 +84,21 @@
 }
 
 input[type='radio'] {
-    /* change size of radio */
     transform: scale(2);
     margin-right: 10px;
 
-    /* color select inside radio */
-    accent-color: blue;
+    accent-color: $sub-color5;
     cursor: pointer;
 
-    /* change text color when click on radio */
     pointer-events: fill;
 }
 
-/* change text color when click on radio */
 input[type='radio']:checked~label {
     color: blue($color: #000000);
 }
 
 input[type='date'] {
-    border: 1px solid #ebe1e1;
+    border: 1px solid $sub-color1;
     padding: 10px;
     width: 50%
 }
@@ -96,8 +106,6 @@ input[type='date'] {
 h3 {
     margin-bottom: 10px;
 }
-
-/* Scroll animation */
 
 @keyframes my_scroll_fade {
     from {
@@ -107,14 +115,4 @@ h3 {
     to {
         opacity: 1;
     }
-}
-
-.form-body .btn-submit button{
-    @include btn;
-    margin-top: 20px;
-    width: 8%;   
-}
-.form-body .btn-submit button a{
-    color: white;
-    font-size: 12px;
 }

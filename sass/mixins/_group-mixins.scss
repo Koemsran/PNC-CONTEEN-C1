@@ -1,14 +1,16 @@
-
-@mixin btn{
-    background-color: orange;
+// Format
+@mixin btn {
+    background-color: $sub-color2;
     padding: 7px;
     border-radius: 10px;
 }
-@mixin co-fo{
-    color: white;
+
+@mixin co-fo {
+    color: $sub-color1;
     font-size: 12px;
 }
-@mixin bg-img{
+
+@mixin bg-img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -16,18 +18,29 @@
 
 
 // group flex
-@mixin flex{
-    display:flex;
-    justify-content: center; 
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
 }
-@mixin centered{
+
+@mixin centered {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-@mixin flex1{
+
+@mixin flex1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+
+@mixin input-format {
+    border-radius: 3px;
+    padding: 7px;
+    background: $sub-color1;
+    border: 1px solid $sub-color8;
 }

@@ -22,51 +22,43 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 10px;
   background-color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  align-items: center;
   position: fixed;
   top: 0;
   z-index: 1;
 }
-
-.nav-right {
+.navbar .nav-right {
   display: flex;
 }
-
-.nav-right h2 {
+.navbar .nav-right h2 {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-
-.nav-right img {
+.navbar .nav-right img {
   width: 80px;
   height: 55px;
 }
-
-.nav-center ul {
+.navbar .nav-center ul {
   display: flex;
   gap: 50px;
 }
-
-.nav-center ul li a {
+.navbar .nav-center ul li a {
   color: black;
   font-weight: bold;
 }
-
-.nav-center ul li a:hover {
+.navbar .nav-center ul li a hover {
   border-bottom: 3px solid orange;
 }
-
-.nav-left button {
+.navbar .nav-left button {
   padding: 10px;
   width: 100px;
   border-radius: 20px;
   background-color: orange;
 }
-
-.nav-left button a {
+.navbar .nav-left button a {
   color: white;
   font-weight: bold;
 }
@@ -120,7 +112,7 @@ footer .social-media img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.384);
+  background-color: rgba(0, 0, 0, 0.329);
   width: 40%;
   height: 25%;
   margin-left: 50px;
@@ -132,14 +124,13 @@ footer .social-media img {
   justify-content: center;
   width: 30%;
   height: 30%;
-  background-color: rgba(0, 0, 0, 0.572);
   margin: 80px;
   padding: 10px;
+  background-color: rgba(0, 0, 0, 0.863);
   color: white;
   border: 1px solid rgba(128, 128, 128, 0.411);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-
 .bg-header h2 {
   font-family: serif;
   font-size: 35px;
@@ -150,12 +141,10 @@ footer .social-media img {
   gap: 15px;
   font-size: 30px;
 }
-
 .text-h1 h1 {
-  color: skyblue;
+  color: #33A6EA;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-
 .text-h1 h3 {
   margin-top: 10px;
   font-size: 40px;
@@ -166,12 +155,12 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F5EEEE;
   margin-top: -40px;
   width: 90%;
   margin-left: 4%;
   padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: #F5EEEE;
 }
 
 .contact {
@@ -181,43 +170,37 @@ main {
   padding: 10px;
   margin-bottom: 138px;
 }
-
-.contact-card1 {
-  width: 100%;
+.contact .contact-card1 {
   display: flex;
-  background: white;
-  justify-content: center;
   flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
-}
-
-.card .icon {
-  display: flex;
   justify-content: center;
-  align-items: center;
-  color: rgb(146, 96, 3);
-  font-size: 25px;
-  gap: 10px;
-  background-color: rgba(128, 128, 128, 0.384);
-  border-radius: 30px;
-  height: 40px;
-  width: 40px;
-  padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  background: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-
-.contact-card2 {
+.contact .contact-card2 {
   display: flex;
   background: white;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .card {
   display: flex;
   gap: 20px;
   padding: 30px;
+}
+.card .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  font-size: 25px;
+  gap: 10px;
+  border-radius: 30px;
+  padding: 3px;
+  color: orange;
+  background-color: rgba(128, 128, 128, 0.411);
 }
 
 .the-text {
@@ -228,31 +211,26 @@ main {
 }
 
 .button {
-  background-color: skyblue;
+  width: 45%;
+  background-color: #33A6EA;
   text-align: center;
   color: white;
   padding: 7px;
-  width: 45%;
   font-weight: bold;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
   background: white;
   padding: 35px;
   margin-left: 10px;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-
-.email-number {
-  display: flex;
-  gap: 50px;
-}
-
-.student {
+form .email-number,
+form .student {
   display: flex;
   gap: 50px;
 }
@@ -267,7 +245,7 @@ textarea {
   border-radius: 3px;
   padding: 7px;
   background: white;
-  border: 1px solid rgba(128, 128, 128, 0.454);
+  border: 1px solid rgba(128, 128, 128, 0.411);
 }
 
 input {
@@ -275,7 +253,7 @@ input {
   border-radius: 3px;
   padding: 7px;
   background: white;
-  border: 1px solid rgba(128, 128, 128, 0.454);
+  border: 1px solid rgba(128, 128, 128, 0.411);
 }
 
 .map {
@@ -283,11 +261,11 @@ input {
 }
 
 .submit {
+  width: 20%;
   background-color: orange;
   color: white;
   text-align: center;
   padding: 7px;
   border-radius: 20px;
-  width: 20%;
   font-weight: bold;
 }/*# sourceMappingURL=contact-us.css.map */

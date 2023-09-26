@@ -22,51 +22,43 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 10px;
   background-color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  align-items: center;
   position: fixed;
   top: 0;
   z-index: 1;
 }
-
-.nav-right {
+.navbar .nav-right {
   display: flex;
 }
-
-.nav-right h2 {
+.navbar .nav-right h2 {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-
-.nav-right img {
+.navbar .nav-right img {
   width: 80px;
   height: 55px;
 }
-
-.nav-center ul {
+.navbar .nav-center ul {
   display: flex;
   gap: 50px;
 }
-
-.nav-center ul li a {
+.navbar .nav-center ul li a {
   color: black;
   font-weight: bold;
 }
-
-.nav-center ul li a:hover {
+.navbar .nav-center ul li a hover {
   border-bottom: 3px solid orange;
 }
-
-.nav-left button {
+.navbar .nav-left button {
   padding: 10px;
   width: 100px;
   border-radius: 20px;
   background-color: orange;
 }
-
-.nav-left button a {
+.navbar .nav-left button a {
   color: white;
   font-weight: bold;
 }
@@ -105,17 +97,16 @@ footer .social-media img {
 }
 
 .main-header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   align-items: center;
   margin-top: 5px;
   background-image: url(/images/background/eat\ food.jpg);
-  background-position: center;
-  background-size: cover;
   height: 600px;
-  background-repeat: no-repeat;
   padding: 50px;
 }
-
 .main-header .bg-main {
   background-color: rgba(0, 0, 0, 0.329);
   width: 50%;
@@ -124,9 +115,8 @@ footer .social-media img {
   color: white;
   margin-left: 30px;
   border: 1px solid rgba(128, 128, 128, 0.411);
-  box-shadow: rgba(50, 50, 93, 0.5) 0px 2px 5px -2px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-
 .main-header .bg-main h2 {
   font-family: serif;
   font-size: 40px;
@@ -136,11 +126,9 @@ footer .social-media img {
   display: flex;
   gap: 20px;
 }
-
 .text-menu h2 {
   margin-top: 15px;
 }
-
 .text-menu h1 {
   color: orange;
   font-size: 60px;
@@ -159,45 +147,16 @@ footer .social-media img {
   padding: 20px;
   padding-left: 100px;
 }
-
-.group-text {
-  width: 100%;
-}
-
-.group-text p {
-  font-size: 25px;
-  margin-top: 20px;
-}
-
-.group-text h1 {
-  font-size: 60px;
-  color: orange;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-.group-text .text {
-  display: flex;
-  gap: 10px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-.text-content h2 {
-  font-family: serif;
-  font-size: 50px;
-}
-
-.text h1 {
-  font-size: 60px;
-  color: black;
-}
-
 .main-content img {
   padding-right: 50px;
   width: 120%;
   height: 110%;
   rotate: 10deg;
 }
-
+.main-content .text-content h2 {
+  font-family: serif;
+  font-size: 50px;
+}
 .main-content .text-content button {
   background-color: orange;
   padding: 7px;
@@ -205,15 +164,35 @@ footer .social-media img {
   margin-top: 20px;
   width: 20%;
 }
-
 .main-content .text-content button a {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
 }
-
-.main-content .text-content button a:hover {
+.main-content .text-content button a hover {
   text-decoration: underline;
+}
+
+.group-text {
+  width: 100%;
+}
+.group-text p {
+  font-size: 25px;
+  margin-top: 20px;
+}
+.group-text h1 {
+  font-size: 60px;
+  color: orange;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.group-text .text {
+  display: flex;
+  gap: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.group-text .text h1 {
+  font-size: 60px;
+  color: black;
 }
 
 .content-menu {
@@ -228,21 +207,18 @@ footer .social-media img {
   width: 18%;
   border-radius: 20px;
 }
+.card-menu .group-img:nth-child(3) {
+  width: 200px;
+}
 
 .group-img {
   display: flex;
 }
-
 .group-img img {
   width: 230px;
   margin-top: -90px;
   margin-left: -70px;
 }
-
-.card-menu .group-img:nth-child(3) {
-  width: 200px;
-}
-
 .group-img button {
   width: 40%;
   height: 30px;
@@ -278,14 +254,12 @@ footer .social-media img {
   padding-top: 150px;
   padding-bottom: 200px;
 }
-
 .bg-ingredients .bg-ingre .title {
   color: white;
-  background-color: rgba(0, 0, 0, 0.568);
+  background-color: rgba(0, 0, 0, 0.863);
   padding: 70px;
 }
-
-.bg-ingredients .title h1 {
+.bg-ingredients .bg-ingre .title h1 {
   font-size: 60px;
   font-family: serif;
 }
@@ -297,22 +271,20 @@ footer .social-media img {
   margin-top: 30px;
   gap: 30px;
 }
-
-.picture {
-  display: flex;
-  flex-direction: column;
-}
-
-.picture img {
-  width: 170px;
-  height: 170px;
-  border-radius: 200px;
-  border: 1px solid rgb(7, 167, 189);
-}
-
 .group-eqiepment .text {
   width: 72%;
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+}
+.picture img {
+  width: 170px;
+  height: 170px;
+  border-radius: 200px;
+  border: 1px solid #33A6EA;
 }/*# sourceMappingURL=home.css.map */
