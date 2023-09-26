@@ -152,8 +152,8 @@ footer .social-media img {
 }
 
 .text-h1 h1 {
-  color: #22c2a7;
-  font-family: "Courier New", Courier, monospace;
+  color: skyblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .text-h1 h3 {
@@ -202,6 +202,9 @@ main {
 }
 
 .card .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: rgb(146, 96, 3);
   font-size: 25px;
   gap: 10px;
@@ -223,42 +226,45 @@ main {
   padding: 30px;
 }
 
-.input {
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: white;
   padding: 35px;
-  margin-left: 10%;
-  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
 }
 
 .name {
   display: flex;
-  gap: 50px;
-  width: 50px;
+  gap: 20px;
+  width: 200px;
 }
 
-.email-number {
-  display: flex;
-  gap: 50px;
-}
-
-.student {
-  display: flex;
-  gap: 50px;
+.Class select {
+  padding: 5px;
+  width: 175px;
+  background: rgba(211, 208, 208, 0.778);
 }
 
 .input h3 {
   text-align: center;
 }
 
-textarea {
+textarea,
+input {
+  padding: 5px;
   border-radius: 3px;
   background: rgba(211, 208, 208, 0.778);
 }
 
-.card2 input {
-  padding: 5px;
-  background: rgb(18, 176, 215);
-  display: flex;
+form button {
+  background-color: orange;
+  padding: 7px;
+  width: 70px;
+  color: white;
+  border-radius: 20px;
 }
 
 .map {

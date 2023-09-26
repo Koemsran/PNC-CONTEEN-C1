@@ -37,14 +37,12 @@
     font-family: serif;
 }
 .form-header ul {
+    @include centered;
     width: 10%;
     height: 30px;
     background-color: orange;
     padding: 7px;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .form-header ul a{
     align-items: center;
@@ -112,12 +110,9 @@ h3 {
 }
 
 .form-body .btn-submit button{
+    @include btn;
     margin-top: 20px;
-    background-color: orange;
-    padding: 7px;
-    width: 8%;
-    border-radius: 10px;
-   
+    width: 8%;   
 }
 .form-body .btn-submit button a{
     color: white;
