@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+@import './group-variable';
+@import '../mixins/group-mixins';
 footer {
     margin-top:$font-size8;
     gap:$font-size6;
@@ -12,23 +15,98 @@ footer .text-foot {
 }
 
 footer .social-media {
+=======
+// footer
+footer{
+    height: 60%;
+    background-color: gray;
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
     display: flex;
+<<<<<<< HEAD
     gap: $font-size6;
     justify-content: center;
 }
+=======
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+    
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
+<<<<<<< HEAD
 footer .social-media img {
+<<<<<<< HEAD
     width: $font-size1;
     // background-color: rgb(235, 228, 228);
     border-radius: $font-size11;
+=======
+    width: 40px;
+    border-radius: 5px;
+=======
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
-
-.foot {
+.logo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.logo h6{
+    margin-left: 10px;
+}
+.footer-top{
     display: flex;
     justify-content: space-between;
+    
+}
+.footer-logo{
+    display: flex;
+}
+.footer-logo img{
+    width: 60px;
+    height: 40px;
+    
+}
+.footer-logo h2{
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-chef,
+.footer-service,
+.footer-schedule,
+.footer-pages{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-top h4{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 40px;
+    border-top: 1px solid #000;
+}
+.footer-icon{
+    display: flex;
+    gap: 10px;
 }
 
+<<<<<<< HEAD
 .foot .right {
     display: flex;
     gap:$font-size4;
+=======
+.footer-icon i{
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 23px;
+}
+.footer-p p{
+    font-size: 12px;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }

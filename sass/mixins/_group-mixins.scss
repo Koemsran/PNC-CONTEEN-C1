@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @mixin btn{
     background-color: orange;
@@ -7,8 +8,21 @@
 @mixin co-fo{
     color: white;
     font-size: $font-size9;
+=======
+// Format
+@mixin btn {
+    background-color: $sub-color2;
+    padding: 7px;
+    border-radius: 10px;
 }
-@mixin bg-img{
+
+@mixin co-fo {
+    color: $sub-color1;
+    font-size: 12px;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
+}
+
+@mixin bg-img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -16,18 +30,36 @@
 
 
 // group flex
+<<<<<<< HEAD
 @mixin flex{
     display:flex;
     justify-content: center; 
     margin-top: $font-size8;
+=======
+
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
-@mixin centered{
+
+@mixin centered {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-@mixin flex1{
+
+@mixin flex1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+
+@mixin input-format {
+    border-radius: 3px;
+    padding: 7px;
+    background: $sub-color1;
+    border: 1px solid $sub-color8;
 }

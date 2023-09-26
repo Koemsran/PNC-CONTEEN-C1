@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":["../../sass/thanks.scss","../../sass/mixins/_group-mixins.scss","../../sass/components/_group-variable.scss"],"names":[],"mappings":"AAEA,KCsBI,YAAA,CACA,sBAAA,CACA,kBAAA,CDtBA,UAAA,CACA,YAAA,CACA,wBAAA,CAGJ,SCeI,YAAA,CACA,sBAAA,CACA,kBAAA,CDfA,SAAA,CACA,qBAAA,CACA,qBAAA,CACA,iBAAA,CACA,8EAAA,CAGJ,WACI,sBAAA,CACA,eAAA,CAEJ,YACI,cEuBQ,CFtBR,aAAA,CAGJ,eACI,WAAA,CACA,eE2BS,CFxBb,MACI,YAAA,CACA,QEkBQ,CFdZ,QACI,UEaQ,CFZR,WEKQ,CFJR,eEMQ,CFLR,cEGQ,CFFR,uCAAA,CACA,UAAA","file":"thanks.min.css"}
+=======
+{"version":3,"sources":["../../sass/thanks.scss","../../sass/mixins/_group-mixins.scss","../../sass/components/_group-variable.scss"],"names":[],"mappings":"AAGA,KCyBI,YAAA,CACA,sBAAA,CACA,kBAAA,CDzBA,UAAA,CACA,YAAA,CACA,wBEDS,CFIb,SCkBI,YAAA,CACA,sBAAA,CACA,kBAAA,CDlBA,SAAA,CACA,qBAAA,CACA,iBAAA,CACA,8EELc,CFMd,qBEfS,CFiBT,WACI,sBAAA,CACA,eAAA,CAGJ,YACI,cAAA,CACA,aErBI,CFwBR,eACI,WAAA,CACA,eAAA,CAIR,MACI,YAAA,CACA,QAAA,CAEA,QACI,UAAA,CACA,WAAA,CACA,eAAA,CACA,cAAA,CACA,uCEnCK,CFoCL,UE3CK","file":"thanks.min.css"}
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2

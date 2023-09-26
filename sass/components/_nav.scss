@@ -1,21 +1,33 @@
+@import './group-variable';
+@import '../mixins/group-mixins';
+
 .navbar {
     width: 100%;
     display: flex;
     justify-content: space-around;
+<<<<<<< HEAD
     padding:$font-size14;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+=======
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
     align-items: center;
+    padding: 10px;
+    background-color: $sub-color1;
+    box-shadow: $box-shadow-color;
     position: fixed;
     top: 0;
     z-index: 1;
-}
 
-.nav-right {
-    display: flex;
+    .nav-right {
+        display: flex;
 
-}
+        h2 {
+            font-size: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
 
+<<<<<<< HEAD
 .nav-right h2 {
     font-size: $font-size1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -30,25 +42,55 @@
     display: flex;
     gap: $font-size4;
 }
+=======
+        img {
+            width: 80px;
+            height: 55px;
+        }
 
-.nav-center ul li a {
-    color: black;
-    font-weight: bold;
-}
 
-.nav-center ul li a:hover {
-    border-bottom: 3px solid orange;
-}
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
+    .nav-center {
+        ul {
+            display: flex;
+            gap: 50px;
+
+            li a {
+                color: $sub-color3;
+                font-weight: bold;
+
+<<<<<<< HEAD
+                hover {
+                    border-bottom: 3px solid $sub-color2;
+                }
+=======
 .nav-left button {
     padding:$font-size14;
     width: $font-size10;
     border-radius: $font-size6;
     background-color: orange;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
 
-}
+            }
+        }
+    }
 
-.nav-left button a {
-    color: white;
-    font-weight: bold;
+    .nav-left {
+        button {
+            padding: 10px;
+            width: 100px;
+            border-radius: 20px;
+            background-color: $sub-color2;
+
+            a {
+                color: $sub-color1;
+                font-weight: bold;
+            }
+
+        }
+
+    }
 }

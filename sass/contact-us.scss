@@ -12,7 +12,7 @@
 
 .bgc-text {
     @include flex1;
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: $sub-color7;
     width: 40%;
     height: 25%;
     margin-left:$font-size4;
@@ -22,6 +22,7 @@
     @include flex1;
     width: 30%;
     height: 30%;
+<<<<<<< HEAD
     background-color: rgba(0, 0, 0, 0.572);
     margin: $font-size24;
     padding: $font-size14;
@@ -33,6 +34,19 @@
 .bg-header h2 {
     font-family: serif;
     font-size: $font-size7;
+=======
+    margin: 80px;
+    padding: 10px;
+    background-color: $sub-color9;
+    color: $sub-color1;
+    border: 1px solid $sub-color8;
+    box-shadow: $box-shadow-color;
+
+    h2 {
+        font-family: serif;
+        font-size: 35px;
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .text-h1 {
@@ -40,8 +54,18 @@
     gap: $font-size5;
     font-size: $font-size8;
 
-}
+    h1 {
+        color: $sub-color4;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 
+    h3 {
+        margin-top: 10px;
+        font-size: 40px;
+        font-family: serif;
+    }
+
+<<<<<<< HEAD
 .text-h1 h1 {
     color: skyblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -52,16 +76,24 @@
     margin-top: $font-size14;
     font-size: $font-size1;
     font-family: serif;
+=======
+
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 main {
     @include centered;
-    background-color: #F5EEEE;
     margin-top: -40px;
     width: 90%;
     margin-left: 4%;
+<<<<<<< HEAD
     padding: $font-size6;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+=======
+    padding: 20px;
+    box-shadow: $box-shadow-color;
+    background-color: $sub-color6;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
 }
 
@@ -70,6 +102,7 @@ main {
 .contact {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     gap: $font-size6;
     padding: $font-size14;
     margin-bottom: $font-size23;
@@ -84,6 +117,34 @@ main {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 }
 
+=======
+    gap: 20px;
+    padding: 10px;
+    margin-bottom: 138px;
+
+    .contact-card1 {
+        @include flex1;
+        width: 100%;
+        background: $sub-color1;
+        box-shadow: $box-shadow-color;
+
+    }
+
+    .contact-card2 {
+        display: flex;
+        background: $sub-color1;
+        box-shadow: $box-shadow-color;
+
+
+    }
+
+}
+<<<<<<< HEAD
+=======
+// .card {
+//     margin-top: 10px;
+// }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 .card .icon {
     display: flex;
     justify-content: center;
@@ -100,51 +161,92 @@ main {
     justify-content: center;
     align-items: center;
 }
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
 
-.contact-card2 {
-    display: flex;
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
-
-
-}
 
 .card {
     display: flex;
+<<<<<<< HEAD
     gap: $font-size6;
     padding: $font-size8;
+=======
+    gap: 20px;
+    padding: 30px;
+<<<<<<< HEAD
+
+    .icon {
+        @include centered;
+        height: 40px;
+        width: 40px;
+        font-size: 25px;
+        gap: 10px;
+        border-radius: 30px;
+        padding: 3px;
+        color: $sub-color2;
+        background-color: $sub-color8;
+    }
+=======
+    margin-top: 10px;
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .the-text {
-    color: blue;
+    color: $sub-color5;
     display: flex;
     flex-direction: column;
     gap: $font-size6;
 }
 
 .button {
+<<<<<<< HEAD
     background-color: skyblue;
     text-align: center;
     color: white;
     padding: $font-size20;
+=======
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
     width: 45%;
+    background-color: $sub-color4;
+    text-align: center;
+    color: $sub-color1;
+    padding: 7px;
+    
     font-weight: bold;
+<<<<<<< HEAD
 
 }
+=======
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
+}
 
 form {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     gap: $font-size14;
     background: white;
     padding: $font-size7;
     margin-left: $font-size14;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+=======
+    align-items: center;
+    gap: 10px;
+    background: $sub-color1;
+    padding: 35px;
+    margin-left: 10px;
+    box-shadow: $box-shadow-color;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
-}
+    .email-number,
+    .student {
+        display: flex;
+        gap: 50px;
+    }
 
+<<<<<<< HEAD
 
 .name {
     display: flex;
@@ -162,6 +264,8 @@ form {
 .student {
     display: flex;
     gap: $font-size4;
+=======
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .input h3 {
@@ -169,6 +273,7 @@ form {
     font-size: $font-size8;
 }
 
+<<<<<<< HEAD
 
 textarea {
     width: $font-size22;
@@ -176,10 +281,16 @@ textarea {
     padding: $font-size20;
     background: white;
     border: 1px solid rgba(128, 128, 128, 0.454);
+=======
+textarea {
+    width: 450px;
+    @include input-format;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
 }
 
 input {
+<<<<<<< HEAD
     width: $font-size13;
     border-radius: $font-size21;
     padding: $font-size20;
@@ -189,15 +300,38 @@ input {
 
 .map {
     margin-top: $font-size4;
+=======
+    width: 200px;
+<<<<<<< HEAD
+    @include input-format;
+=======
+    border-radius: 3px;
+    padding: 7px;
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.454);
+    
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
+}
+
+.map {
+    margin-top: 50px;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .submit {
-    background-color: orange;
-    color: white;
+    width: 20%;
+    background-color: $sub-color2;
+    color: $sub-color1;
     text-align: center;
+<<<<<<< HEAD
     padding: $font-size20;
     border-radius: $font-size6;
     width: 20%;
     font-weight: bold;
 
+=======
+    padding: 7px;
+    border-radius: 20px;
+    font-weight: bold;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }

@@ -1,20 +1,22 @@
 @import './components/group-variable';
 @import './mixins/group-mixins';
+
 body {
     @include centered;
     width: 100%;
     height: 100vh;
-    background-color: #F5EEEE;
+    background-color: $sub-color6;
 }
 
 .content {
     @include centered;
     width: 70%;
-    background-color: white;
     flex-direction: column;
     text-align: center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: $box-shadow-color;
+    background-color: $sub-color1;
 
+<<<<<<< HEAD
 }
 .content p{
     font-family: sans-serif;
@@ -28,12 +30,29 @@ body {
 .content .icon {
     color: green;
     font-size: $font-size10;
+=======
+    p {
+        font-family: sans-serif;
+        line-height: 1.7;
+    }
+
+    h1 {
+        font-size: 50px;
+        color: $sub-color4;
+    }
+
+    .icon {
+        color: green;
+        font-size: 100px;
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .back {
     display: flex;
     gap: $font-size8;
 
+<<<<<<< HEAD
 }
 
 .back i {
@@ -44,3 +63,14 @@ body {
     background-color: rgba(128, 128, 128, 0.623);
     color: white;
 }
+=======
+    i {
+        width: 30px;
+        height: 25px;
+        margin-top: 15px;
+        font-size: 25px;
+        background-color: $sub-color8;
+        color: $sub-color1;
+    }
+}
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2

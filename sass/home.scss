@@ -1,9 +1,12 @@
 @import 'main';
-.main-header{
+
+.main-header {
+    @include bg-img;
     display: flex;
     align-items: center;
     margin-top: $font-size11;
     background-image: url(/images/background/eat\ food.jpg);
+<<<<<<< HEAD
     background-position: center;
     background-size: cover;
     height:$font-size12;
@@ -39,19 +42,100 @@
 .bg-header p{
     line-height: 1.5;
     margin-top: $font-size5;
+=======
+    height: 600px;
+    padding: 50px;
+
+    .bg-main {
+        background-color: rgba(0, 0, 0, 0.329);
+        width: 50%;
+        padding: 20px;
+        margin-top: 200px;
+        color: $sub-color1;
+        margin-left: 30px;
+        border: 1px solid $sub-color8;
+        box-shadow: $box-shadow-color;
+
+        h2 {
+            font-family: serif;
+            font-size: 40px;
+        }
+    }
 }
+
+.text-menu {
+    display: flex;
+    gap: 20px;
+
+    h2 {
+        margin-top: 15px;
+    }
+
+    h1 {
+        color: $sub-color2;
+        font-size: 60px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
+}
+
+.bg-header {
+    p {
+        line-height: 1.5;
+        margin-top: 15px;
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
+}
+
 .main-content {
     height: 50%;
     margin-top:$font-size5;
     display: flex;
+<<<<<<< HEAD
     padding: $font-size6;
     padding-left:$font-size10;
+=======
+    padding: 20px;
+    padding-left: 100px;
+
+    img {
+        padding-right: 50px;
+        width: 120%;
+        height: 110%;
+        rotate: 10deg;
+    }
+
+    .text-content {
+        h2 {
+            font-family: serif;
+            font-size: 50px;
+        }
+
+        button {
+            @include btn;
+            margin-top: 20px;
+            width: 20%;
+
+            a {
+                color: $sub-color1;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+
+                hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .group-text {
     width: 100%;
-}
 
+<<<<<<< HEAD
 .group-text p {
     font-size: $font-size3;
     margin-top: $font-size6;
@@ -100,6 +184,31 @@
 
 .main-content .text-content button a:hover {
     text-decoration: underline;
+=======
+    p {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 60px;
+        color: $sub-color2;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .text {
+        display: flex;
+        gap: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        h1 {
+            font-size: 60px;
+            color: $sub-color3;
+        }
+
+    }
+
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .content-menu {
@@ -110,16 +219,20 @@
 }
 
 .card-menu {
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: $sub-color9;
     width: 18%;
     border-radius:$font-size6;
+
+    .group-img:nth-child(3) {
+        width: 200px;
+    }
 
 }
 
 .group-img {
     display: flex;
-}
 
+<<<<<<< HEAD
 .group-img img {
     width:$font-size15;
     margin-top: -90px;
@@ -143,13 +256,41 @@
     color: white;
     padding-left: $font-size8;
     padding-bottom: $font-size8;
+=======
+    img {
+        width: 230px;
+        margin-top: -90px;
+        margin-left: -70px;
+    }
+
+    button {
+        width: 40%;
+        height: 30px;
+        border-radius: 20px 0 0 20px;
+        margin-top: 20px;
+        background-color: $sub-color2;
+        color: $sub-color1;
+    }
+}
+
+.group-card {
+    color: $sub-color1;
+    padding-left: 30px;
+    padding-bottom: 30px;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
     width: 70%;
 }
 
 .group-icon {
+<<<<<<< HEAD
     color: orange;
     padding-left: $font-size8;
     padding-bottom:$font-size14;
+=======
+    color: $sub-color2;
+    padding-left: 30px;
+    padding-bottom: 10px;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .bg-ingredients {
@@ -159,6 +300,7 @@
     height: $font-size17;
 }
 
+<<<<<<< HEAD
 .bg-ingredients .bg-ingre {
     padding-top: $font-size16;
     padding-bottom: $font-size13;
@@ -173,30 +315,77 @@
 .bg-ingredients .title h1 {
     font-size: $font-size2;
     font-family: serif;
+=======
+.bg-ingredients {
+    .bg-ingre {
+        padding-top: 150px;
+        padding-bottom: 200px;
+
+        .title {
+            color: $sub-color1;
+            background-color: $sub-color9;
+            padding: 70px;
+
+            h1 {
+                font-size: 60px;
+                font-family: serif;
+            }
+        }
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .group-eqiepment {
     @include centered;
+<<<<<<< HEAD
     margin-top: $font-size8;
     gap:$font-size8;
+=======
+    margin-top: 30px;
+    gap: 30px;
+
+    .text {
+        width: 72%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .picture {
     display: flex;
     flex-direction: column;
-}
 
+<<<<<<< HEAD
 .picture img {
     width: $font-size19;
     height: $font-size19;
     border-radius:$font-size13;
     border: 1px solid rgb(7, 167, 189);
 }
+=======
+    img {
+        width: 170px;
+        height: 170px;
+        border-radius: 200px;
+        border: 1px solid $sub-color4;
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
+<<<<<<< HEAD
+}
+=======
 .group-eqiepment .text {
     // margin-top: 50px;
     width: 72%;
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     gap: $font-size14;
 }
+=======
+    gap: 10px;
+}
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2

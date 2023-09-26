@@ -4,6 +4,7 @@
     width: 70%;
     margin: 0 auto;
     background: #fff;
+<<<<<<< HEAD
     padding: $font-size14;
     margin-top: $font-size4;
     margin-bottom: $font-size6;
@@ -21,12 +22,20 @@
 
 .link ul li a:hover {
     color: blue;
+=======
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: $box-shadow-color;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .form-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
     border-bottom: 1px solid #ebe1e1;
     padding: $font-size6;
 }
@@ -52,16 +61,69 @@
 }
 .form-body {
     padding: $font-size6;
+=======
+    border-bottom: 1px solid $sub-color1;
+    padding: 20px;
+
+    .link {
+        line-height: 1.5;
+
+        a {
+            @include co-fo;
+            display: flex;
+            justify-content: center;
+
+            hover {
+                color: $sub-color5;
+            }
+
+
+        }
+    }
+
+    h1 {
+        font-family: serif;
+    }
+
+    ul {
+        @include centered;
+        width: 10%;
+        height: 30px;
+        background-color: $sub-color2;
+        padding: 7px;
+        border-radius: 20px;
+
+        a {
+            @include co-fo;
+            align-items: center;
+            font-weight: bold;
+        }
+    }
+
+
+}
+
+.form-body {
+    padding: 20px;
+
+    .btn-submit {
+        button {
+            @include btn;
+            margin-top: 20px;
+            width: 8%;
+
+            a {
+                @include co-fo;
+            }
+        }
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 .form-group {
     margin-top:$font-size6;
     animation: my_scroll_fade linear both;
-
-    /* make scroll view */
     animation-timeline: view();
-
-    /* range entry */
     animation-range: entry 50% cover 50%;
 }
 
@@ -70,34 +132,33 @@
 }
 
 input[type='radio'] {
-    /* change size of radio */
     transform: scale(2);
     margin-right: $font-size14;
 
-    /* color select inside radio */
-    accent-color: blue;
+    accent-color: $sub-color5;
     cursor: pointer;
 
-    /* change text color when click on radio */
     pointer-events: fill;
 }
 
-/* change text color when click on radio */
 input[type='radio']:checked~label {
     color: blue($color: #000000);
 }
 
 input[type='date'] {
+<<<<<<< HEAD
     border: 1px solid #ebe1e1;
     padding: $font-size14;
+=======
+    border: 1px solid $sub-color1;
+    padding: 10px;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
     width: 50%
 }
 
 h3 {
     margin-bottom:$font-size14;
 }
-
-/* Scroll animation */
 
 @keyframes my_scroll_fade {
     from {
@@ -107,6 +168,7 @@ h3 {
     to {
         opacity: 1;
     }
+<<<<<<< HEAD
 }
 
 .form-body .btn-submit button{
@@ -117,4 +179,6 @@ h3 {
 .form-body .btn-submit button a{
     color: white;
     font-size: $font-size9;
+=======
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }

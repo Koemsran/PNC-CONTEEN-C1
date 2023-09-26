@@ -4,6 +4,7 @@ header {
     @include bg-img;
     background-image: url(/images/background/pnc.jpg);
     height: 90%;
+<<<<<<< HEAD
     padding:$font-size4;
 }
 
@@ -28,6 +29,35 @@ header {
     margin-top: $font-size14;
     line-height: 1.5;
     color: white;
+=======
+    padding: 50px;
+
+    .bg-img {
+        background-color: $sub-color7;
+        height: 45%;
+        width: 40%;
+        padding: 20px;
+        margin-top: 200px;
+        color: $sub-color1;
+        margin-left: 30px;
+        border: 1px solid $sub-color8;
+        box-shadow: $box-shadow-color;
+
+        .bg-text {
+            h1 {
+                color: $sub-color2;
+                font-size: 50px;
+            }
+
+            p {
+                margin-top: 10px;
+                line-height: 1.5;
+                color: $sub-color1;
+
+            }
+        }
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
 }
 
@@ -35,11 +65,12 @@ header {
     margin-top: $font-size8;
     text-align: center;
 
+    h1:nth-child(2) {
+        color: $sub-color2;
+    }
 }
 
-.titlle-menu h1:nth-child(2) {
-    color: orange;
-}
+
 
 .sub-tittle {
     @include flex;
@@ -49,18 +80,27 @@ header {
     padding: $font-size14;
     margin-top: $font-size8;
     border-radius: 0 20px 20px 0;
-    background-color: black;
-    color: white;
+    background-color: $sub-color3;
+    color: $sub-color1;
+
+    h3 {
+        margin-left: 40px;
+    }
 
 }
 
+<<<<<<< HEAD
 .sub-tittle h3 {
     margin-left: $font-size1;
 }
+=======
+
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
 .group-card {
     @include flex;
     width: 100%;
+<<<<<<< HEAD
     gap: $font-size5;
 }
 
@@ -97,68 +137,158 @@ header {
 .tittle-scedule {
     @include flex;
     gap: $font-size5;
+=======
+    gap: 15px;
+
+    .card {
+        width: 22%;
+        height: 350px;
+        box-shadow: $box-shadow-color;
+        background-color: $sub-color1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        img {
+            width: 100%;
+            height: 200px;
+        }
+
+        p {
+            padding: 20px;
+        }
+
+        .icon {
+            margin-left: 20px;
+            margin-bottom: 10px;
+
+            i {
+                color: $sub-color2;
+            }
+
+        }
+
+    }
 }
 
-.tittle-scedule h1:nth-child(2) {
-    color: orange;
+
+.tittle-scedule {
+    @include flex;
+    gap: 15px;
+
+    h1:nth-child(2) {
+        color: $sub-color2;
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
+
 
 .table-schedul {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     padding: $font-size4;
 }
+=======
+    padding: 50px;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+    }
+
 
 }
 
 td {
     border: 1px solid;
+<<<<<<< HEAD
     padding: $font-size14;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+=======
+    padding: 10px;
+    box-shadow: $box-shadow-color;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
 tbody tr:nth-child(1) td:nth-child(1) {
-    background-color: black;
-    color: white;
+    background-color: $sub-color3;
+    color: $sub-color1;
     text-align: center;
     line-height: 2;
 }
 
-tbody tr:nth-child(1) td:nth-child(2) {
-    background-color: white;
-}
-
-tbody tr:nth-child(2) td:nth-child(1) {
-    background-color: white;
-}
-
+tbody tr:nth-child(1) td:nth-child(2),
+tbody tr:nth-child(2) td:nth-child(1),
 tbody tr:nth-child(3) td:nth-child(1) {
-    background-color: white;
+    background-color: $sub-color1;
 }
 
 
 .tittle-cheif {
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     gap:$font-size6;
+=======
+    gap: 20px;
+
+    h1:nth-child(2) {
+        color: $sub-color2;
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
 
-.tittle-cheif h1:nth-child(2) {
-    color: orange;
-}
+
 
 .group-cheif {
     width: 100%;
     margin-top: $font-size6;
     display: flex;
     justify-content: space-evenly;
-    // background-color: pink;
+
+    .cheif {
+        width: 22%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        img {
+            width: 170px;
+            height: 170px;
+            border: 5px solid $sub-color4;
+            margin-left: 50px;
+            border-radius: 500px;
+            box-shadow: $box-shadow-color;
+        }
+
+        .name-cheif {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h3 {
+                text-align: center;
+                color: $sub-color4;
+                font-family: serif;
+                font-size: 25px;
+            }
+
+            p {
+                text-align: center;
+            }
+
+
+        }
+
+
+    }
 }
 
+<<<<<<< HEAD
 .cheif {
     width: 22%;
     height: $font-size26;
@@ -193,6 +323,8 @@ tbody tr:nth-child(3) td:nth-child(1) {
 .name-cheif p {
     text-align: center;
 }
+=======
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
 .tittle-service {
     margin-top: $font-size8;
@@ -204,8 +336,15 @@ tbody tr:nth-child(3) td:nth-child(1) {
     padding: $font-size8;
     display: flex;
     justify-content: space-evenly;
-}
 
+<<<<<<< HEAD
+    .service {
+        width: 22%;
+        height: 260px;
+        border: 2px solid $sub-color4;
+        background-color: $sub-color1;
+        box-shadow: $box-shadow-color;
+=======
 .service {
     width: 22%;
     height: $font-size27;
@@ -213,30 +352,67 @@ tbody tr:nth-child(3) td:nth-child(1) {
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+<<<<<<< HEAD
 
 .service img {
     width: $font-size10;
     height: $font-size10;
     margin-top: $font-size8;
     margin-left: $font-size28;
-
+=======
+<<<<<<< HEAD
+.service-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.service img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+ 
+=======
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
+        img {
+            width: 100px;
+            height: 100px;
+            margin-top: 30px;
+            margin-left: 90px;
+
+<<<<<<< HEAD
+        }
+=======
+>>>>>>> 1aa0c0bfc8cdac31bcc9d3d597c25ecb5de30c77
+}
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
+
+<<<<<<< HEAD
 .text-service {
     padding: $font-size14;
     display: flex;
     flex-direction: column;
     gap: $font-size29;
 }
+=======
+        .text-service {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 
-.text-service h3 {
-    text-align: center;
-}
+            h3 {
+                text-align: center;
+            }
 
-.text-service p {
-    text-align: center;
-}
+            p {
+                text-align: center;
+            }
+        }
 
+<<<<<<< HEAD
 .service-icon {
     display: flex;
     justify-content: space-between;
@@ -247,4 +423,19 @@ tbody tr:nth-child(3) td:nth-child(1) {
     color: #1D74A0;
     font-size: $font-size6;
     font-weight: bold;
+=======
+        .service-icon {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+
+            .number {
+                color: $sub-color4;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+
+    }
+>>>>>>> f405ae915fa2b684b944ba34cc1f767852e547e2
 }
