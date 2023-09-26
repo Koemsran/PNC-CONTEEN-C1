@@ -6,7 +6,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.content{
+
+.content {
     width: 70%;
     background-color: white;
     display: flex;
@@ -15,21 +16,28 @@ body {
     align-items: center;
     text-align: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    
+
 }
-.content h1{
+.content p{
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.content h1 {
     font-size: 50px;
-    color: skyblue;
+    color: rgb(24, 169, 226);
 }
-.content .icon{
-    color: orange;
+
+.content .icon {
+    color: green;
     font-size: 100px;
 }
-.back{
+
+.back {
     display: flex;
     gap: 30px;
 
 }
+
 .back i {
     width: 30px;
     height: 25px;

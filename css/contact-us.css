@@ -105,35 +105,35 @@ footer .social-media img {
 }
 
 .main-header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   align-items: end;
   margin-top: 5px;
   background-image: url(/images/background/canteen.jpg);
-  background-position: center;
-  background-size: cover;
   width: 100%;
   height: 500px;
-  background-repeat: no-repeat;
 }
 
 .bgc-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.384);
   width: 40%;
   height: 25%;
   margin-left: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .bg-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 30%;
   height: 30%;
   background-color: rgba(0, 0, 0, 0.572);
   margin: 80px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 10px;
   color: white;
   border: 1px solid rgba(128, 128, 128, 0.411);
@@ -152,8 +152,8 @@ footer .social-media img {
 }
 
 .text-h1 h1 {
-  color: #22c2a7;
-  font-family: "Courier New", Courier, monospace;
+  color: skyblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .text-h1 h3 {
@@ -179,6 +179,7 @@ main {
   flex-direction: column;
   gap: 20px;
   padding: 10px;
+  margin-bottom: 138px;
 }
 
 .contact-card1 {
@@ -187,18 +188,7 @@ main {
   background: white;
   justify-content: center;
   flex-direction: column;
-}
-
-.card1 {
-  padding: 30px;
-}
-
-.card1 :nth-child(4) {
-  color: blue;
-}
-
-.card1 :nth-child(6) {
-  color: blue;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 }
 
 .card .icon {
@@ -210,11 +200,15 @@ main {
   height: 40px;
   width: 40px;
   padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-card2 {
   display: flex;
   background: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 }
 
 .card {
@@ -223,11 +217,31 @@ main {
   padding: 30px;
 }
 
-.input {
+.the-text {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button {
+  background-color: skyblue;
+  text-align: center;
+  color: white;
+  padding: 7px;
+  width: 45%;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   background: white;
   padding: 35px;
-  margin-left: 10%;
+  margin-left: 10px;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 }
 
 .name {
@@ -248,19 +262,35 @@ main {
 
 .input h3 {
   text-align: center;
+  font-size: 30px;
 }
 
 textarea {
+  width: 450px;
   border-radius: 3px;
-  background: rgba(211, 208, 208, 0.778);
+  padding: 7px;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.454);
 }
 
-.card2 input {
-  padding: 5px;
-  background: rgb(18, 176, 215);
-  display: flex;
+input {
+  width: 200px;
+  border-radius: 3px;
+  padding: 7px;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.454);
 }
 
 .map {
   margin-top: 50px;
+}
+
+.submit {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  border-radius: 20px;
+  width: 20%;
+  font-weight: bold;
 }/*# sourceMappingURL=contact-us.css.map */

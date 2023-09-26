@@ -1,77 +1,78 @@
 @import 'main';
 
 .main-header {
+    @include bg-img;
     display: flex;
     align-items: end;
     margin-top: 5px;
     background-image: url(/images/background/canteen.jpg);
-    background-position: center;
-    background-size: cover;
     width: 100%;
     height: 500px;
-    background-repeat: no-repeat;
 }
 
 .bgc-text {
+    @include flex1;
     background-color: rgba(0, 0, 0, 0.384);
     width: 40%;
     height: 25%;
     margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .bg-header {
+    @include flex1;
     width: 30%;
     height: 30%;
     background-color: rgba(0, 0, 0, 0.572);
     margin: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 10px;
     color: white;
     border: 1px solid rgba(128, 128, 128, 0.411);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.bg-header h2{
+
+.bg-header h2 {
     font-family: serif;
     font-size: 35px;
 }
+
 .text-h1 {
     display: flex;
     gap: 15px;
     font-size: 30px;
 
 }
-.text-h1 h1{
-    color: #22c2a7;
-    font-family: 'Courier New', Courier, monospace;
+
+.text-h1 h1 {
+    color: skyblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
-.text-h1 h3{
+
+.text-h1 h3 {
     margin-top: 10px;
     font-size: 40px;
     font-family: serif;
 }
+
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centered;
     background-color: #F5EEEE;
     margin-top: -40px;
     width: 90%;
-    margin-left:4%;
+    margin-left: 4%;
     padding: 20px;
-    box-shadow:rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 
 }
+
+// contact
 
 .contact {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 10px;
+    margin-bottom: 138px;
 }
 
 .contact-card1 {
@@ -80,20 +81,10 @@ main {
     background: white;
     justify-content: center;
     flex-direction: column;
-    
-}
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 
-.card1 {
-    padding: 30px;
 
 }
-.card1 :nth-child(4){
-    color: blue;
-}
-.card1 :nth-child(6){
-    color: blue;
-}
-
 .card .icon {
     color: rgb(146, 96, 3);
     font-size: 25px;
@@ -103,11 +94,17 @@ main {
     height: 40px;
     width: 40px;
     padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-card2 {
     display: flex;
     background: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+
+
 }
 
 .card {
@@ -116,19 +113,44 @@ main {
     padding: 30px;
 }
 
-.input{
-    background: white;
-    padding: 35px;
-    margin-left: 10%;
-    align-items: center;
+.the-text {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.name{
+.button {
+    background-color: skyblue;
+    text-align: center;
+    color: white;
+    padding: 7px;
+    width: 45%;
+    font-weight: bold;
+   
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 35px;
+    margin-left: 10px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+
+}
+
+
+.name {
     display: flex;
     gap: 50px;
     width: 50px;
 
 }
+
 
 .email-number {
     display: flex;
@@ -140,25 +162,40 @@ main {
     gap: 50px;
 }
 
-// input{
-//     border-radius: 3px;
-//     background: rgba(211, 208, 208, 0.778);
-    
-// }
-.input h3{
+.input h3 {
     text-align: center;
+    font-size: 30px;
 }
+
 
 textarea {
+    width: 450px;
     border-radius: 3px;
-    background: rgba(211, 208, 208, 0.778);
+    padding: 7px;
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.454);
+
 }
 
-.card2 input {
-    padding: 5px;
-    background: rgb(18, 176, 215);
-    display: flex;
+input {
+    width: 200px;
+    border-radius: 3px;
+    padding: 7px;
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.454);
 }
-.map{
+
+.map {
     margin-top: 50px;
+}
+
+.submit {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    border-radius: 20px;
+    width: 20%;
+    font-weight: bold;
+
 }
