@@ -45,7 +45,6 @@
 .text-h1 h1 {
     color: skyblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
 }
 
 .text-h1 h3 {
@@ -83,12 +82,14 @@ main {
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 
-
 }
 // .card {
 //     margin-top: 10px;
 // }
 .card .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgb(146, 96, 3);
     font-size: 25px;
     gap: 10px;
@@ -144,14 +145,6 @@ form {
     margin-left: 10px;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
-
-}
-
-
-.name {
-    display: flex;
-    gap: 50px;
-    width: 50px;
 
 }
 

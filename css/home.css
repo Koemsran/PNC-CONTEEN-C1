@@ -243,10 +243,10 @@ footer {
 }
 
 .main-content .text-content button {
-  margin-top: 20px;
   background-color: orange;
   padding: 7px;
-  border-radius: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
   width: 20%;
 }
 
@@ -310,11 +310,11 @@ footer {
 }
 
 .bg-ingredients {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   margin-top: 40px;
   background-image: url(/images/background/ingre.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 500px;
 }
 
@@ -335,10 +335,11 @@ footer {
 }
 
 .group-eqiepment {
-  margin-top: 30px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
   gap: 30px;
-  padding-left: 70px;
 }
 
 .picture {
@@ -347,15 +348,14 @@ footer {
 }
 
 .picture img {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 200px;
   border: 1px solid rgb(7, 167, 189);
 }
 
 .group-eqiepment .text {
-  margin-top: 50px;
-  width: 60%;
+  width: 72%;
   display: flex;
   flex-direction: column;
   gap: 10px;
