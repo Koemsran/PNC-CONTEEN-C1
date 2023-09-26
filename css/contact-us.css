@@ -179,6 +179,7 @@ main {
   flex-direction: column;
   gap: 20px;
   padding: 10px;
+  margin-bottom: 138px;
 }
 
 .contact-card1 {
@@ -187,18 +188,7 @@ main {
   background: white;
   justify-content: center;
   flex-direction: column;
-}
-
-.card1 {
-  padding: 30px;
-}
-
-.card1 :nth-child(4) {
-  color: blue;
-}
-
-.card1 :nth-child(6) {
-  color: blue;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 }
 
 .card .icon {
@@ -213,11 +203,15 @@ main {
   height: 40px;
   width: 40px;
   padding: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-card2 {
   display: flex;
   background: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 }
 
 .card {
@@ -226,6 +220,7 @@ main {
   padding: 30px;
 }
 
+<<<<<<< HEAD
 form {
   display: flex;
   flex-direction: column;
@@ -234,6 +229,33 @@ form {
   padding: 35px;
   margin-left: 10px;
   gap: 10px;
+=======
+.the-text {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button {
+  background-color: skyblue;
+  text-align: center;
+  color: white;
+  padding: 7px;
+  width: 45%;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  padding: 35px;
+  margin-left: 10px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+>>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
 }
 
 .name {
@@ -250,23 +272,50 @@ form {
 
 .input h3 {
   text-align: center;
+  font-size: 30px;
 }
 
+<<<<<<< HEAD
 textarea,
 input {
   padding: 5px;
+=======
+textarea {
+  width: 450px;
+>>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
   border-radius: 3px;
-  background: rgba(211, 208, 208, 0.778);
+  padding: 7px;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.454);
 }
 
+<<<<<<< HEAD
 form button {
   background-color: orange;
   padding: 7px;
   width: 70px;
   color: white;
   border-radius: 20px;
+=======
+input {
+  width: 200px;
+  border-radius: 3px;
+  padding: 7px;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.454);
+>>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
 }
 
 .map {
   margin-top: 50px;
+}
+
+.submit {
+  background-color: orange;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  border-radius: 20px;
+  width: 20%;
+  font-weight: bold;
 }/*# sourceMappingURL=contact-us.css.map */
