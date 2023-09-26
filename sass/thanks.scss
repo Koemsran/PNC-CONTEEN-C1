@@ -1,5 +1,6 @@
 @import './components/group-variable';
 @import './mixins/group-mixins';
+
 body {
     @include centered;
     width: 100%;
@@ -16,14 +17,12 @@ body {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 
 }
-.content p{
+
+.content p {
     font-family: sans-serif;
-<<<<<<< HEAD
     line-height: 1.7;
-=======
-    line-height: 1.5;
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
 }
+
 .content h1 {
     font-size: 50px;
     color: rgb(24, 169, 226);

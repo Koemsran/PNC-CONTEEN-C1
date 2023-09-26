@@ -45,10 +45,6 @@
 .text-h1 h1 {
     color: skyblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-<<<<<<< HEAD
-=======
-    
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
 }
 
 .text-h1 h3 {
@@ -84,27 +80,9 @@ main {
     background: white;
     justify-content: center;
     flex-direction: column;
-<<<<<<< HEAD
-
-}
-=======
     box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
-
 
 }
-<<<<<<< HEAD
-
-.card1 :nth-child(4) {
-    color: blue;
-}
-
-.card1 :nth-child(6) {
-    color: blue;
-}
-
-=======
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
 .card .icon {
     display: flex;
     justify-content: center;
@@ -136,31 +114,6 @@ main {
     padding: 30px;
 }
 
-<<<<<<< HEAD
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: white;
-    padding: 35px;
-    margin-left: 10px;
-    
-    gap: 10px;
-}
-
-.name {
-    display: flex;
-    gap: 20px;
-    width: 200px;
-
-}
-
-.Class select {
-    padding: 5px;
-    width: 175px;
-    background: rgba(211, 208, 208, 0.778);
-
-=======
 .the-text {
     color: blue;
     display: flex;
@@ -192,14 +145,6 @@ form {
 }
 
 
-.name {
-    display: flex;
-    gap: 50px;
-    width: 50px;
-
-}
-
-
 .email-number {
     display: flex;
     gap: 50px;
@@ -208,7 +153,6 @@ form {
 .student {
     display: flex;
     gap: 50px;
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
 }
 
 .input h3 {
@@ -216,15 +160,9 @@ form {
     font-size: 30px;
 }
 
-<<<<<<< HEAD
-textarea,
-input {
-    padding: 5px;
-=======
 
 textarea {
     width: 450px;
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
     border-radius: 3px;
     padding: 7px;
     background: white;
@@ -232,27 +170,16 @@ textarea {
 
 }
 
-<<<<<<< HEAD
-form button {
-    background-color: orange;
-    padding: 7px;
-    width: 70px;
-    color: white;
-    border-radius: 20px;
-=======
 input {
     width: 200px;
     border-radius: 3px;
     padding: 7px;
     background: white;
     border: 1px solid rgba(128, 128, 128, 0.454);
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
 }
 
 .map {
     margin-top: 50px;
-<<<<<<< HEAD
-=======
 }
 
 .submit {
@@ -264,5 +191,4 @@ input {
     width: 20%;
     font-weight: bold;
 
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
 }

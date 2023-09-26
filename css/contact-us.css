@@ -220,16 +220,6 @@ main {
   padding: 30px;
 }
 
-<<<<<<< HEAD
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: white;
-  padding: 35px;
-  margin-left: 10px;
-  gap: 10px;
-=======
 .the-text {
   color: blue;
   display: flex;
@@ -255,19 +245,16 @@ form {
   margin-left: 10px;
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
 }
 
-.name {
+.email-number {
   display: flex;
-  gap: 20px;
-  width: 200px;
+  gap: 50px;
 }
 
-.Class select {
-  padding: 5px;
-  width: 175px;
-  background: rgba(211, 208, 208, 0.778);
+.student {
+  display: flex;
+  gap: 50px;
 }
 
 .input h3 {
@@ -275,35 +262,20 @@ form {
   font-size: 30px;
 }
 
-<<<<<<< HEAD
-textarea,
-input {
-  padding: 5px;
-=======
 textarea {
   width: 450px;
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
   border-radius: 3px;
   padding: 7px;
   background: white;
   border: 1px solid rgba(128, 128, 128, 0.454);
 }
 
-<<<<<<< HEAD
-form button {
-  background-color: orange;
-  padding: 7px;
-  width: 70px;
-  color: white;
-  border-radius: 20px;
-=======
 input {
   width: 200px;
   border-radius: 3px;
   padding: 7px;
   background: white;
   border: 1px solid rgba(128, 128, 128, 0.454);
->>>>>>> b7ed96a078a857d05a2e6b6645485b4892ebd0ea
 }
 
 .map {
