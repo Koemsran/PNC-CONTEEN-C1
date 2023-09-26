@@ -1,217 +1,250 @@
 @import 'main';
 
-header{
+header {
     @include bg-img;
     background-image: url(/images/background/pnc.jpg);
     height: 90%;
-    padding: 50px;
+    padding:$font-size4;
 }
 
 .bg-img {
     background-color: rgba(0, 0, 0, 0.486);
     height: 45%;
     width: 40%;
-    padding: 20px;
-    margin-top: 200px;
+    padding:$font-size6;
+    margin-top:$font-size13;
     color: white;
-    margin-left: 30px;
+    margin-left: $font-size8;
     border: 1px solid rgba(128, 128, 128, 0.411);
     box-shadow: rgba(50, 50, 93, 0.50) 0px 2px 5px -2px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.bg-text h1{
+
+.bg-text h1 {
     color: orange;
-    font-size: 50px;
+    font-size: $font-size4;
 }
-.bg-text p{
-    margin-top: 10px;
+
+.bg-text p {
+    margin-top: $font-size14;
     line-height: 1.5;
     color: white;
 
 }
 
-.titlle-menu{
-    margin-top: 30px;
+.titlle-menu {
+    margin-top: $font-size8;
     text-align: center;
 
 }
 
-.titlle-menu h1:nth-child(2){
+.titlle-menu h1:nth-child(2) {
     color: orange;
 }
 
-.sub-tittle{
+.sub-tittle {
+    @include flex;
     width: 15%;
     display: flex;
     align-items: center;
-    padding: 10px;
-    margin-top: 30px;
+    padding: $font-size14;
+    margin-top: $font-size8;
     border-radius: 0 20px 20px 0;
     background-color: black;
     color: white;
-    
+
 }
+
 .sub-tittle h3 {
-    margin-left: 40px;
+    margin-left: $font-size1;
 }
-.group-card{
+
+.group-card {
     @include flex;
     width: 100%;
-    gap: 15px;
+    gap: $font-size5;
 }
+
 .card {
     width: 22%;
-    height: 350px;
+    height: $font-size25;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    
+
+
 }
-.card img{
+
+.card img {
     width: 100%;
-    height: 200px;
-} 
+    height: $font-size13;
+}
+
 .card p {
-    padding: 20px;
+    padding:$font-size6;
 }
+
 .card .icon {
-    margin-left: 20px;
-    margin-bottom: 10px;  
+    margin-left: $font-size6;
+    margin-bottom: $font-size14;
 }
-.card .icon i{
+
+.card .icon i {
     color: orange;
 }
 
-.tittle-scedule{
+.tittle-scedule {
     @include flex;
-    gap: 15px;
+    gap: $font-size5;
 }
-.tittle-scedule h1:nth-child(2){
+
+.tittle-scedule h1:nth-child(2) {
     color: orange;
 }
-.table-schedul{
+
+.table-schedul {
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: $font-size4;
 }
-table{
+
+table {
     width: 100%;
     border-collapse: collapse;
-    
+
 }
-td{
+
+td {
     border: 1px solid;
-    padding: 10px;
+    padding: $font-size14;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-tbody tr:nth-child(1) td:nth-child(1){
+
+tbody tr:nth-child(1) td:nth-child(1) {
     background-color: black;
     color: white;
     text-align: center;
     line-height: 2;
 }
-tbody tr:nth-child(1) td:nth-child(2){
+
+tbody tr:nth-child(1) td:nth-child(2) {
     background-color: white;
 }
-tbody tr:nth-child(2) td:nth-child(1){
+
+tbody tr:nth-child(2) td:nth-child(1) {
     background-color: white;
 }
-tbody tr:nth-child(3) td:nth-child(1){
+
+tbody tr:nth-child(3) td:nth-child(1) {
     background-color: white;
 }
 
 
-.tittle-cheif{
+.tittle-cheif {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap:$font-size6;
 }
-.tittle-cheif h1:nth-child(2){
+
+.tittle-cheif h1:nth-child(2) {
     color: orange;
 }
-.group-cheif{
+
+.group-cheif {
     width: 100%;
-    margin-top: 20px;
-    display:flex;
+    margin-top: $font-size6;
+    display: flex;
     justify-content: space-evenly;
     // background-color: pink;
 }
-.cheif{
+
+.cheif {
     width: 22%;
-    height: 300px;
+    height: $font-size26;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
+
 }
-.cheif img{
-    width: 170px;
-    height: 170px;
+
+.cheif img {
+    width: $font-size19;
+    height: $font-size19;
     border: 5px solid #23BBEA;
-    margin-left: 50px;
-    border-radius: 500px;
+    margin-left: $font-size4;
+    border-radius: $font-size17;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.name-cheif{
+
+.name-cheif {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: $font-size14;
 }
-.name-cheif h3{
+
+.name-cheif h3 {
     text-align: center;
     color: #1D74A0;
     font-family: serif;
-    font-size: 25px;
+    font-size: $font-size3;
 }
+
 .name-cheif p {
     text-align: center;
 }
 
-.tittle-service{
-    margin-top: 30px;
+.tittle-service {
+    margin-top: $font-size8;
     text-align: center;
     text-decoration: underline;
 }
-.group-service{
-    padding: 30px;
+
+.group-service {
+    padding: $font-size8;
     display: flex;
     justify-content: space-evenly;
 }
-.service{
+
+.service {
     width: 22%;
-    height: 260px;
+    height: $font-size27;
     border: 2px solid #33A6EA;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-.service img{
-    width: 100px;
-    height: 100px;
-    margin-top: 30px;
-    margin-left: 90px;
- 
+
+.service img {
+    width: $font-size10;
+    height: $font-size10;
+    margin-top: $font-size8;
+    margin-left: $font-size28;
+
 }
-.text-service{
-    padding: 10px;
+
+.text-service {
+    padding: $font-size14;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: $font-size29;
 }
-.text-service h3{
+
+.text-service h3 {
     text-align: center;
 }
-.text-service p{
+
+.text-service p {
     text-align: center;
 }
-.service-icon{
+
+.service-icon {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: $font-size14;
 }
-.number{
+
+.number {
     color: #1D74A0;
-    font-size: 20px;
+    font-size: $font-size6;
     font-weight: bold;
 }

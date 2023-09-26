@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    padding: 10px;
+    padding:$font-size14;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     align-items: center;
@@ -17,18 +17,18 @@
 }
 
 .nav-right h2 {
-    font-size: 40px;
+    font-size: $font-size1;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-right img {
-    width: 80px;
-    height: 55px;
+    width:$font-size24;
+    height:$font-size30;
 }
 
 .nav-center ul {
     display: flex;
-    gap: 50px;
+    gap: $font-size4;
 }
 
 .nav-center ul li a {
@@ -41,9 +41,9 @@
 }
 
 .nav-left button {
-    padding: 10px;
-    width: 100px;
-    border-radius: 20px;
+    padding:$font-size14;
+    width: $font-size10;
+    border-radius: $font-size6;
     background-color: orange;
 
 }

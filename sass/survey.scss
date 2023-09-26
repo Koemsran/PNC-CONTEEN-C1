@@ -4,10 +4,10 @@
     width: 70%;
     margin: 0 auto;
     background: #fff;
-    padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    border-radius: 7px;
+    padding: $font-size14;
+    margin-top: $font-size4;
+    margin-bottom: $font-size6;
+    border-radius: $font-size20;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
@@ -15,7 +15,7 @@
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 12px;
+    font-size:$font-size9;
 
 }
 
@@ -28,7 +28,7 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #ebe1e1;
-    padding: 20px;
+    padding: $font-size6;
 }
 .form-header .link{
     line-height: 1.5;
@@ -37,27 +37,25 @@
     font-family: serif;
 }
 .form-header ul {
+    @include centered;
     width: 10%;
-    height: 30px;
+    height:$font-size8;
     background-color: orange;
-    padding: 7px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding:$font-size20;
+    border-radius: $font-size6;
 }
 .form-header ul a{
     align-items: center;
     color: white;
-    font-size: 12px;
+    font-size: $font-size9;
     font-weight: bold;
 }
 .form-body {
-    padding: 20px;
+    padding: $font-size6;
 }
 
 .form-group {
-    margin-top: 20px;
+    margin-top:$font-size6;
     animation: my_scroll_fade linear both;
 
     /* make scroll view */
@@ -68,13 +66,13 @@
 }
 
 .group {
-    padding: 8px;
+    padding: $font-size29;
 }
 
 input[type='radio'] {
     /* change size of radio */
     transform: scale(2);
-    margin-right: 10px;
+    margin-right: $font-size14;
 
     /* color select inside radio */
     accent-color: blue;
@@ -91,12 +89,12 @@ input[type='radio']:checked~label {
 
 input[type='date'] {
     border: 1px solid #ebe1e1;
-    padding: 10px;
+    padding: $font-size14;
     width: 50%
 }
 
 h3 {
-    margin-bottom: 10px;
+    margin-bottom:$font-size14;
 }
 
 /* Scroll animation */
@@ -112,14 +110,11 @@ h3 {
 }
 
 .form-body .btn-submit button{
-    margin-top: 20px;
-    background-color: orange;
-    padding: 7px;
-    width: 8%;
-    border-radius: 10px;
-   
+    @include btn;
+    margin-top: $font-size6;
+    width: 8%;   
 }
 .form-body .btn-submit button a{
     color: white;
-    font-size: 12px;
+    font-size: $font-size9;
 }

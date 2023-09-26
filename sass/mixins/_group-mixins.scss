@@ -1,12 +1,12 @@
 
 @mixin btn{
     background-color: orange;
-    padding: 7px;
-    border-radius: 10px;
+    padding: $font-size20;
+    border-radius: $font-size14;
 }
 @mixin co-fo{
     color: white;
-    font-size: 12px;
+    font-size: $font-size9;
 }
 @mixin bg-img{
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@
 @mixin flex{
     display:flex;
     justify-content: center; 
-    margin-top: 30px;
+    margin-top: $font-size8;
 }
 @mixin centered{
     display: flex;

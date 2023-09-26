@@ -2,50 +2,50 @@
 .main-header{
     display: flex;
     align-items: center;
-    margin-top: 5px;
+    margin-top: $font-size11;
     background-image: url(/images/background/eat\ food.jpg);
     background-position: center;
     background-size: cover;
-    height: 600px;
+    height:$font-size12;
     background-repeat: no-repeat;
-    padding: 50px;
+    padding: $font-size4;
 }
 .main-header .bg-main{
     background-color: rgba(0, 0, 0, 0.329);
     width: 50%;
-    padding: 20px;
-    margin-top: 200px;
+    padding: $font-size6;
+    margin-top: $font-size13;
     color: white;
-    margin-left: 30px;
+    margin-left: $font-size8;
     border: 1px solid rgba(128, 128, 128, 0.411);
     box-shadow: rgba(50, 50, 93, 0.50) 0px 2px 5px -2px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 .main-header .bg-main h2{
     font-family: serif;
-    font-size: 40px;
+    font-size: $font-size1;
 }
 .text-menu{
     display: flex;
-    gap: 20px;
+    gap: $font-size6;
 }
 .text-menu h2{
-    margin-top: 15px;
+    margin-top: $font-size5;
 }
 .text-menu h1{
     color: orange;
-    font-size: 60px;
+    font-size:$font-size2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .bg-header p{
     line-height: 1.5;
-    margin-top: 15px;
+    margin-top: $font-size5;
 }
 .main-content {
     height: 50%;
-    margin-top: 15px;
+    margin-top:$font-size5;
     display: flex;
-    padding: 20px;
-    padding-left: 100px;
+    padding: $font-size6;
+    padding-left:$font-size10;
 }
 
 .group-text {
@@ -53,51 +53,49 @@
 }
 
 .group-text p {
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: $font-size3;
+    margin-top: $font-size6;
 }
 
 .group-text h1 {
-    font-size: 60px;
+    font-size: $font-size2;
     color: orange;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .group-text .text {
     display: flex;
-    gap: 10px;
+    gap: $font-size14;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .text-content h2 {
     font-family: serif;
-    font-size: 50px;
+    font-size:$font-size4;
 }
 
 .text h1 {
-    font-size: 60px;
+    font-size: $font-size2;
     color: black;
 }
 
 .main-content img {
-    padding-right: 50px;
+    padding-right: $font-size4;
     width: 120%;
     height: 110%;
     rotate: 10deg;
 }
 
 .main-content .text-content button {
-    margin-top: 20px;
-    background-color: orange;
-    padding: 7px;
-    border-radius: 20px;
+    @include btn;
+    margin-top: $font-size6;
     width: 20%;
 }
 
 .main-content .text-content button a {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-family: $font-family1;
+    font-size: $font-size5;
 }
 
 .main-content .text-content button a:hover {
@@ -107,14 +105,14 @@
 .content-menu {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 200px;
+    margin-top: $font-size13;
     width: 100%;
 }
 
 .card-menu {
     background-color: rgba(0, 0, 0, 0.863);
     width: 18%;
-    border-radius: 20px;
+    border-radius:$font-size6;
 
 }
 
@@ -123,67 +121,64 @@
 }
 
 .group-img img {
-    width: 230px;
+    width:$font-size15;
     margin-top: -90px;
     margin-left: -70px;
 }
 
 .card-menu .group-img:nth-child(3) {
-    width: 200px;
+    width: $font-size13;
 }
 
 .group-img button {
     width: 40%;
-    height: 30px;
+    height: $font-size8;
     border-radius: 20px 0 0 20px;
-    margin-top: 20px;
+    margin-top: $font-size6;
     background-color: orange;
     color: white;
 }
 
 .group-card {
     color: white;
-    padding-left: 30px;
-    padding-bottom: 30px;
+    padding-left: $font-size8;
+    padding-bottom: $font-size8;
     width: 70%;
 }
 
 .group-icon {
     color: orange;
-    padding-left: 30px;
-    padding-bottom: 10px;
+    padding-left: $font-size8;
+    padding-bottom:$font-size14;
 }
 
 .bg-ingredients {
-    margin-top: 40px;
+    @include bg-img;
+    margin-top: $font-size1;
     background-image: url(/images/background/ingre.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+    height: $font-size17;
 }
 
 .bg-ingredients .bg-ingre {
-    padding-top: 150px;
-    padding-bottom: 200px;
+    padding-top: $font-size16;
+    padding-bottom: $font-size13;
 }
 
 .bg-ingredients .bg-ingre .title {
     color: white;
     background-color: rgba(0, 0, 0, 0.568);
-    padding: 70px;
+    padding: $font-size18;
 }
 
 .bg-ingredients .title h1 {
-    font-size: 60px;
+    font-size: $font-size2;
     font-family: serif;
 }
 
 .group-eqiepment {
-    margin-top: 30px;
-    display: flex;
-    gap: 30px;
-    padding-left: 70px;
+    @include centered;
+    margin-top: $font-size8;
+    gap:$font-size8;
 }
 
 .picture {
@@ -192,16 +187,16 @@
 }
 
 .picture img {
-    width: 150px;
-    height: 150px;
-    border-radius: 200px;
+    width: $font-size19;
+    height: $font-size19;
+    border-radius:$font-size13;
     border: 1px solid rgb(7, 167, 189);
 }
 
 .group-eqiepment .text {
-    margin-top: 50px;
-    width: 60%;
+    // margin-top: 50px;
+    width: 72%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: $font-size14;
 }
