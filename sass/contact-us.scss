@@ -85,6 +85,9 @@ main {
 
 
 }
+// .card {
+//     margin-top: 10px;
+// }
 .card .icon {
     color: rgb(146, 96, 3);
     font-size: 25px;
@@ -111,6 +114,7 @@ main {
     display: flex;
     gap: 20px;
     padding: 30px;
+    margin-top: 10px;
 }
 
 .the-text {
@@ -183,6 +187,7 @@ input {
     padding: 7px;
     background: white;
     border: 1px solid rgba(128, 128, 128, 0.454);
+    
 }
 
 .map {
