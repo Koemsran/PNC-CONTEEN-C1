@@ -7,60 +7,60 @@
     margin-top: 5px;
     background-image: url(/images/background/canteen.jpg);
     width: 100%;
-    height: 500px;
+    height: $font-size17;
 }
 
 .bgc-text {
     @include flex1;
-    background-color: rgba(0, 0, 0, 0.384);
+    background-color: $sub-color7;
     width: 40%;
     height: 25%;
-    margin-left: 50px;
+    margin-left:$font-size4;
 }
 
 .bg-header {
     @include flex1;
     width: 30%;
     height: 30%;
-    background-color: rgba(0, 0, 0, 0.572);
     margin: 80px;
     padding: 10px;
-    color: white;
-    border: 1px solid rgba(128, 128, 128, 0.411);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
+    background-color: $sub-color9;
+    color: $sub-color1;
+    border: 1px solid $sub-color8;
+    box-shadow: $box-shadow-color;
 
-.bg-header h2 {
-    font-family: serif;
-    font-size: 35px;
+    h2 {
+        font-family: serif;
+        font-size: 35px;
+    }
 }
 
 .text-h1 {
     display: flex;
-    gap: 15px;
-    font-size: 30px;
+    gap: $font-size5;
+    font-size: $font-size8;
 
-}
+    h1 {
+        color: $sub-color4;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
 
-.text-h1 h1 {
-    color: skyblue;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+    h3 {
+        margin-top: 10px;
+        font-size: 40px;
+        font-family: serif;
+    }
 
-.text-h1 h3 {
-    margin-top: 10px;
-    font-size: 40px;
-    font-family: serif;
 }
 
 main {
     @include centered;
-    background-color: #F5EEEE;
     margin-top: -40px;
     width: 90%;
     margin-left: 4%;
     padding: 20px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+    box-shadow: $box-shadow-color;
+    background-color: $sub-color6;
 
 }
 
@@ -69,20 +69,33 @@ main {
 .contact {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-    margin-bottom: 138px;
+    gap: $font-size6;
+    padding: $font-size14;
+    margin-bottom: $font-size23;
+    .contact-card1 {
+        @include flex1;
+        width: 100%;
+        background: $sub-color1;
+        box-shadow: $box-shadow-color;
+
+    }
+
+    .contact-card2 {
+        display: flex;
+        background: $sub-color1;
+        box-shadow: $box-shadow-color;
+
+
+    }
 }
 
-.contact-card1 {
-    width: 100%;
-    display: flex;
-    background: white;
-    justify-content: center;
-    flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
 
-}
+
+ 
+
+    
+
+
 // .card {
 //     margin-top: 10px;
 // }
@@ -91,109 +104,103 @@ main {
     justify-content: center;
     align-items: center;
     color: rgb(146, 96, 3);
-    font-size: 25px;
-    gap: 10px;
+    font-size: $font-size3;
+    gap: $font-size14;
     background-color: rgba(128, 128, 128, 0.384);
-    border-radius: 30px;
-    height: 40px;
-    width: 40px;
-    padding: 3px;
+    border-radius: $font-size8;
+    height: $font-size1;
+    width: $font-size1;
+    padding:$font-size21;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.contact-card2 {
-    display: flex;
-    background: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
-
-
-}
 
 .card {
     display: flex;
+    gap: $font-size6;
+    padding: $font-size8;
     gap: 20px;
     padding: 30px;
     margin-top: 10px;
 }
 
 .the-text {
-    color: blue;
+    color: $sub-color5;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: $font-size6;
 }
 
 .button {
-    background-color: skyblue;
-    text-align: center;
-    color: white;
-    padding: 7px;
     width: 45%;
+    background-color: $sub-color4;
+    text-align: center;
+    color: $sub-color1;
+    padding: 7px;
+    
     font-weight: bold;
-   
-}
 
+}
 
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
-    background: white;
+    background: $sub-color1;
     padding: 35px;
     margin-left: 10px;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px -1px, rgba(50, 50, 93, 0.25) 0px 2px 5px -1px;
+    box-shadow: $box-shadow-color;
 
-}
+    .email-number,
+    .student {
+        display: flex;
+        gap: 50px;
+    }
 
-
-.email-number {
-    display: flex;
-    gap: 50px;
-}
-
-.student {
-    display: flex;
-    gap: 50px;
 }
 
 .input h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: $font-size8;
 }
-
 
 textarea {
     width: 450px;
-    border-radius: 3px;
-    padding: 7px;
-    background: white;
-    border: 1px solid rgba(128, 128, 128, 0.454);
+    @include input-format;
 
 }
 
 input {
-    width: 200px;
-    border-radius: 3px;
-    padding: 7px;
+    width: $font-size13;
+    border-radius: $font-size21;
+    padding: $font-size20;
     background: white;
     border: 1px solid rgba(128, 128, 128, 0.454);
-    
 }
+
+// .map {
+//     margin-top: $font-size4;
+//     width: 200px;
+//     border-radius: 3px;
+//     padding: 7px;
+//     background: white;
+//     border: 1px solid rgba(128, 128, 128, 0.454);
+    
+// }
 
 .map {
     margin-top: 50px;
 }
 
 .submit {
-    background-color: orange;
-    color: white;
+    width: 20%;
+    background-color: $sub-color2;
+    color: $sub-color1;
     text-align: center;
     padding: 7px;
     border-radius: 20px;
-    width: 20%;
     font-weight: bold;
-
 }
