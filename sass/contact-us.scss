@@ -91,12 +91,35 @@ main {
     }
 
 }
+<<<<<<< HEAD
+=======
+// .card {
+//     margin-top: 10px;
+// }
+.card .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(146, 96, 3);
+    font-size: 25px;
+    gap: 10px;
+    background-color: rgba(128, 128, 128, 0.384);
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
 
 
 .card {
     display: flex;
     gap: 20px;
     padding: 30px;
+<<<<<<< HEAD
 
     .icon {
         @include centered;
@@ -109,6 +132,9 @@ main {
         color: $sub-color2;
         background-color: $sub-color8;
     }
+=======
+    margin-top: 10px;
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
 }
 
 .the-text {
@@ -160,7 +186,15 @@ textarea {
 
 input {
     width: 200px;
+<<<<<<< HEAD
     @include input-format;
+=======
+    border-radius: 3px;
+    padding: 7px;
+    background: white;
+    border: 1px solid rgba(128, 128, 128, 0.454);
+    
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
 }
 
 .map {

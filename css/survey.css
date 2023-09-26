@@ -57,6 +57,7 @@ body {
   width: 100px;
   border-radius: 20px;
   background-color: orange;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 .navbar .nav-left button a {
   color: white;
@@ -64,36 +65,79 @@ body {
 }
 
 footer {
-  margin-top: 30px;
-  gap: 20px;
-  background-color: rgb(172, 166, 166);
-  padding: 50px 30px 30px 30px;
-}
-
-footer .text-foot {
-  text-align: center;
-  line-height: 2;
-}
-
-footer .social-media {
+  height: 60%;
+  background-color: gray;
   display: flex;
-  gap: 20px;
-  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 30px;
 }
 
-footer .social-media img {
-  width: 40px;
-  border-radius: 5px;
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
-.foot {
+.logo h6 {
+  margin-left: 10px;
+}
+
+.footer-top {
   display: flex;
   justify-content: space-between;
 }
 
-.foot .right {
+.footer-logo {
   display: flex;
-  gap: 50px;
+}
+
+.footer-logo img {
+  width: 60px;
+  height: 40px;
+}
+
+.footer-logo h2 {
+  margin-top: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.footer-chef,
+.footer-service,
+.footer-schedule,
+.footer-pages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-top h4 {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 40px;
+  border-top: 1px solid #000;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-icon i {
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 23px;
+}
+
+.footer-p p {
+  font-size: 12px;
 }
 
 .form-container {

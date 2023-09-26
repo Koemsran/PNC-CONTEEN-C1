@@ -214,12 +214,34 @@ tbody tr:nth-child(3) td:nth-child(1) {
     display: flex;
     justify-content: space-evenly;
 
+<<<<<<< HEAD
     .service {
         width: 22%;
         height: 260px;
         border: 2px solid $sub-color4;
         background-color: $sub-color1;
         box-shadow: $box-shadow-color;
+=======
+.service {
+    width: 22%;
+    height: 260px;
+    border: 2px solid #33A6EA;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+<<<<<<< HEAD
+.service-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+ 
+=======
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
 
         img {
             width: 100px;
@@ -227,7 +249,12 @@ tbody tr:nth-child(3) td:nth-child(1) {
             margin-top: 30px;
             margin-left: 90px;
 
+<<<<<<< HEAD
         }
+=======
+>>>>>>> 1aa0c0bfc8cdac31bcc9d3d597c25ecb5de30c77
+}
+>>>>>>> 410caf50c65118e8ab4907bb7c95a387e3399219
 
         .text-service {
             padding: 10px;
