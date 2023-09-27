@@ -157,7 +157,7 @@ footer .social-media img {
   display: flex;
   align-items: center;
   margin-top: 5px;
-  background-image: url(/images/background/eat\ food.jpg);
+  background-image: url(../images/background/eat_food.jpg);
   height: 600px;
   padding: 50px;
 }

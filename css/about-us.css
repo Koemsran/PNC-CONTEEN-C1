@@ -154,7 +154,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/images/background/pnc.JPG);
+  background-image: url(../images/background/pnc.jpg);
   height: 100%;
   padding: 50px;
 }
