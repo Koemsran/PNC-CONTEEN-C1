@@ -2,7 +2,7 @@
 
 header {
     @include bg-img;
-    background-image: url(/images/background/pnc.JPG);
+    background-image: url(../images/background/pnc.jpg);
     height: 100%;
     padding: 50px;
     .bg-img {
@@ -18,7 +18,7 @@ header {
 
         .bg-text {
             h1 {
-                color: $sub-color2;
+                color: $primary-color;
                 font-size: 50px;
 
             }
@@ -37,6 +37,7 @@ header {
 .titlle-menu {
     margin-top: $font-size1;
     text-align: center;
+
     h1:nth-child(1) {
         font-family: serif;
         font-size: 40px;
@@ -44,9 +45,9 @@ header {
 
 
     h1:nth-child(2) {
-        color: $sub-color2;
+        color: $primary-color;
         font-size: 45px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: $font-family1;
 
     }
 }
@@ -96,7 +97,7 @@ header {
             margin-bottom: 10px;
 
             i {
-                color: $sub-color2;
+                color: $primary-color;
             }
 
         }
@@ -111,7 +112,7 @@ header {
     padding-top: 30px;
 
     h1:nth-child(2) {
-        color: $sub-color2;
+        color: $primary-color;
     }
 }
 
@@ -158,7 +159,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
 
     h1:nth-child(2) {
-        color: $sub-color2;
+        color: $primary-color;
     }
 }
 
@@ -181,8 +182,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
         img {
             width: 150px;
             height: 150px;
-            border: 5px solid $sub-color4;
-            // margin-left: 50px;
+            border: 5px solid $secondary-color;
             border-radius: 500px;
             box-shadow: $box-shadow-color;
         }
@@ -195,14 +195,14 @@ tbody tr:nth-child(3) td:nth-child(1) {
             h3 {
                 padding-top: 15px;
                 text-align: center;
-                color: $sub-color4;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: $secondary-color;
+                font-family: $font-family1;
                 font-size: 25px;
             }
 
             p {
                 text-align: center;
-                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-family: sans-serif;
             }
 
 
@@ -211,7 +211,6 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
     }
 }
-
 
 .tittle-service {
     text-align: center;
@@ -227,7 +226,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
     .service {
         width: 22%;
         height: 260px;
-        border: 2px solid $sub-color4;
+        border: 2px solid $secondary-color;
         background-color: $sub-color1;
 
 
@@ -267,7 +266,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
             padding: 10px;
 
             .number {
-                color: $sub-color4;
+                color: $secondary-color;
                 font-size: 20px;
                 font-weight: bold;
             }

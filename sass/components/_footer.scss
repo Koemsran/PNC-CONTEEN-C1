@@ -1,13 +1,15 @@
 // footer
+@import './group-variable';
+@import '../mixins/group-mixins';
+
 footer {
     height: 60%;
-    background-color: black;
-    color: white;
+    background-color: $sub-color3;
+    color: $sub-color1;
     display: flex;
     flex-direction: column;
     gap: 50px;
     padding: 30px;
-
 }
 
 footer .social-media img {
@@ -39,7 +41,7 @@ footer .social-media img {
 
 .footer-logo h2 {
     margin-top: 5px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: $font-family1;
 }
 
 .footer-chef,
@@ -55,7 +57,7 @@ footer .social-media img {
     }
 }
 
-.footer-top ul li{
+.footer-top ul li {
     font-size: 14px;
     line-height: 1.5;
     list-style: disc;

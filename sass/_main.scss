@@ -7,15 +7,18 @@
     border: 0;
     box-sizing: border-box;
 }
-.active{
-    border-bottom: 3px solid orange;
-}
+
 body {
     width: 100%;
     height: 100vh;
     background-color: #F5EEEE;
 }
+
 @import './components/group-variable';
 @import './mixins/group-mixins';
 @import './components/nav';
 @import './components/footer';
+
+.active {
+    border-bottom: 3px solid $primary-color;
+}

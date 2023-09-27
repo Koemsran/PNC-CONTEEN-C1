@@ -18,14 +18,13 @@
 
         h2 {
             font-size: 40px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-family: $font-family1;
         }
 
         img {
             width: 80px;
             height: 55px;
         }
-
 
     }
 
@@ -39,7 +38,7 @@
                 font-weight: bold;
 
                 hover {
-                    border-bottom: 3px solid $sub-color2;
+                    border-bottom: 3px solid $primary-color;
                 }
 
             }
@@ -48,6 +47,7 @@
 
     .nav-left {
         display: flex;
+
         a {
             width: 100px;
             text-align: center;
@@ -55,7 +55,7 @@
             font-weight: bold;
             padding: 10px;
             border-radius: 20px;
-            background-color: $sub-color2;
+            background-color: $primary-color;
         }
     }
 }
