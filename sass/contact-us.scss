@@ -10,14 +10,6 @@
     height: $font-size17;
 }
 
-// .bgc-text {
-//     @include flex1;
-//     // background-color: rgba(0, 0, 0, 0);
-//     width: 40%;
-//     height: 25%;
-//     margin-left: $font-size4;
-// }
-
 .bg-header {
     @include flex1;
     width: 30%;
@@ -31,7 +23,7 @@
     box-shadow: $box-shadow-color;
 
     h2 {
-        font-family: serif;
+        font-family: $font-family3;
         font-size: 35px;
     }
 }
@@ -42,14 +34,14 @@
     font-size: $font-size8;
 
     h1 {
-        color: $sub-color4;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: $secondary-color;
+        font-family: $font-family1;
     }
 
     h3 {
         margin-top: 10px;
         font-size: 40px;
-        font-family: serif;
+        font-family: $font-family3;
     }
 
 }
@@ -92,15 +84,6 @@ main {
 }
 
 
-
-
-
-
-
-
-// .card {
-//     margin-top: 10px;
-// }
 .card .icon {
     display: flex;
     justify-content: center;
@@ -137,7 +120,7 @@ main {
 
 .button {
     width: 45%;
-    background-color: $sub-color4;
+    background-color: $secondary-color;
     text-align: center;
     color: $sub-color1;
     padding: 7px;
@@ -161,9 +144,11 @@ form {
         display: flex;
         gap: 50px;
     }
+
     .submit {
         margin-left: 380px;
-        button {
+
+        a {
             @include btn;
             padding-left: 20px;
             padding-right: 20px;
@@ -173,10 +158,11 @@ form {
     }
 
 }
+
 .input h3 {
     text-align: center;
     font-size: $font-size8;
-    
+
 }
 
 textarea {
@@ -196,4 +182,3 @@ input {
 .map {
     margin-top: 50px;
 }
-

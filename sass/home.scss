@@ -35,9 +35,9 @@
     }
 
     h1 {
-        color: $sub-color2;
+        color: $primary-color;
         font-size: 60px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: $font-family1;
     }
 
 
@@ -80,6 +80,7 @@
                 color: $sub-color1;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: 15px;
+
                 hover {
                     text-decoration: underline;
                 }
@@ -99,14 +100,14 @@
 
     h1 {
         font-size: 60px;
-        color: $sub-color2;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: $primary-color;
+        font-family: $font-family1;
     }
 
     .text {
         display: flex;
         gap: 10px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: $font-family1;
 
         h1 {
             font-size: 60px;
@@ -149,7 +150,7 @@
         height: 30px;
         border-radius: 20px 0 0 20px;
         margin-top: 20px;
-        background-color: $sub-color2;
+        background-color: $primary-color;
         color: $sub-color1;
     }
 }
@@ -162,7 +163,7 @@
 }
 
 .group-icon {
-    color: $sub-color2;
+    color: $primary-color;
     padding-left: 30px;
     padding-bottom: 10px;
 }
@@ -210,7 +211,7 @@
                 width: 170px;
                 height: 170px;
                 border-radius: 200px;
-                border: 1px solid $sub-color4;
+                border: 1px solid $secondary-color;
             }
 
         }
