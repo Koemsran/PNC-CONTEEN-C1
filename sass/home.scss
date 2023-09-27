@@ -23,30 +23,30 @@
             font-family: serif;
             font-size: 40px;
         }
-    }
-}
 
-.text-menu {
-    display: flex;
-    gap: 20px;
+        .bg-header {
+            p {
+                line-height: 1.5;
+                margin-top: 15px;
+            }
 
-    h2 {
-        margin-top: 15px;
-    }
+            .text-menu {
+                display: flex;
+                gap: 20px;
 
-    h1 {
-        color: $primary-color;
-        font-size: 60px;
-        font-family: $font-family1;
-    }
+                h2 {
+                    margin-top: 15px;
+                }
+
+                h1 {
+                    color: $primary-color;
+                    font-size: 60px;
+                    font-family: $font-family1;
+                }
 
 
-}
-
-.bg-header {
-    p {
-        line-height: 1.5;
-        margin-top: 15px;
+            }
+        }
     }
 }
 
@@ -94,7 +94,6 @@
     width: 100%;
 
     p {
-        // font-size: 20px;
         margin-top: 20px;
     }
 
@@ -121,57 +120,70 @@
 .content-menu {
     display: flex;
     justify-content: space-evenly;
-    margin-top: $font-size13;
     width: 100%;
-}
+    margin-top: 230px;
 
-.card-menu {
-    background-color: $sub-color9;
-    width: 18%;
-    border-radius: $font-size6;
+    .card-menu {
+        background-color: $sub-color9;
+        width: 18%;
+        border-radius: $font-size6;
 
-    .group-img:nth-child(3) {
-        width: 200px;
+        .group-img:nth-child(3) {
+            width: 200px;
+        }
+
+        .group-card {
+            color: $sub-color1;
+            padding-left: 30px;
+            padding-bottom: 30px;
+            width: 70%;
+        }
+
+        .group-img {
+            display: flex;
+
+            img {
+                width: 230px;
+                margin-top: -90px;
+                margin-left: -70px;
+            }
+
+            button {
+                width: 40%;
+                height: 30px;
+                border-radius: 20px 0 0 20px;
+                margin-top: 20px;
+                background-color: $primary-color;
+                color: $sub-color1;
+            }
+        }
+
+        .group-icon {
+            color: $primary-color;
+            padding-left: 30px;
+            padding-bottom: 10px;
+        }
+
     }
 
 }
-.content-menu .card-menu:nth-child(3) .group-img:nth-child(1) img{
-    width: 200px;
-    margin-left: -50px;
-    margin-top: -80px;
-   
-}
 
-.group-img {
-    display: flex;
-
+.content-menu .card-menu:nth-child(3) .group-img:nth-child(1) {
     img {
-        width: 230px;
-        margin-top: -90px;
-        margin-left: -70px;
+        width: 200px;
+        margin-left: -50px;
+        margin-top: -80px;
+
     }
 
     button {
-        width: 40%;
-        height: 30px;
-        border-radius: 20px 0 0 20px;
-        margin-top: 20px;
-        background-color: $primary-color;
-        color: $sub-color1;
+        margin-left: 15px;
     }
 }
 
-.group-card {
-    color: $sub-color1;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    width: 70%;
-}
+.content-menu .card-menu:nth-child(3) .group-card h3 {
+    padding: 10px;
 
-.group-icon {
-    color: $primary-color;
-    padding-left: 30px;
-    padding-bottom: 10px;
 }
 
 .bg-ingredients {
@@ -179,9 +191,7 @@
     margin-top: $font-size1;
     background-image: url(/images/background/ingre.jpg);
     height: $font-size17;
-}
 
-.bg-ingredients {
     .bg-ingre {
         padding-top: 150px;
         padding-bottom: 200px;

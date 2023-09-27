@@ -186,23 +186,21 @@ footer .social-media img {
   font-family: serif;
   font-size: 40px;
 }
-
-.text-menu {
+.main-header .bg-main .bg-header p {
+  line-height: 1.5;
+  margin-top: 15px;
+}
+.main-header .bg-main .bg-header .text-menu {
   display: flex;
   gap: 20px;
 }
-.text-menu h2 {
+.main-header .bg-main .bg-header .text-menu h2 {
   margin-top: 15px;
 }
-.text-menu h1 {
+.main-header .bg-main .bg-header .text-menu h1 {
   color: orange;
   font-size: 60px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-
-.bg-header p {
-  line-height: 1.5;
-  margin-top: 15px;
 }
 
 .main-content {
@@ -263,34 +261,32 @@ footer .social-media img {
 .content-menu {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 200px;
   width: 100%;
+  margin-top: 230px;
 }
-
-.card-menu {
+.content-menu .card-menu {
   background-color: rgba(0, 0, 0, 0.863);
   width: 18%;
   border-radius: 20px;
 }
-.card-menu .group-img:nth-child(3) {
+.content-menu .card-menu .group-img:nth-child(3) {
   width: 200px;
 }
-
-.content-menu .card-menu:nth-child(3) .group-img:nth-child(1) img {
-  width: 200px;
-  margin-left: -50px;
-  margin-top: -80px;
+.content-menu .card-menu .group-card {
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  width: 70%;
 }
-
-.group-img {
+.content-menu .card-menu .group-img {
   display: flex;
 }
-.group-img img {
+.content-menu .card-menu .group-img img {
   width: 230px;
   margin-top: -90px;
   margin-left: -70px;
 }
-.group-img button {
+.content-menu .card-menu .group-img button {
   width: 40%;
   height: 30px;
   border-radius: 20px 0 0 20px;
@@ -298,18 +294,23 @@ footer .social-media img {
   background-color: orange;
   color: white;
 }
-
-.group-card {
-  color: white;
-  padding-left: 30px;
-  padding-bottom: 30px;
-  width: 70%;
-}
-
-.group-icon {
+.content-menu .card-menu .group-icon {
   color: orange;
   padding-left: 30px;
   padding-bottom: 10px;
+}
+
+.content-menu .card-menu:nth-child(3) .group-img:nth-child(1) img {
+  width: 200px;
+  margin-left: -50px;
+  margin-top: -80px;
+}
+.content-menu .card-menu:nth-child(3) .group-img:nth-child(1) button {
+  margin-left: 15px;
+}
+
+.content-menu .card-menu:nth-child(3) .group-card h3 {
+  padding: 10px;
 }
 
 .bg-ingredients {
@@ -320,7 +321,6 @@ footer .social-media img {
   background-image: url(/images/background/ingre.jpg);
   height: 500px;
 }
-
 .bg-ingredients .bg-ingre {
   padding-top: 150px;
   padding-bottom: 200px;
