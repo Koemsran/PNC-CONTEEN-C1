@@ -52,20 +52,23 @@ body {
 .navbar .nav-center ul li a hover {
   border-bottom: 3px solid orange;
 }
-.navbar .nav-left button {
-  padding: 10px;
-  width: 100px;
-  border-radius: 20px;
-  background-color: orange;
+.navbar .nav-left {
+  display: flex;
 }
-.navbar .nav-left button a {
+.navbar .nav-left a {
+  width: 100px;
+  text-align: center;
   color: white;
   font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: orange;
 }
 
 footer {
   height: 60%;
-  background-color: rgba(128, 128, 128, 0.406);
+  background-color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -81,10 +84,6 @@ footer .social-media img {
   display: flex;
   flex-direction: column;
   gap: 5px;
-}
-
-.logo h6 {
-  margin-left: 10px;
 }
 
 .footer-top {
@@ -114,10 +113,17 @@ footer .social-media img {
   flex-direction: column;
   gap: 10px;
 }
+.footer-chef h3,
+.footer-service h3,
+.footer-schedule h3,
+.footer-pages h3 {
+  text-decoration: underline;
+}
 
-.footer-top h4 {
+.footer-top ul li {
   font-size: 14px;
   line-height: 1.5;
+  list-style: disc;
 }
 
 .footer-bottom {
@@ -126,7 +132,7 @@ footer .social-media img {
   align-items: center;
   gap: 15px;
   padding: 40px;
-  border-top: 1px solid #000;
+  border-top: 1px solid #f3f1f1;
 }
 
 .footer-icon {
@@ -205,20 +211,20 @@ footer .social-media img {
   font-family: serif;
   font-size: 50px;
 }
-.main-content .text-content button {
+.main-content .text-content .btn-menu {
+  margin-top: 20px;
+}
+.main-content .text-content .btn-menu a {
   background-color: orange;
   padding: 7px;
   border-radius: 20px;
-  margin-top: 20px;
   width: 25%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-.main-content .text-content button a {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
 }
-.main-content .text-content button a hover {
+.main-content .text-content .btn-menu a hover {
   text-decoration: underline;
 }
 

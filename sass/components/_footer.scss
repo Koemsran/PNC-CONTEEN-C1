@@ -1,72 +1,86 @@
 // footer
-footer{
+footer {
     height: 60%;
-    background-color: rgba(128, 128, 128, 0.406);
+    background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     gap: 50px;
     padding: 30px;
-    
+
 }
+
 footer .social-media img {
     width: 40px;
     border-radius: 5px;
 }
-.logo{
+
+.logo {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.logo h6{
-    margin-left: 10px;
-}
-.footer-top{
+
+.footer-top {
     display: flex;
     justify-content: space-between;
-    
+
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
 }
-.footer-logo img{
+
+.footer-logo img {
     width: 60px;
     height: 40px;
-    
+
 }
-.footer-logo h2{
+
+.footer-logo h2 {
     margin-top: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .footer-chef,
 .footer-service,
 .footer-schedule,
-.footer-pages{
+.footer-pages {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    h3 {
+        text-decoration: underline;
+    }
 }
-.footer-top h4{
+
+.footer-top ul li{
     font-size: 14px;
     line-height: 1.5;
+    list-style: disc;
 }
-.footer-bottom{
+
+.footer-bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
     padding: 40px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #f3f1f1;
 }
-.footer-icon{
+
+.footer-icon {
     display: flex;
     gap: 10px;
 }
 
-.footer-icon i{
+.footer-icon i {
     font-size: 30px;
     border: 1px solid black;
     border-radius: 23px;
 }
-.footer-p p{
+
+.footer-p p {
     font-size: 12px;
 }

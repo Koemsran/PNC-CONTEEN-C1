@@ -8,40 +8,88 @@ body {
     background-color: $sub-color6;
 }
 
-.content {
-    @include centered;
-    width: 70%;
-    flex-direction: column;
-    text-align: center;
+.main-thanks {
+    width: 60%;
+    height: 70vh;
+    background-color: white;
     box-shadow: $box-shadow-color;
-    background-color: $sub-color1;
-
-    p {
-        font-family: sans-serif;
-        line-height: 1.7;
-    }
-
-    h1 {
-        font-size: 50px;
-        color: $sub-color4;
-    }
-
-    .icon {
-        color: green;
-        font-size: 100px;
-    }
-}
-
-.back {
     display: flex;
-    gap: $font-size8;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    i {
-        width: 30px;
-        height: 25px;
-        margin-top: 15px;
-        font-size: 25px;
-        background-color: $sub-color8;
-        color: $sub-color1;
+    .thanks-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 80px;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 50px;
+            font-family: sans-serif;
+        }
+
+        p {
+            margin-top: -20px;
+            text-align: center;
+            line-height: 1.5;
+        }
+    }
+
+    .thanks-bottom {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .card-left {
+            width: 28%;
+            height: 150px;
+            margin-top: 30px;
+            box-shadow: $box-shadow-color;
+            background-color: $sub-color6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h3{
+                margin-top: 30px;
+            }
+            .media i{
+                font-size: 30px;
+                margin-top: 10px;
+            }
+
+        }
+
+        .card-right {
+            width: 28%;
+            height: 150px;
+            margin-top: 30px;
+            box-shadow: $box-shadow-color;
+            background-color: $sub-color6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h3{
+                margin-top: 30px;
+            }
+            a{
+                margin-top: 10px;
+                padding: 10px;
+                border-radius: 10px;
+                color: white;
+                text-decoration: none;
+                background-color: rgba(5, 137, 5, 0.596);
+            }
+            
+
+            
+
+        }
     }
 }

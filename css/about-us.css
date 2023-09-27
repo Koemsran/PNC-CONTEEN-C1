@@ -52,20 +52,23 @@ body {
 .navbar .nav-center ul li a hover {
   border-bottom: 3px solid orange;
 }
-.navbar .nav-left button {
-  padding: 10px;
-  width: 100px;
-  border-radius: 20px;
-  background-color: orange;
+.navbar .nav-left {
+  display: flex;
 }
-.navbar .nav-left button a {
+.navbar .nav-left a {
+  width: 100px;
+  text-align: center;
   color: white;
   font-weight: bold;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: orange;
 }
 
 footer {
   height: 60%;
-  background-color: rgba(128, 128, 128, 0.406);
+  background-color: black;
+  color: white;
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -81,10 +84,6 @@ footer .social-media img {
   display: flex;
   flex-direction: column;
   gap: 5px;
-}
-
-.logo h6 {
-  margin-left: 10px;
 }
 
 .footer-top {
@@ -114,10 +113,17 @@ footer .social-media img {
   flex-direction: column;
   gap: 10px;
 }
+.footer-chef h3,
+.footer-service h3,
+.footer-schedule h3,
+.footer-pages h3 {
+  text-decoration: underline;
+}
 
-.footer-top h4 {
+.footer-top ul li {
   font-size: 14px;
   line-height: 1.5;
+  list-style: disc;
 }
 
 .footer-bottom {
@@ -126,7 +132,7 @@ footer .social-media img {
   align-items: center;
   gap: 15px;
   padding: 40px;
-  border-top: 1px solid #000;
+  border-top: 1px solid #f3f1f1;
 }
 
 .footer-icon {
@@ -148,16 +154,16 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/images/background/pnc.jpg);
-  height: 90%;
+  background-image: url(/images/background/pnc.JPG);
+  height: 100%;
   padding: 50px;
 }
 header .bg-img {
   background-color: rgba(0, 0, 0, 0.329);
-  height: 45%;
+  height: 40%;
   width: 40%;
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 170px;
   color: white;
   margin-left: 30px;
   border: 1px solid rgba(128, 128, 128, 0.411);
@@ -174,11 +180,17 @@ header .bg-img .bg-text p {
 }
 
 .titlle-menu {
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
+}
+.titlle-menu h1:nth-child(1) {
+  font-family: serif;
+  font-size: 40px;
 }
 .titlle-menu h1:nth-child(2) {
   color: orange;
+  font-size: 45px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .sub-tittle {
@@ -193,9 +205,6 @@ header .bg-img .bg-text p {
   border-radius: 0 20px 20px 0;
   background-color: black;
   color: white;
-}
-.sub-tittle h3 {
-  margin-left: 40px;
 }
 
 .group-card {
@@ -234,6 +243,7 @@ header .bg-img .bg-text p {
   justify-content: center;
   margin-top: 30px;
   gap: 15px;
+  padding-top: 30px;
 }
 .tittle-scedule h1:nth-child(2) {
   color: orange;
@@ -245,7 +255,7 @@ header .bg-img .bg-text p {
   padding: 50px;
 }
 .table-schedul table {
-  width: 100%;
+  width: 60%;
   border-collapse: collapse;
 }
 
@@ -279,22 +289,22 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
 .group-cheif {
   width: 100%;
-  margin-top: 20px;
   display: flex;
   justify-content: space-evenly;
+  padding-top: 30px;
 }
 .group-cheif .cheif {
-  width: 22%;
-  height: 300px;
+  width: 18%;
+  height: 18%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 .group-cheif .cheif img {
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
   border: 5px solid #33A6EA;
-  margin-left: 50px;
   border-radius: 500px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -304,23 +314,25 @@ tbody tr:nth-child(3) td:nth-child(1) {
   gap: 10px;
 }
 .group-cheif .cheif .name-cheif h3 {
+  padding-top: 15px;
   text-align: center;
   color: #33A6EA;
-  font-family: serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 25px;
 }
 .group-cheif .cheif .name-cheif p {
   text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .tittle-service {
-  margin-top: 30px;
   text-align: center;
   text-decoration: underline;
+  padding-top: 50px;
 }
 
 .group-service {
-  padding: 30px;
+  padding: 40px;
   display: flex;
   justify-content: space-evenly;
 }

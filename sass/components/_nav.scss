@@ -47,18 +47,15 @@
     }
 
     .nav-left {
-        button {
-            padding: 10px;
+        display: flex;
+        a {
             width: 100px;
+            text-align: center;
+            color: $sub-color1;
+            font-weight: bold;
+            padding: 10px;
             border-radius: 20px;
             background-color: $sub-color2;
-
-            a {
-                color: $sub-color1;
-                font-weight: bold;
-            }
-
         }
-
     }
 }
