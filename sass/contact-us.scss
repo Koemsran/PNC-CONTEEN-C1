@@ -1,5 +1,5 @@
 @import 'main';
-
+@import './components/input';
 .main-header {
     @include bg-img;
     display: flex;
@@ -64,7 +64,7 @@ main {
     flex-direction: column;
     gap: $font-size6;
     padding: $font-size14;
-    margin-bottom: $font-size23;
+    margin-bottom: 170px;
 
     .contact-card1 {
         @include flex1;
@@ -127,56 +127,6 @@ main {
 
     font-weight: bold;
 
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    background: $sub-color1;
-    padding: 35px;
-    margin-left: 10px;
-    box-shadow: $box-shadow-color;
-
-    .email-number,
-    .student {
-        display: flex;
-        gap: 50px;
-    }
-
-    .submit {
-        margin-left: 380px;
-
-        a {
-            @include btn;
-            padding-left: 20px;
-            padding-right: 20px;
-            color: $sub-color1;
-            font-weight: bold;
-        }
-    }
-
-}
-
-.input h3 {
-    text-align: center;
-    font-size: $font-size8;
-
-}
-
-textarea {
-    width: 450px;
-    @include input-format;
-
-}
-
-input {
-    width: $font-size13;
-    border-radius: $font-size21;
-    padding: $font-size20;
-    background: white;
-    border: 1px solid rgba(128, 128, 128, 0.454);
 }
 
 .map {

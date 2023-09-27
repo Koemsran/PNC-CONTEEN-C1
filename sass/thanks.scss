@@ -9,19 +9,16 @@ body {
 }
 
 .main-thanks {
+    @include centered;
     width: 60%;
     height: 70vh;
     background-color: white;
     box-shadow: $box-shadow-color;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    border-radius: 5px;
 
     .thanks-top {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex2;
 
         img {
             width: 80px;
@@ -37,50 +34,25 @@ body {
             margin-top: -20px;
             text-align: center;
             line-height: 1.5;
+            font-family: sans-serif;
         }
     }
 
     .thanks-bottom {
+        @include centered;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         gap: 30px;
 
         .card-left {
-            width: 28%;
-            height: 150px;
-            margin-top: 30px;
-            box-shadow: $box-shadow-color;
-            background-color: $sub-color6;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            h3 {
-                margin-top: 30px;
-            }
-
             .media i {
                 font-size: 30px;
                 margin-top: 10px;
+                color: black;
             }
 
         }
 
         .card-right {
-            width: 28%;
-            height: 150px;
-            margin-top: 30px;
-            box-shadow: $box-shadow-color;
-            background-color: $sub-color6;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-
-            h3 {
-                margin-top: 30px;
-            }
 
             a {
                 margin-top: 10px;
@@ -89,8 +61,25 @@ body {
                 color: white;
                 text-decoration: none;
                 background-color: rgba(7, 146, 7, 0.884);
+                font-family: sans-serif;
             }
 
+
+        }
+
+        .card-left,
+        .card-right {
+            @include flex2;
+            width: 28%;
+            height: 150px;
+            margin-top: 30px;
+            box-shadow: $box-shadow-color;
+            background-color: $sub-color6;
+
+            h3 {
+                margin-top: 30px;
+                font-family: sans-serif;
+            }
 
         }
     }

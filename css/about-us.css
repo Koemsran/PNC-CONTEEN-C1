@@ -6,6 +6,7 @@
   text-decoration: none;
   border: 0;
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
 .navbar .nav-right h2 {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
 }
 .navbar .nav-right img {
   width: 80px;
@@ -52,13 +54,13 @@ body {
   display: flex;
 }
 .navbar .nav-left a {
+  background-color: orange;
+  padding: 7px;
+  border-radius: 20px;
   width: 100px;
   text-align: center;
   color: white;
   font-weight: bold;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: orange;
 }
 
 footer {
@@ -138,16 +140,56 @@ footer .social-media img {
 
 .footer-icon i {
   font-size: 30px;
-  border: 1px solid black;
   border-radius: 23px;
+  color: white;
 }
 
 .footer-p p {
   font-size: 12px;
 }
 
+.address {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.address i {
+  font-size: 30px;
+}
+
 .active {
   border-bottom: 3px solid orange;
+}
+
+.group-card {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+  gap: 15px;
+}
+.group-card .card {
+  width: 22%;
+  height: 350px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.group-card .card img {
+  width: 100%;
+  height: 200px;
+}
+.group-card .card p {
+  padding: 20px;
+}
+.group-card .card .icon {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.group-card .card .icon i {
+  color: orange;
 }
 
 header {
@@ -159,7 +201,7 @@ header {
   padding: 50px;
 }
 header .bg-img {
-  background-color: rgba(0, 0, 0, 0.329);
+  background-color: rgba(0, 0, 0, 0.637);
   height: 40%;
   width: 40%;
   padding: 20px;
@@ -205,37 +247,6 @@ header .bg-img .bg-text p {
   border-radius: 0 20px 20px 0;
   background-color: black;
   color: white;
-}
-
-.group-card {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  width: 100%;
-  gap: 15px;
-}
-.group-card .card {
-  width: 22%;
-  height: 350px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.group-card .card img {
-  width: 100%;
-  height: 200px;
-}
-.group-card .card p {
-  padding: 20px;
-}
-.group-card .card .icon {
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
-.group-card .card .icon i {
-  color: orange;
 }
 
 .tittle-scedule {
@@ -302,8 +313,8 @@ tbody tr:nth-child(3) td:nth-child(1) {
   align-items: center;
 }
 .group-cheif .cheif img {
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border: 5px solid #33A6EA;
   border-radius: 500px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -338,7 +349,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 .group-service .service {
   width: 22%;
-  height: 260px;
+  height: 280px;
   border: 2px solid #33A6EA;
   background-color: white;
 }

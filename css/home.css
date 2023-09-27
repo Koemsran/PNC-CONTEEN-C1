@@ -6,6 +6,7 @@
   text-decoration: none;
   border: 0;
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
 .navbar .nav-right h2 {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
 }
 .navbar .nav-right img {
   width: 80px;
@@ -52,13 +54,13 @@ body {
   display: flex;
 }
 .navbar .nav-left a {
+  background-color: orange;
+  padding: 7px;
+  border-radius: 20px;
   width: 100px;
   text-align: center;
   color: white;
   font-weight: bold;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: orange;
 }
 
 footer {
@@ -138,12 +140,21 @@ footer .social-media img {
 
 .footer-icon i {
   font-size: 30px;
-  border: 1px solid black;
   border-radius: 23px;
+  color: white;
 }
 
 .footer-p p {
   font-size: 12px;
+}
+
+.address {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.address i {
+  font-size: 30px;
 }
 
 .active {
@@ -263,6 +274,12 @@ footer .social-media img {
 }
 .card-menu .group-img:nth-child(3) {
   width: 200px;
+}
+
+.content-menu .card-menu:nth-child(3) .group-img:nth-child(1) img {
+  width: 200px;
+  margin-left: -50px;
+  margin-top: -80px;
 }
 
 .group-img {
