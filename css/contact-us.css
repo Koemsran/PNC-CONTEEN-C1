@@ -87,6 +87,16 @@ footer .social-media img {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 730px) {
+  .footer-top {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .footer-top br {
+    display: none;
+  }
+}
 
 .footer-logo {
   display: flex;
@@ -116,11 +126,24 @@ footer .social-media img {
 .footer-pages h3 {
   text-decoration: underline;
 }
+@media screen and (max-width: 730px) {
+  .footer-chef h3,
+  .footer-service h3,
+  .footer-schedule h3,
+  .footer-pages h3 {
+    font-size: 15px;
+  }
+}
 
 .footer-top ul li {
   font-size: 14px;
   line-height: 1.5;
   list-style: disc;
+}
+@media screen and (max-width: 730px) {
+  .footer-top ul li {
+    font-size: 12px;
+  }
 }
 
 .footer-bottom {
@@ -154,6 +177,11 @@ footer .social-media img {
 }
 .address i {
   font-size: 30px;
+}
+@media screen and (max-width: 730px) {
+  .address {
+    font-size: 12px;
+  }
 }
 
 .active {
@@ -336,29 +364,4 @@ input {
 
 .map {
   margin-top: 50px;
-}
-
-@media (min-width: 720px) and (max-width: 1024px) {
-  .navbar .nav-center ul {
-    gap: 35px;
-  }
-  .navbar .nav-center ul {
-    gap: 30px;
-  }
-  footer .footer-top {
-    display: flex;
-    gap: 30px;
-  }
-  footer .footer-top br {
-    display: none;
-  }
-  footer .footer-top h3 {
-    font-size: 15px;
-  }
-  footer .footer-top li {
-    font-size: 12px;
-  }
-  footer .address {
-    font-size: 12px;
-  }
 }/*# sourceMappingURL=contact-us.css.map */

@@ -87,6 +87,16 @@ footer .social-media img {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 730px) {
+  .footer-top {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .footer-top br {
+    display: none;
+  }
+}
 
 .footer-logo {
   display: flex;
@@ -116,11 +126,24 @@ footer .social-media img {
 .footer-pages h3 {
   text-decoration: underline;
 }
+@media screen and (max-width: 730px) {
+  .footer-chef h3,
+  .footer-service h3,
+  .footer-schedule h3,
+  .footer-pages h3 {
+    font-size: 15px;
+  }
+}
 
 .footer-top ul li {
   font-size: 14px;
   line-height: 1.5;
   list-style: disc;
+}
+@media screen and (max-width: 730px) {
+  .footer-top ul li {
+    font-size: 12px;
+  }
 }
 
 .footer-bottom {
@@ -155,6 +178,11 @@ footer .social-media img {
 .address i {
   font-size: 30px;
 }
+@media screen and (max-width: 730px) {
+  .address {
+    font-size: 12px;
+  }
+}
 
 .active {
   border-bottom: 3px solid orange;
@@ -175,6 +203,11 @@ p {
   height: 600px;
   padding: 50px;
 }
+@media screen and (max-width: 620px) {
+  .main-header {
+    background-position: 0 center;
+  }
+}
 .main-header .bg-main {
   background-color: rgba(0, 0, 0, 0.329);
   width: 50%;
@@ -185,6 +218,18 @@ p {
   border: 1px solid rgba(128, 128, 128, 0.411);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+@media screen and (max-width: 620px) {
+  .main-header .bg-main {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 730px) {
+  .main-header .bg-main {
+    width: 60%;
+  }
+}
 .main-header .bg-main h2 {
   font-family: serif;
   font-size: 40px;
@@ -192,6 +237,11 @@ p {
 .main-header .bg-main .bg-header p {
   line-height: 1.5;
   margin-top: 15px;
+}
+@media screen and (max-width: 620px) {
+  .main-header .bg-main .bg-header p {
+    display: none;
+  }
 }
 .main-header .bg-main .bg-header .text-menu {
   display: flex;
@@ -212,6 +262,11 @@ p {
   display: flex;
   padding: 20px;
   padding-left: 100px;
+}
+@media screen and (max-width: 620px) {
+  .main-content {
+    flex-direction: column;
+  }
 }
 .main-content img {
   padding-right: 50px;
@@ -264,6 +319,12 @@ p {
   justify-content: space-evenly;
   width: 100%;
   margin-top: 60px;
+}
+@media screen and (max-width: 620px) {
+  .content-menu {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 }
 .content-menu .card-menu {
   background-color: rgba(0, 0, 0, 0.863);
@@ -365,25 +426,6 @@ p {
 }
 
 @media (min-width: 720px) and (max-width: 1024px) {
-  .navbar .nav-center ul {
-    gap: 30px;
-  }
-  footer .footer-top {
-    display: flex;
-    gap: 30px;
-  }
-  footer .footer-top br {
-    display: none;
-  }
-  footer .footer-top h3 {
-    font-size: 15px;
-  }
-  footer .footer-top li {
-    font-size: 12px;
-  }
-  footer .address {
-    font-size: 12px;
-  }
   .main-header .bg-main {
     width: 60%;
   }

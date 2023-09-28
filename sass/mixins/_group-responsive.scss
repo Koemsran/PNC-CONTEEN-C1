@@ -1,6 +1,7 @@
 $breakpionts:(
-    'Mobile':720px
-    'Tablete':1024px
+    'Mobile':620px,
+    'Tablet':730px,
+    'laptop':1024px,
     'Desktop':1200px
 );
 @mixin responsive($size){

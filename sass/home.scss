@@ -1,5 +1,4 @@
 @import 'main';
-// @import './group-responsive/responsive_home';
 
 .main-header {
     @include bg-img;
@@ -9,6 +8,9 @@
     background-image: url(../images/background/eat_food.jpg);
     height: 600px;
     padding: 50px;
+    @include responsive('Mobile') {
+        background-position: 0 center;
+     }
 
     .bg-main {
         background-color: rgba(0, 0, 0, 0.329);
@@ -19,6 +21,14 @@
         margin-left: 30px;
         border: 1px solid $sub-color8;
         box-shadow: $box-shadow-color;
+        @include responsive('Mobile') {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 150px;
+        }
+        @include responsive("Tablet"){
+            width: 60%;
+        }
 
         h2 {
             font-family: serif;
@@ -29,6 +39,9 @@
             p {
                 line-height: 1.5;
                 margin-top: 15px;
+                @include responsive('Mobile') {
+                    display: none;
+                }
             }
 
             .text-menu {
@@ -57,6 +70,9 @@
     display: flex;
     padding: 20px;
     padding-left: 100px;
+    @include responsive('Mobile') {
+        flex-direction: column;
+    }
 
     img {
         padding-right: 50px;
@@ -123,6 +139,10 @@
     justify-content: space-evenly;
     width: 100%;
     margin-top: 60px;
+    @include responsive('Mobile') {
+        flex-wrap: wrap;
+        gap:20px;
+    }
 
     .card-menu {
         background-color: $sub-color9;
@@ -243,14 +263,9 @@
 }
 
 
-//Mobile 
-
-@media (min-width:320px) and (max-width: 720px) {}
-
 //Tablete 
 
 @media (min-width:720px) and (max-width: 1024px) {
-    @include responsive-foot-nav;
 
     //Header
     .main-header .bg-main {

@@ -1,5 +1,6 @@
 @import './group-variable';
 @import '../mixins/group-mixins';
+@import '../mixins/group-responsive';
 
 .group-card {
     @include flex;

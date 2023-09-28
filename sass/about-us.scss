@@ -1,7 +1,6 @@
 @import 'main';
 @import './components/card';
 
-// @import './group-responsive/responsive_about';
 header {
     @include bg-img;
     background-image: url(../images/background/pnc.jpg);
@@ -240,11 +239,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
 }
 
-//Mobile 
 
-@media (min-width:320px) and (max-width: 720px) {}
-
-//Tablete 
 
 @media (min-width:720px) and (max-width: 1024px) {
 
@@ -299,18 +294,4 @@ tbody tr:nth-child(3) td:nth-child(1) {
             font-size: 13px;
         }
     }
-
-
-
-    //Body
-
-
-
-
-
-    //Footer
-
-    //Footer
-    @include responsive-foot-nav;
-
 }

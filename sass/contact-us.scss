@@ -134,32 +134,3 @@
 .map {
     margin-top: 50px;
 }
-
-
-//Mobile 
-
-@media (min-width:320px) and (max-width: 720px){
-    
-}
-
-//Tablete 
-
-@media (min-width:720px) and (max-width: 1024px){
-    //Navbar
-
-    .navbar .nav-center ul{
-        gap: 35px;
-    }
-    //Header
-
-
-
-    //Body
-
-
-
-    //Footer
-
-    //Footer
-    @include responsive-foot-nav;
-}

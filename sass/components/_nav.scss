@@ -1,5 +1,6 @@
 @import './group-variable';
 @import '../mixins/group-mixins';
+@import '../mixins/group-responsive';
 
 .navbar {
     width: 100%;
@@ -33,6 +34,9 @@
         ul {
             display: flex;
             gap: 50px;
+            @include responsive("Tablet"){
+                
+            }
 
             li a {
                 color: $sub-color3;

@@ -3,7 +3,7 @@
 @import '../mixins/group-mixins';
 
 footer {
-    // height: 60%;
+    
     width: 100%;
     background-color: $sub-color3;
     color: $sub-color1;
@@ -27,6 +27,14 @@ footer .social-media img {
 .footer-top {
     display: flex;
     justify-content: space-between;
+    @include responsive("Tablet"){
+        gap: 30px;
+    }
+    br{
+        @include responsive("Tablet"){
+            display: none;
+        }
+    }
 
 }
 
@@ -55,6 +63,9 @@ footer .social-media img {
 
     h3 {
         text-decoration: underline;
+        @include responsive("Tablet"){
+            font-size: 15px;
+        }
     }
 }
 
@@ -62,6 +73,10 @@ footer .social-media img {
     font-size: 14px;
     line-height: 1.5;
     list-style: disc;
+    @include responsive("Tablet"){
+        font-size: 12px;
+        
+    }
 }
 
 .footer-bottom {
@@ -91,5 +106,9 @@ footer .social-media img {
     margin-top: 10px;
     i{
         font-size: 30px;
+    }
+    @include responsive("Tablet"){
+        font-size: 12px;
+        
     }
 }
