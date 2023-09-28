@@ -173,7 +173,7 @@ p {
 }
 .group-card .card {
   width: 22%;
-  height: 350px;
+  height: 200px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   background-color: white;
   display: flex;
@@ -195,6 +195,23 @@ p {
   color: orange;
 }
 
+@media (min-width: 720px) and (max-width: 1024px) {
+  .group-card .card {
+    width: 22%;
+    height: 300px;
+  }
+  .group-card .card img {
+    width: 100%;
+    height: 180px;
+  }
+  .group-card .card p {
+    padding: 20px;
+    font-size: 13px;
+  }
+  .group-card .card .icon i {
+    font-size: 15px;
+  }
+}
 header {
   background-repeat: no-repeat;
   background-position: center;
@@ -210,7 +227,6 @@ header .bg-img {
   padding: 20px;
   margin-top: 170px;
   color: white;
-  margin-left: 30px;
   border: 1px solid rgba(128, 128, 128, 0.411);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
@@ -391,6 +407,38 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 
 @media (min-width: 720px) and (max-width: 1024px) {
+  header {
+    height: 90%;
+  }
+  header .bg-img {
+    width: 60%;
+    height: 45%;
+    margin-left: -20px;
+    margin-top: 140px;
+  }
+  header .bg-img .bg-text h1 {
+    font-size: 30px;
+  }
+  header .bg-img .bg-text p {
+    font-size: 14px;
+  }
+  .titlle-menu {
+    margin-top: 35px;
+  }
+  .titlle-menu h1:nth-child(1) {
+    font-family: serif;
+    font-size: 30px;
+  }
+  .titlle-menu h1:nth-child(2) {
+    font-size: 35px;
+  }
+  .sub-tittle {
+    width: 15%;
+    padding: 5px;
+  }
+  .sub-tittle h3 {
+    font-size: 13px;
+  }
   .navbar .nav-center ul {
     gap: 30px;
   }
