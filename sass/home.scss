@@ -1,4 +1,5 @@
 @import 'main';
+@import './group-responsive/responsive_home';
 
 .main-header {
     @include bg-img;
@@ -121,7 +122,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    margin-top: 230px;
+    margin-top: 170px;
 
     .card-menu {
         background-color: $sub-color9;
@@ -193,7 +194,7 @@
     height: $font-size17;
 
     .bg-ingre {
-        padding-top: 150px;
+        padding-top: 170px;
         padding-bottom: 200px;
 
         .title {
@@ -212,12 +213,14 @@
 .eqiepment {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     padding: 20px;
-
+    margin-top: 30px;
+    margin-bottom: 30px;
     .group-eqiepment {
         @include centered;
         gap: 30px;
+        
 
         .picture {
             display: flex;

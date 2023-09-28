@@ -1,5 +1,6 @@
 @import 'main';
 @import './components/input';
+@import './group-responsive/responsive-contact.scss';
 .main-header {
     @include bg-img;
     display: flex;

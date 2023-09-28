@@ -1,5 +1,6 @@
 @import 'main';
 @import './components/card';
+@import './group-responsive/responsive_about';
 header {
     @include bg-img;
     background-image: url(../images/background/pnc.jpg);
