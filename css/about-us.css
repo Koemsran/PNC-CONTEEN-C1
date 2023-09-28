@@ -63,7 +63,7 @@ body {
 }
 
 footer {
-  height: 60%;
+  width: 100%;
   background-color: black;
   color: white;
   display: flex;
@@ -197,7 +197,7 @@ p {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   footer {
-    height: 35%;
+    height: auto;
   }
   footer .footer-top {
     display: flex;

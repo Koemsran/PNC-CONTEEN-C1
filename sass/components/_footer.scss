@@ -3,7 +3,8 @@
 @import '../mixins/group-mixins';
 
 footer {
-    height: 60%;
+    // height: 60%;
+    width: 100%;
     background-color: $sub-color3;
     color: $sub-color1;
     display: flex;
