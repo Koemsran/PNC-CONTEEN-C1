@@ -1,6 +1,6 @@
 @import 'main';
 @import './components/card';
-@import './group-responsive/responsive_about';
+// @import './group-responsive/responsive_about';
 header {
     @include bg-img;
     background-image: url(../images/background/pnc.jpg);
@@ -9,7 +9,7 @@ header {
     .bg-img {
         background-color: rgba(0, 0, 0, 0.637);
         height: 40%;
-        width: 40%;
+        width: 50%;
         padding: 20px;
         margin-top: 170px;
         color: $sub-color1;
@@ -135,7 +135,6 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
     .cheif {
         width: 18%;
-        height: 18%;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -181,13 +180,14 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 
 .group-service {
+    width: 100%;
     padding: $font-size1;
     display: flex;
     justify-content: space-evenly;
 
     .service {
         width: 22%;
-        height: 280px;
+        height: auto;
         border: 2px solid $secondary-color;
         background-color: $sub-color1;
 
@@ -236,4 +236,55 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
     }
 
+}
+
+//Mobile 
+
+@media (min-width:320px) and (max-width: 720px){
+    
+}
+
+//Tablete 
+
+@media (min-width:720px) and (max-width: 1024px){
+    
+
+//Navbar
+
+
+
+//Header
+
+
+
+
+//Body
+
+
+
+
+
+//Footer
+
+//Footer
+footer {
+    .footer-top {
+        display: flex;
+        gap: 30px;
+
+        br {
+            display: none;
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+        li{
+            font-size: 12px;
+        }
+    }
+    .address{
+        font-size: 12px;
+    }
+}
 }

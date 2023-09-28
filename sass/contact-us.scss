@@ -1,6 +1,6 @@
 @import 'main';
 @import './components/input';
-@import './group-responsive/responsive-contact.scss';
+// @import './group-responsive/responsive-contact.scss';
 .main-header {
     @include bg-img;
     display: flex;
@@ -47,11 +47,12 @@
 
 }
 
-main {
+.main-contact{
     @include centered;
-    margin-top: -40px;
+    margin-top: -50px;
     width: 90%;
-    margin-left: 4%;
+    // margin: auto;
+    margin-left: 5%;
     padding: 20px;
     box-shadow: $box-shadow-color;
     background-color: $sub-color6;
@@ -132,4 +133,50 @@ main {
 
 .map {
     margin-top: 50px;
+}
+
+
+//Mobile 
+
+@media (min-width:320px) and (max-width: 720px){
+    
+}
+
+//Tablete 
+
+@media (min-width:720px) and (max-width: 1024px){
+    //Navbar
+
+
+    //Header
+
+
+
+    //Body
+
+
+
+    //Footer
+
+    //Footer
+    footer {
+        .footer-top {
+            display: flex;
+            gap: 30px;
+
+            br {
+                display: none;
+            }
+
+            h3 {
+                font-size: 15px;
+            }
+            li{
+                font-size: 12px;
+            }
+        }
+        .address{
+            font-size: 12px;
+        }
+    }
 }

@@ -1,5 +1,5 @@
 @import 'main';
-@import './group-responsive/responsive_home';
+// @import './group-responsive/responsive_home';
 
 .main-header {
     @include bg-img;
@@ -52,7 +52,7 @@
 }
 
 .main-content {
-    height: 50%;
+    height: auto;
     margin-top: $font-size5;
     display: flex;
     padding: 20px;
@@ -60,8 +60,8 @@
 
     img {
         padding-right: 50px;
-        width: 110%;
-        height: 120%;
+        // width: 110%;
+        // height: 120%;
         rotate: 10deg;
     }
 
@@ -122,45 +122,47 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    margin-top: 170px;
+    margin-top: 60px;
 
     .card-menu {
         background-color: $sub-color9;
         width: 18%;
-        border-radius: $font-size6;}
-        .group-card {
-            color: $sub-color1;
-            padding-left: 30px;
-            padding-bottom: 30px;
-            width: 70%;
-        }
-
-        .group-img {
-            display: flex;
-
-            img {
-                width: 230px;
-                margin-top: -90px;
-                margin-left: -70px;
-            }
-
-            button {
-                width: 40%;
-                height: 30px;
-                border-radius: 20px 0 0 20px;
-                margin-top: 20px;
-                background-color: $primary-color;
-                color: $sub-color1;
-            }
-        }
-
-        .group-icon {
-            color: $primary-color;
-            padding-left: 30px;
-            padding-bottom: 10px;
-        }
-
+        border-radius: $font-size6;
     }
+
+    .group-card {
+        color: $sub-color1;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        width: 70%;
+    }
+
+    .group-img {
+        display: flex;
+
+        img {
+            width: 230px;
+            margin-top: -90px;
+            margin-left: -70px;
+        }
+
+        button {
+            width: 40%;
+            height: 30px;
+            border-radius: 20px 0 0 20px;
+            margin-top: 20px;
+            background-color: $primary-color;
+            color: $sub-color1;
+        }
+    }
+
+    .group-icon {
+        color: $primary-color;
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+
+}
 
 
 
@@ -212,10 +214,11 @@
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
+
     .group-eqiepment {
         @include centered;
         gap: 30px;
-        
+
 
         .picture {
             display: flex;
@@ -237,4 +240,56 @@
             gap: 10px;
         }
     }
+}
+
+
+//Mobile 
+
+@media (min-width:320px) and (max-width: 720px) {}
+
+//Tablete 
+
+@media (min-width:720px) and (max-width: 1024px) {
+
+    //Navbar
+    .nav-center ul {
+        display: none;
+    }
+
+    //Header
+
+
+
+    //Body
+
+
+
+
+    //Footer
+
+    //Footer
+    footer {
+        .footer-top {
+            display: flex;
+            gap: 30px;
+
+            br {
+                display: none;
+            }
+
+            h3 {
+                font-size: 15px;
+            }
+
+            li {
+                font-size: 12px;
+            }
+        }
+
+        .address {
+            font-size: 12px;
+        }
+    }
+
+
 }

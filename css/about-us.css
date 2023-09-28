@@ -195,18 +195,6 @@ p {
   color: orange;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  footer .footer-top {
-    display: flex;
-    gap: 30px;
-  }
-  footer .footer-top br {
-    display: none;
-  }
-  footer .footer-top h3 {
-    font-size: 15px;
-  }
-}
 header {
   background-repeat: no-repeat;
   background-position: center;
@@ -218,7 +206,7 @@ header {
 header .bg-img {
   background-color: rgba(0, 0, 0, 0.637);
   height: 40%;
-  width: 40%;
+  width: 50%;
   padding: 20px;
   margin-top: 170px;
   color: white;
@@ -321,7 +309,6 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 .group-cheif .cheif {
   width: 18%;
-  height: 18%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -358,13 +345,14 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 
 .group-service {
+  width: 100%;
   padding: 40px;
   display: flex;
   justify-content: space-evenly;
 }
 .group-service .service {
   width: 22%;
-  height: 280px;
+  height: auto;
   border: 2px solid #33A6EA;
   background-color: white;
 }
@@ -400,4 +388,23 @@ tbody tr:nth-child(3) td:nth-child(1) {
   color: #33A6EA;
   font-size: 20px;
   font-weight: bold;
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  footer .footer-top {
+    display: flex;
+    gap: 30px;
+  }
+  footer .footer-top br {
+    display: none;
+  }
+  footer .footer-top h3 {
+    font-size: 15px;
+  }
+  footer .footer-top li {
+    font-size: 12px;
+  }
+  footer .address {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=about-us.css.map */

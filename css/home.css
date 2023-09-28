@@ -164,18 +164,6 @@ p {
   line-height: 1.5;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  footer .footer-top {
-    display: flex;
-    gap: 30px;
-  }
-  footer .footer-top br {
-    display: none;
-  }
-  footer .footer-top h3 {
-    font-size: 15px;
-  }
-}
 .main-header {
   background-repeat: no-repeat;
   background-position: center;
@@ -219,7 +207,7 @@ p {
 }
 
 .main-content {
-  height: 50%;
+  height: auto;
   margin-top: 15px;
   display: flex;
   padding: 20px;
@@ -227,8 +215,6 @@ p {
 }
 .main-content img {
   padding-right: 50px;
-  width: 110%;
-  height: 120%;
   rotate: 10deg;
 }
 .main-content .text-content h2 {
@@ -277,7 +263,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin-top: 170px;
+  margin-top: 60px;
 }
 .content-menu .card-menu {
   background-color: rgba(0, 0, 0, 0.863);
@@ -376,4 +362,26 @@ p {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  .nav-center ul {
+    display: none;
+  }
+  footer .footer-top {
+    display: flex;
+    gap: 30px;
+  }
+  footer .footer-top br {
+    display: none;
+  }
+  footer .footer-top h3 {
+    font-size: 15px;
+  }
+  footer .footer-top li {
+    font-size: 12px;
+  }
+  footer .address {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=home.css.map */
