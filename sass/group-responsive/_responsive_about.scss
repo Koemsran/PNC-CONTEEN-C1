@@ -1,14 +1,12 @@
 // Mobile
 
-@media (min-width:320px) and (max-width:480px){
-    
-}
+@media (min-width:320px) and (max-width:480px) {}
 
 
 
 // Tablete
 
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1024px) {
     footer {
         height: 35%;
 
@@ -20,17 +18,8 @@
                 display: none;
             }
 
-            .footer-chef,
-            .footer-service,
-            .footer-schedule,
-            .footer-pages {
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-
-                h3 {
-                    font-size: 15px;
-                }
+            h3 {
+                font-size: 15px;
             }
 
         }

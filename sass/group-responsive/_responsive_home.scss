@@ -53,7 +53,6 @@
     //footer
     footer {
         height: 35%;
-
         .footer-top {
             display: flex;
             gap: 30px;
@@ -62,17 +61,8 @@
                 display: none;
             }
 
-            .footer-chef,
-            .footer-service,
-            .footer-schedule,
-            .footer-pages {
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-
-                h3 {
-                    font-size: 15px;
-                }
+            h3 {
+                font-size: 15px;
             }
 
         }
