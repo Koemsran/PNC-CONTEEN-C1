@@ -365,8 +365,8 @@ p {
 }
 
 @media (min-width: 720px) and (max-width: 1024px) {
-  .nav-center ul {
-    display: none;
+  .navbar .nav-center ul {
+    gap: 30px;
   }
   footer .footer-top {
     display: flex;

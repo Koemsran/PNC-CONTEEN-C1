@@ -391,6 +391,9 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 
 @media (min-width: 720px) and (max-width: 1024px) {
+  .navbar .nav-center ul {
+    gap: 30px;
+  }
   footer .footer-top {
     display: flex;
     gap: 30px;

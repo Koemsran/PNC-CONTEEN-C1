@@ -147,7 +147,9 @@
 @media (min-width:720px) and (max-width: 1024px){
     //Navbar
 
-
+    .navbar .nav-center ul{
+        gap: 35px;
+    }
     //Header
 
 
@@ -159,24 +161,5 @@
     //Footer
 
     //Footer
-    footer {
-        .footer-top {
-            display: flex;
-            gap: 30px;
-
-            br {
-                display: none;
-            }
-
-            h3 {
-                font-size: 15px;
-            }
-            li{
-                font-size: 12px;
-            }
-        }
-        .address{
-            font-size: 12px;
-        }
-    }
+    @include responsive-foot-nav;
 }
