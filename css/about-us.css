@@ -197,7 +197,7 @@ p {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   footer {
-    height: 35%;
+    height: auto;
   }
   footer .footer-top {
     display: flex;
