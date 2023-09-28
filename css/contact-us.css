@@ -32,6 +32,7 @@ body {
 .navbar .nav-right h2 {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
 }
 .navbar .nav-right img {
   width: 80px;
@@ -52,13 +53,13 @@ body {
   display: flex;
 }
 .navbar .nav-left a {
+  background-color: orange;
+  padding: 7px;
+  border-radius: 20px;
   width: 100px;
   text-align: center;
   color: white;
   font-weight: bold;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: orange;
 }
 
 footer {
@@ -138,16 +139,78 @@ footer .social-media img {
 
 .footer-icon i {
   font-size: 30px;
-  border: 1px solid black;
   border-radius: 23px;
+  color: white;
 }
 
 .footer-p p {
   font-size: 12px;
 }
 
+.address {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.address i {
+  font-size: 30px;
+}
+
 .active {
   border-bottom: 3px solid orange;
+}
+
+p {
+  line-height: 1.5;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 35px;
+  margin-left: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+form .email-number,
+form .student {
+  display: flex;
+  gap: 50px;
+}
+form .submit {
+  margin-left: 380px;
+}
+form .submit a {
+  background-color: orange;
+  padding: 7px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.input h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+textarea {
+  width: 450px;
+  border-radius: 3px;
+  padding: 7px;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.411);
+}
+
+input {
+  width: 200px;
+  border-radius: 3px;
+  padding: 7px;
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.454);
 }
 
 .main-header {
@@ -213,7 +276,7 @@ main {
   flex-direction: column;
   gap: 20px;
   padding: 10px;
-  margin-bottom: 138px;
+  margin-bottom: 170px;
 }
 .contact .contact-card1 {
   display: flex;
@@ -269,55 +332,6 @@ main {
   color: white;
   padding: 7px;
   font-weight: bold;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  background: white;
-  padding: 35px;
-  margin-left: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-form .email-number,
-form .student {
-  display: flex;
-  gap: 50px;
-}
-form .submit {
-  margin-left: 380px;
-}
-form .submit a {
-  background-color: orange;
-  padding: 7px;
-  border-radius: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: white;
-  font-weight: bold;
-}
-
-.input h3 {
-  text-align: center;
-  font-size: 30px;
-}
-
-textarea {
-  width: 450px;
-  border-radius: 3px;
-  padding: 7px;
-  background: white;
-  border: 1px solid rgba(128, 128, 128, 0.411);
-}
-
-input {
-  width: 200px;
-  border-radius: 3px;
-  padding: 7px;
-  background: white;
-  border: 1px solid rgba(128, 128, 128, 0.454);
 }
 
 .map {

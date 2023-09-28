@@ -19,6 +19,7 @@
         h2 {
             font-size: 40px;
             font-family: $font-family1;
+            color: black;
         }
 
         img {
@@ -36,7 +37,6 @@
             li a {
                 color: $sub-color3;
                 font-weight: bold;
-
                 hover {
                     border-bottom: 3px solid $primary-color;
                 }
@@ -49,13 +49,11 @@
         display: flex;
 
         a {
+            @include btn;
             width: 100px;
             text-align: center;
             color: $sub-color1;
             font-weight: bold;
-            padding: 10px;
-            border-radius: 20px;
-            background-color: $primary-color;
         }
     }
 }

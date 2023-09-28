@@ -32,6 +32,7 @@ body {
 .navbar .nav-right h2 {
   font-size: 40px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
 }
 .navbar .nav-right img {
   width: 80px;
@@ -52,13 +53,13 @@ body {
   display: flex;
 }
 .navbar .nav-left a {
+  background-color: orange;
+  padding: 7px;
+  border-radius: 20px;
   width: 100px;
   text-align: center;
   color: white;
   font-weight: bold;
-  padding: 10px;
-  border-radius: 20px;
-  background-color: orange;
 }
 
 footer {
@@ -138,16 +139,29 @@ footer .social-media img {
 
 .footer-icon i {
   font-size: 30px;
-  border: 1px solid black;
   border-radius: 23px;
+  color: white;
 }
 
 .footer-p p {
   font-size: 12px;
 }
 
+.address {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.address i {
+  font-size: 30px;
+}
+
 .active {
   border-bottom: 3px solid orange;
+}
+
+p {
+  line-height: 1.5;
 }
 
 .form-container {

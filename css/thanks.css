@@ -8,14 +8,15 @@ body {
 }
 
 .main-thanks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 60%;
   height: 70vh;
   background-color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border-radius: 5px;
 }
 .main-thanks .thanks-top {
   display: flex;
@@ -34,43 +35,19 @@ body {
   margin-top: -20px;
   text-align: center;
   line-height: 1.5;
+  font-family: sans-serif;
 }
 .main-thanks .thanks-bottom {
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   gap: 30px;
-}
-.main-thanks .thanks-bottom .card-left {
-  width: 28%;
-  height: 150px;
-  margin-top: 30px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  background-color: #F5EEEE;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.main-thanks .thanks-bottom .card-left h3 {
-  margin-top: 30px;
 }
 .main-thanks .thanks-bottom .card-left .media i {
   font-size: 30px;
   margin-top: 10px;
-}
-.main-thanks .thanks-bottom .card-right {
-  width: 28%;
-  height: 150px;
-  margin-top: 30px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  background-color: #F5EEEE;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.main-thanks .thanks-bottom .card-right h3 {
-  margin-top: 30px;
+  color: black;
 }
 .main-thanks .thanks-bottom .card-right a {
   margin-top: 10px;
@@ -79,4 +56,21 @@ body {
   color: white;
   text-decoration: none;
   background-color: rgba(7, 146, 7, 0.884);
+  font-family: sans-serif;
+}
+.main-thanks .thanks-bottom .card-left,
+.main-thanks .thanks-bottom .card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28%;
+  height: 150px;
+  margin-top: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: #F5EEEE;
+}
+.main-thanks .thanks-bottom .card-left h3,
+.main-thanks .thanks-bottom .card-right h3 {
+  margin-top: 30px;
+  font-family: sans-serif;
 }/*# sourceMappingURL=thanks.css.map */

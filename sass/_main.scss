@@ -18,7 +18,11 @@ body {
 @import './mixins/group-mixins';
 @import './components/nav';
 @import './components/footer';
+@import './mixins/responsive';
 
 .active {
     border-bottom: 3px solid $primary-color;
+}
+p{
+    line-height: 1.5;
 }

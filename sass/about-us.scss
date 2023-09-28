@@ -1,12 +1,12 @@
 @import 'main';
-
+@import './components/card';
 header {
     @include bg-img;
     background-image: url(../images/background/pnc.jpg);
     height: 100%;
     padding: 50px;
     .bg-img {
-        background-color: rgba(0, 0, 0, 0.329);
+        background-color: rgba(0, 0, 0, 0.637);
         height: 40%;
         width: 40%;
         padding: 20px;
@@ -52,8 +52,6 @@ header {
     }
 }
 
-
-
 .sub-tittle {
     @include flex;
     width: 15%;
@@ -66,43 +64,6 @@ header {
     color: $sub-color1;
 
 
-}
-
-
-.group-card {
-    @include flex;
-    width: 100%;
-    gap: 15px;
-
-    .card {
-        width: 22%;
-        height: 350px;
-        box-shadow: $box-shadow-color;
-        background-color: $sub-color1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        img {
-            width: 100%;
-            height: 200px;
-        }
-
-        p {
-            padding: 20px;
-        }
-
-        .icon {
-            margin-left: 20px;
-            margin-bottom: 10px;
-
-            i {
-                color: $primary-color;
-            }
-
-        }
-
-    }
 }
 
 
@@ -180,8 +141,8 @@ tbody tr:nth-child(3) td:nth-child(1) {
         align-items: center;
 
         img {
-            width: 150px;
-            height: 150px;
+            width: 170px;
+            height: 170px;
             border: 5px solid $secondary-color;
             border-radius: 500px;
             box-shadow: $box-shadow-color;
@@ -225,7 +186,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
     .service {
         width: 22%;
-        height: 260px;
+        height: 280px;
         border: 2px solid $secondary-color;
         background-color: $sub-color1;
 
