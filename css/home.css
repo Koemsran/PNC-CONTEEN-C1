@@ -285,7 +285,7 @@ p {
   margin-left: -70px;
 }
 .content-menu .group-img button {
-  width: 40%;
+  width: 80%;
   height: 30px;
   border-radius: 20px 0 0 20px;
   margin-top: 20px;
@@ -383,5 +383,55 @@ p {
   }
   footer .address {
     font-size: 12px;
+  }
+  .main-header .bg-main {
+    width: 60%;
+  }
+  .main-content .text-content h2,
+  .main-content .text-content .text h1,
+  .main-content .text-content .text h2 {
+    font-size: 30px;
+  }
+  .main-content .text-content .group-text h1 {
+    font-size: 40px;
+  }
+  .main-content .text-content .group-text p {
+    font-size: 12px;
+  }
+  .main-content img {
+    width: 300px;
+    rotate: 15deg;
+    margin-left: 20px;
+  }
+  .content-menu {
+    flex-wrap: wrap;
+    margin-left: 2%;
+  }
+  .content-menu .card-menu {
+    width: 35%;
+    margin-top: 50px;
+  }
+  .content-menu .card-menu:nth-child(3),
+  .card-menu:nth-child(4) {
+    margin-top: 110px;
+  }
+  .content-menu .card-menu:nth-child(3) img,
+  .card-menu:nth-child(4) img {
+    margin-top: -100px;
+  }
+  .card-menu:nth-child(2) img {
+    margin-top: -100px;
+  }
+  .bg-ingredients {
+    height: 400px;
+  }
+  .bg-ingredients .bg-ingre {
+    padding-top: 100px;
+  }
+  .bg-ingredients .bg-ingre .title h1 {
+    font-size: 50px;
+  }
+  .eqiepment {
+    margin-left: 15px;
   }
 }/*# sourceMappingURL=home.css.map */

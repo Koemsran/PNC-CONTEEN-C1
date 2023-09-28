@@ -147,7 +147,7 @@
         }
 
         button {
-            width: 40%;
+            width: 80%;
             height: 30px;
             border-radius: 20px 0 0 20px;
             margin-top: 20px;
@@ -253,16 +253,69 @@
     @include responsive-foot-nav;
 
     //Header
-        
-
+    .main-header .bg-main {
+        width: 60%;
+    }
 
     //Body
+    .main-content {
+        .text-content {
+            h2, 
+            .text h1,
+            .text h2{  
+                  font-size: 30px;
+            }
+            .group-text {
+                h1 {
+                    font-size: 40px;
 
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
 
+        }
 
-
-    //Footer
-
+        img {
+            width: 300px;
+            rotate: 15deg;
+            margin-left: 20px;
+        }
+    }
+    //Card
+    .content-menu{
+        flex-wrap: wrap;
+        margin-left: 2%;
+        .card-menu{
+            width: 35%;
+            margin-top: 50px;
+        }
+    }
+    .content-menu .card-menu:nth-child(3),
+    .card-menu:nth-child(4){
+        margin-top: 110px;
+        img{
+            margin-top: -100px;
+        }
+    }
+    .card-menu:nth-child(2) img{
+        margin-top: -100px;
+    }
+    .bg-ingredients{
+        height: 400px;
+        .bg-ingre {
+            padding-top: 100px;
+            .title {    
+                h1 {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+    .eqiepment {
+        margin-left: 15px;
+    }
 
 
 }
