@@ -164,6 +164,32 @@ p {
   line-height: 1.5;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  footer {
+    height: 35%;
+  }
+  footer .footer-top {
+    display: flex;
+    gap: 30px;
+  }
+  footer .footer-top br {
+    display: none;
+  }
+  footer .footer-top .footer-chef,
+  footer .footer-top .footer-service,
+  footer .footer-top .footer-schedule,
+  footer .footer-top .footer-pages {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer .footer-top .footer-chef h3,
+  footer .footer-top .footer-service h3,
+  footer .footer-top .footer-schedule h3,
+  footer .footer-top .footer-pages h3 {
+    font-size: 15px;
+  }
+}
 .main-header {
   background-repeat: no-repeat;
   background-position: center;
@@ -236,7 +262,7 @@ p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
 }
-.main-content .text-content .btn-menu a hover {
+.main-content .text-content .btn-menu a :hover {
   text-decoration: underline;
 }
 
@@ -272,24 +298,21 @@ p {
   width: 18%;
   border-radius: 20px;
 }
-.content-menu .card-menu .group-img:nth-child(3) {
-  width: 200px;
-}
-.content-menu .card-menu .group-card {
+.content-menu .group-card {
   color: white;
   padding-left: 30px;
   padding-bottom: 30px;
   width: 70%;
 }
-.content-menu .card-menu .group-img {
+.content-menu .group-img {
   display: flex;
 }
-.content-menu .card-menu .group-img img {
+.content-menu .group-img img {
   width: 230px;
   margin-top: -90px;
   margin-left: -70px;
 }
-.content-menu .card-menu .group-img button {
+.content-menu .group-img button {
   width: 40%;
   height: 30px;
   border-radius: 20px 0 0 20px;
@@ -297,7 +320,7 @@ p {
   background-color: orange;
   color: white;
 }
-.content-menu .card-menu .group-icon {
+.content-menu .group-icon {
   color: orange;
   padding-left: 30px;
   padding-bottom: 10px;

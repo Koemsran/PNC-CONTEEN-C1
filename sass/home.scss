@@ -82,7 +82,7 @@
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: 15px;
 
-                hover {
+                :hover {
                     text-decoration: underline;
                 }
             }
@@ -127,12 +127,7 @@
     .card-menu {
         background-color: $sub-color9;
         width: 18%;
-        border-radius: $font-size6;
-
-        .group-img:nth-child(3) {
-            width: 200px;
-        }
-
+        border-radius: $font-size6;}
         .group-card {
             color: $sub-color1;
             padding-left: 30px;
@@ -167,7 +162,7 @@
 
     }
 
-}
+
 
 .content-menu .card-menu:nth-child(3) .group-img:nth-child(1) {
     img {
