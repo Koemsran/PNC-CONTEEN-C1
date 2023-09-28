@@ -1,15 +1,17 @@
 // Mobile
 
-@media (min-width:320px) and (max-width:480px){
-    
-}
+@media (min-width:320px) and (max-width:480px) {}
 
 
 
 // Tablete
 
+<<<<<<< HEAD
 @media (min-width:768px) and (max-width:1024px){
     
+=======
+@media (min-width:768px) and (max-width:1024px) {
+>>>>>>> b0008247770b4b926ad5b06caa8a31c119ca8ea7
     footer {
         height: auto;
 
@@ -21,17 +23,8 @@
                 display: none;
             }
 
-            .footer-chef,
-            .footer-service,
-            .footer-schedule,
-            .footer-pages {
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-
-                h3 {
-                    font-size: 15px;
-                }
+            h3 {
+                font-size: 15px;
             }
 
         }

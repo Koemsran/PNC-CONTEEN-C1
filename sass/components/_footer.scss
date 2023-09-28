@@ -3,7 +3,11 @@
 @import '../mixins/group-mixins';
 
 footer {
+<<<<<<< HEAD
+    // height: auto;
+=======
     // height: 60%;
+>>>>>>> 046eecf81d62c9ec4b9228c50bd6c7310c8da0ed
     width: 100%;
     background-color: $sub-color3;
     color: $sub-color1;
@@ -65,9 +69,7 @@ footer .social-media img {
 }
 
 .footer-bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex2;
     gap: 15px;
     padding: 40px;
     border-top: 1px solid #f3f1f1;

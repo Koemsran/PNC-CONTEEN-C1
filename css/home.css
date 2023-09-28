@@ -175,18 +175,7 @@ p {
   footer .footer-top br {
     display: none;
   }
-  footer .footer-top .footer-chef,
-  footer .footer-top .footer-service,
-  footer .footer-top .footer-schedule,
-  footer .footer-top .footer-pages {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  footer .footer-top .footer-chef h3,
-  footer .footer-top .footer-service h3,
-  footer .footer-top .footer-schedule h3,
-  footer .footer-top .footer-pages h3 {
+  footer .footer-top h3 {
     font-size: 15px;
   }
 }
