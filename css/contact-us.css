@@ -214,9 +214,6 @@ input {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  footer {
-    height: 60%;
-  }
   footer .footer-top {
     display: flex;
     gap: 30px;
