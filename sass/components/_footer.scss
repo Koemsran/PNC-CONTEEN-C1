@@ -30,8 +30,11 @@ footer .social-media img {
     @include responsive("Tablet"){
         gap: 30px;
     }
-    br{
-        @include responsive("Tablet"){
+    @include responsive("laptop"){
+        gap: 30px;
+    }
+    .name-pnc{
+        @include responsive("Mobile"){
             display: none;
         }
     }
@@ -40,6 +43,10 @@ footer .social-media img {
 
 .footer-logo {
     display: flex;
+    @include responsive("Mobile"){
+        display: none;
+    }
+
 }
 
 .footer-logo img {
@@ -63,7 +70,7 @@ footer .social-media img {
 
     h3 {
         text-decoration: underline;
-        @include responsive("Tablet"){
+        @include responsive("laptop"){
             font-size: 15px;
         }
     }
@@ -73,7 +80,7 @@ footer .social-media img {
     font-size: 14px;
     line-height: 1.5;
     list-style: disc;
-    @include responsive("Tablet"){
+    @include responsive("laptop"){
         font-size: 12px;
         
     }
@@ -107,8 +114,13 @@ footer .social-media img {
     i{
         font-size: 30px;
     }
-    @include responsive("Tablet"){
+    @include responsive("laptop"){
         font-size: 12px;
         
+    }
+    br{
+        @include responsive('laptop'){
+            display: none;
+        }
     }
 }
