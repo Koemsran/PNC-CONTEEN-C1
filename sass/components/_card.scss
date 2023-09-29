@@ -6,10 +6,11 @@
     @include flex;
     width: 100%;
     gap: 15px;
+
     // mobile
     @include responsive("Mobile") {
         flex-wrap: wrap;
-        
+
     }
 
     .card {
@@ -21,23 +22,38 @@
         flex-direction: column;
         justify-content: space-between;
 
+        @include responsive("laptop") {
+            width: 25%;
+            height: 380px;
+
+        }
+
         @include responsive("Tablet") {
-            width: 20%;
-            height: 230px;
+            width: 25%;
+            height: 300px;
         }
 
         // mobile
         @include responsive("Mobile") {
             width: 40%;
-            
+            height: 280px;
+
         }
 
         img {
             width: 100%;
             height: 200px;
-
+            @include responsive("laptop") {
+                height: 140px;
+            }
             @include responsive("Tablet") {
-                height: 150px;
+                height: 130px;
+            }
+
+            // mobile
+            @include responsive("Mobile") {
+                height: 130px;
+
             }
 
         }
@@ -45,10 +61,18 @@
         p {
             padding: 20px;
             font-size: 20px;
-
+            @include responsive("laptop") {
+                font-size: 18px;
+            }
             @include responsive("Tablet") {
-                font-size: 10px;
-                padding: 12px;
+                font-size: 15px;
+                padding: 10px;
+            }
+
+            // mobile
+            @include responsive("Mobile") {
+                font-size: 14px;
+
             }
         }
 
@@ -64,9 +88,13 @@
             i {
                 color: $primary-color;
                 font-size: 20px;
-
+                @include responsive("laptop") {
+                    margin-bottom: 20px;
+                    font-size: 16px;
+                }
                 @include responsive("Tablet") {
                     font-size: 10px;
+                    margin-bottom: 20px;
                 }
             }
 
