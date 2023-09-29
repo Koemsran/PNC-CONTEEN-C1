@@ -108,18 +108,13 @@ footer .social-media img {
     gap: 30px;
   }
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-  .footer-top br {
-=======
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .footer-top {
     gap: 30px;
   }
 }
 @media screen and (max-width: 620px) {
   .footer-top .name-pnc {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
     display: none;
   }
 }
@@ -157,11 +152,7 @@ footer .social-media img {
 .footer-pages h3 {
   text-decoration: underline;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-=======
-@media screen and (max-width: 1200px) {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
+@media screen and (max-width: 1024px) {
   .footer-chef h3,
   .footer-service h3,
   .footer-schedule h3,
@@ -175,11 +166,7 @@ footer .social-media img {
   line-height: 1.5;
   list-style: disc;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-=======
-@media screen and (max-width: 1200px) {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
+@media screen and (max-width: 1024px) {
   .footer-top ul li {
     font-size: 12px;
   }
@@ -217,16 +204,12 @@ footer .social-media img {
 .address i {
   font-size: 30px;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-=======
-@media screen and (max-width: 1200px) {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
+@media screen and (max-width: 1024px) {
   .address {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .address br {
     display: none;
   }
@@ -261,34 +244,61 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
+@media screen and (max-width: 1024px) {
+  .group-card .card {
+    width: 25%;
+    height: 380px;
+  }
+}
 @media screen and (max-width: 800px) {
   .group-card .card {
-    width: 20%;
-    height: 230px;
+    width: 25%;
+    height: 300px;
   }
 }
 @media screen and (max-width: 620px) {
   .group-card .card {
     width: 40%;
+    height: 280px;
   }
 }
 .group-card .card img {
   width: 100%;
   height: 200px;
 }
+@media screen and (max-width: 1024px) {
+  .group-card .card img {
+    height: 140px;
+  }
+}
 @media screen and (max-width: 800px) {
   .group-card .card img {
-    height: 150px;
+    height: 130px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .group-card .card img {
+    height: 130px;
   }
 }
 .group-card .card p {
   padding: 20px;
   font-size: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .group-card .card p {
+    font-size: 18px;
+  }
+}
 @media screen and (max-width: 800px) {
   .group-card .card p {
-    font-size: 10px;
-    padding: 12px;
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .group-card .card p {
+    font-size: 14px;
   }
 }
 .group-card .card .icon {
@@ -305,9 +315,16 @@ p {
   color: orange;
   font-size: 20px;
 }
+@media screen and (max-width: 1024px) {
+  .group-card .card .icon i {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 800px) {
   .group-card .card .icon i {
     font-size: 10px;
+    margin-bottom: 20px;
   }
 }
 
@@ -321,24 +338,30 @@ header {
 }
 @media screen and (max-width: 620px) {
   header {
-    height: 70%;
+    height: 80%;
   }
 }
 header .bg-img {
-  background-color: rgba(0, 0, 0, 0.637);
-  height: 40%;
-  width: 40%;
+  background-color: rgba(0, 0, 0, 0.578);
+  height: 44%;
+  width: 55%;
   padding: 20px;
   margin-top: 170px;
   color: white;
-  border: 1px solid rgba(0, 0, 0, 0.347);
+  border: 1px solid rgba(0, 0, 0, 0.457);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+@media screen and (max-width: 1024px) {
+  header .bg-img {
+    width: 50%;
+    height: 45%;
+  }
 }
 @media screen and (max-width: 800px) {
   header .bg-img {
-    width: 60%;
-    height: 38%;
-    margin-top: 180px;
+    width: 70%;
+    height: 40%;
+    margin-top: 160px;
     margin-left: -20px;
     padding: 10px;
   }
@@ -348,16 +371,17 @@ header .bg-img {
     width: 70%;
     height: 40%;
     margin-left: -30px;
-    margin-top: 100px;
+    margin-top: 130px;
   }
 }
 header .bg-img .bg-text h1 {
   color: orange;
   font-size: 50px;
 }
-@media screen and (max-width: ) {
+@media screen and (max-width: 1024px) {
   header .bg-img .bg-text h1 {
     font-size: 40px;
+    margin-top: -8px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -367,7 +391,8 @@ header .bg-img .bg-text h1 {
 }
 @media screen and (max-width: 620px) {
   header .bg-img .bg-text h1 {
-    font-size: 20px;
+    font-size: 25px;
+    padding: -15px;
   }
 }
 header .bg-img .bg-text p {
@@ -376,14 +401,22 @@ header .bg-img .bg-text p {
   color: white;
   font-size: 20px;
 }
+@media screen and (max-width: 1024px) {
+  header .bg-img .bg-text p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+}
 @media screen and (max-width: 800px) {
   header .bg-img .bg-text p {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 620px) {
   header .bg-img .bg-text p {
-    font-size: 8px;
+    font-size: 12px;
+    padding: -15px;
+    margin-top: 5px;
   }
 }
 
@@ -457,7 +490,7 @@ header .bg-img .bg-text p {
 }
 @media screen and (max-width: 620px) {
   .sub-tittle h3 {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 
@@ -466,11 +499,11 @@ header .bg-img .bg-text p {
   justify-content: center;
   margin-top: 30px;
   gap: 10px;
-  margin-top: 40px;
+  margin-top: 70px;
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 1024px) {
   .tittle-scedule {
-    gap: 10px;
+    margin-top: 80px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -481,7 +514,11 @@ header .bg-img .bg-text p {
 @media screen and (max-width: 620px) {
   .tittle-scedule {
     margin-top: 50px;
+    gap: 10px;
   }
+}
+.tittle-scedule h1:nth-child(1) {
+  font-size: 40px;
 }
 @media screen and (max-width: 800px) {
   .tittle-scedule h1:nth-child(1) {
@@ -494,6 +531,7 @@ header .bg-img .bg-text p {
   }
 }
 .tittle-scedule h1:nth-child(2) {
+  font-size: 40px;
   color: orange;
 }
 @media screen and (max-width: 800px) {
@@ -510,16 +548,16 @@ header .bg-img .bg-text p {
 .table-schedul {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  margin-top: 30px;
 }
-@media screen and (max-width: ) {
+@media screen and (max-width: 1024px) {
   .table-schedul {
     padding: 25px;
   }
 }
 @media screen and (max-width: 620px) {
   .table-schedul {
-    padding: 15px;
+    margin-top: -10px;
   }
 }
 .table-schedul table {
@@ -528,7 +566,7 @@ header .bg-img .bg-text p {
 }
 @media screen and (max-width: 620px) {
   .table-schedul table {
-    width: 65%;
+    width: 70%;
   }
 }
 
@@ -538,9 +576,14 @@ td {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   font-size: 20px;
 }
+@media screen and (max-width: 800px) {
+  td {
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 620px) {
   td {
-    font-size: 10px;
+    font-size: 12px;
   }
 }
 
@@ -561,6 +604,12 @@ tbody tr:nth-child(3) td:nth-child(1) {
   display: flex;
   justify-content: center;
   gap: 10px;
+  margin-top: 70px;
+}
+@media screen and (max-width: 1024px) {
+  .tittle-cheif {
+    margin-top: 70px;
+  }
 }
 @media screen and (max-width: 800px) {
   .tittle-cheif {
@@ -569,7 +618,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 @media screen and (max-width: 620px) {
   .tittle-cheif {
-    margin-top: 50px;
+    margin-top: 40px;
     gap: 10px;
   }
 }
@@ -639,14 +688,14 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 @media screen and (max-width: 800px) {
   .group-cheif .cheif img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
   }
 }
 @media screen and (max-width: 620px) {
   .group-cheif .cheif img {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
   }
 }
 .group-cheif .cheif .name-cheif {
@@ -663,16 +712,27 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 @media screen and (max-width: 800px) {
   .group-cheif .cheif .name-cheif h3 {
-    font-size: 16px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .group-cheif .cheif .name-cheif h3 {
+    font-size: 18px;
   }
 }
 .group-cheif .cheif .name-cheif p {
   text-align: center;
   font-family: sans-serif;
+  font-size: 18px;
 }
 @media screen and (max-width: 800px) {
   .group-cheif .cheif .name-cheif p {
-    font-size: 10px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .group-cheif .cheif .name-cheif p {
+    font-size: 12px;
   }
 }
 
@@ -680,7 +740,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 60px;
+  margin-top: 70px;
   font-family: sans-serif;
 }
 @media screen and (max-width: 800px) {
@@ -712,6 +772,17 @@ tbody tr:nth-child(3) td:nth-child(1) {
   padding: 40px;
   display: flex;
   justify-content: space-evenly;
+  margin-top: -10px;
+}
+@media screen and (max-width: 1024px) {
+  .group-service {
+    margin-top: -20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .group-service {
+    margin-top: -20px;
+  }
 }
 @media screen and (max-width: 620px) {
   .group-service {
@@ -726,12 +797,12 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 @media screen and (max-width: 800px) {
   .group-service .service {
-    width: 25%;
+    width: 30%;
   }
 }
 @media screen and (max-width: 620px) {
   .group-service .service {
-    width: 30%;
+    width: 29%;
   }
 }
 .group-service .service .service-img {
@@ -747,8 +818,8 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 @media screen and (max-width: 800px) {
   .group-service .service .service-img img {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin-top: 20px;
   }
 }
@@ -775,25 +846,26 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 @media screen and (max-width: 800px) {
   .group-service .service .text-service h3 {
-    font-size: 10px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 620px) {
   .group-service .service .text-service h3 {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 .group-service .service .text-service p {
   text-align: center;
+  font-size: 18px;
 }
 @media screen and (max-width: 800px) {
   .group-service .service .text-service p {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 620px) {
   .group-service .service .text-service p {
-    font-size: 7px;
+    font-size: 9px;
   }
 }
 .group-service .service .service-icon {
@@ -811,18 +883,8 @@ tbody tr:nth-child(3) td:nth-child(1) {
     font-size: 13px;
   }
 }
-@media screen and (max-width: 620px) {
-  .group-service .service .service-icon .number {
-    font-size: 10px;
-  }
-}
 @media screen and (max-width: 800px) {
   .group-service .service .service-icon .icon i {
     font-size: 12px;
-  }
-}
-@media screen and (max-width: 620px) {
-  .group-service .service .service-icon .icon i {
-    font-size: 9px;
   }
 }/*# sourceMappingURL=about-us.css.map */

@@ -108,18 +108,13 @@ footer .social-media img {
     gap: 30px;
   }
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-  .footer-top br {
-=======
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .footer-top {
     gap: 30px;
   }
 }
 @media screen and (max-width: 620px) {
   .footer-top .name-pnc {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
     display: none;
   }
 }
@@ -157,11 +152,7 @@ footer .social-media img {
 .footer-pages h3 {
   text-decoration: underline;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-=======
-@media screen and (max-width: 1200px) {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
+@media screen and (max-width: 1024px) {
   .footer-chef h3,
   .footer-service h3,
   .footer-schedule h3,
@@ -175,11 +166,7 @@ footer .social-media img {
   line-height: 1.5;
   list-style: disc;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-=======
-@media screen and (max-width: 1200px) {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
+@media screen and (max-width: 1024px) {
   .footer-top ul li {
     font-size: 12px;
   }
@@ -217,16 +204,12 @@ footer .social-media img {
 .address i {
   font-size: 30px;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-=======
-@media screen and (max-width: 1200px) {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
+@media screen and (max-width: 1024px) {
   .address {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .address br {
     display: none;
   }
@@ -332,7 +315,7 @@ p {
   padding-right: 50px;
   rotate: 10deg;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .main-content img {
     width: 400px;
     height: 300px;
@@ -350,7 +333,7 @@ p {
   font-family: serif;
   font-size: 50px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .main-content .text-content h2 {
     font-size: 40px;
   }
@@ -403,7 +386,7 @@ p {
   color: orange;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .group-text h1 {
     font-size: 50px;
   }
@@ -461,7 +444,7 @@ p {
   width: 18%;
   border-radius: 20px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .content-menu .card-menu {
     width: 16%;
     margin-top: 40px;
@@ -485,7 +468,7 @@ p {
   padding-bottom: 30px;
   width: 70%;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .content-menu .group-card {
     width: 100%;
     font-size: 13px;
@@ -505,7 +488,7 @@ p {
   margin-top: -90px;
   margin-left: -70px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .content-menu .group-img img {
     width: 180px;
     margin-top: -70px;
@@ -531,7 +514,7 @@ p {
   background-color: orange;
   color: white;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .content-menu .group-img button {
     display: none;
   }
@@ -552,7 +535,7 @@ p {
   margin-left: -50px;
   margin-top: -80px;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
   .content-menu .card-menu:nth-child(3) .group-img:nth-child(1) img {
     width: 150px;
     margin-top: -60px;
