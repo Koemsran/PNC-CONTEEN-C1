@@ -6,57 +6,71 @@
     @include flex;
     width: 100%;
     gap: 15px;
+    // mobile
+    @include responsive("Mobile") {
+        flex-wrap: wrap;
+        
+    }
 
     .card {
         width: 22%;
-        height: 200px;
+        height: 400px;
         box-shadow: $box-shadow-color;
         background-color: $sub-color1;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
+        @include responsive("Tablet") {
+            width: 20%;
+            height: 230px;
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            width: 40%;
+            
+        }
+
         img {
             width: 100%;
             height: 200px;
+
+            @include responsive("Tablet") {
+                height: 150px;
+            }
+
         }
 
         p {
             padding: 20px;
+            font-size: 20px;
+
+            @include responsive("Tablet") {
+                font-size: 10px;
+                padding: 12px;
+            }
         }
 
         .icon {
             margin-left: 20px;
             margin-bottom: 10px;
 
+            @include responsive("Tablet") {
+                margin-left: 10px;
+                margin-bottom: 5px;
+            }
+
             i {
                 color: $primary-color;
+                font-size: 20px;
+
+                @include responsive("Tablet") {
+                    font-size: 10px;
+                }
             }
 
         }
 
-    }
-}
-
-@media (min-width:720px) and (max-width: 1024px) {
-    .group-card {    
-        .card {
-            width: 22%;
-            height: 300px;
-            img {
-                width: 100%;
-                height: 180px;
-            }
-    
-            p {
-                padding: 20px;
-                font-size: 13px;
-            }
-    
-            .icon i{
-                font-size: 15px;
-            }
-    
-        }
     }
 }

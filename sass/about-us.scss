@@ -6,22 +6,56 @@ header {
     background-image: url(../images/background/pnc.jpg);
     height: 100%;
     padding: 50px;
+    @include responsive("Mobile") {
+        height: 70%;
+    }
+
 
     .bg-img {
         background-color: rgba(0, 0, 0, 0.637);
         height: 40%;
-        width: 50%;
+        width: 40%;
         padding: 20px;
         margin-top: 170px;
         color: $sub-color1;
         // margin-left: 30px;
-        border: 1px solid $sub-color8;
+        border: 1px solid rgba(0, 0, 0, 0.347);
         box-shadow: $box-shadow-color;
+
+        @include responsive("Tablet") {
+            width: 60%;
+            height: 38%;
+            margin-top: 180px;
+            margin-left: -20px;
+            padding: 10px;
+
+        }
+
+        @include responsive("Mobile") {
+            width: 70%;
+            height: 40%;
+            margin-left: -30px;
+            margin-top: 100px;
+        }
+
 
         .bg-text {
             h1 {
                 color: $primary-color;
                 font-size: 50px;
+                @include responsive("laptop") {
+                    font-size: 40px;
+
+                }
+
+                @include responsive("Tablet") {
+                    font-size: 35px;
+                }
+
+                // mobile
+                @include responsive("Mobile") {
+                    font-size: 20px;
+                }
 
             }
 
@@ -29,6 +63,18 @@ header {
                 margin-top: 10px;
                 line-height: 1.5;
                 color: $sub-color1;
+                font-size: 20px;
+
+                @include responsive("Tablet") {
+                    font-size: 13px;
+                }
+
+                // mobile
+                @include responsive("Mobile") {
+                    font-size: 8px;
+                }
+
+
 
             }
         }
@@ -40,9 +86,27 @@ header {
     margin-top: $font-size1;
     text-align: center;
 
+    @include responsive("Tablet") {
+        margin-top: 20px;
+    }
+
+    // mobile
+    @include responsive("Mobile") {
+        margin-top: 10px;
+    }
+
     h1:nth-child(1) {
         font-family: serif;
         font-size: 40px;
+
+        @include responsive("Tablet") {
+            font-size: 25px;
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            font-size: 20px;
+        }
     }
 
 
@@ -50,6 +114,15 @@ header {
         color: $primary-color;
         font-size: 45px;
         font-family: $font-family1;
+
+        @include responsive("Tablet") {
+            font-size: 35px;
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            font-size: 25px;
+        }
 
     }
 }
@@ -65,17 +138,73 @@ header {
     background-color: $sub-color3;
     color: $sub-color1;
 
+    @include responsive("Tablet") {
+        width: 18%;
+        padding: 5px;
+    }
+
+    h3 {
+        @include responsive("Tablet") {
+            font-size: 15px;
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            font-size: 10px;
+        }
+    }
+
 
 }
 
 
 .tittle-scedule {
     @include flex;
-    gap: 15px;
-    padding-top: 30px;
+    gap: 10px;
+    // padding-top: 30px;
+    margin-top: 40px;
+
+    // mobile
+    @include responsive("Mobile") {
+        gap: 10px;
+
+    }
+
+    @include responsive("Tablet") {
+        margin-top: 50px;
+    }
+
+    // mobile
+    @include responsive("Mobile") {
+        margin-top: 50px;
+
+    }
+
+    h1:nth-child(1) {
+        @include responsive("Tablet") {
+            font-size: 30px;
+
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            font-size: 25px;
+
+        }
+    }
 
     h1:nth-child(2) {
         color: $primary-color;
+
+        @include responsive("Tablet") {
+            font-size: 30px;
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            font-size: 25px;
+
+        }
     }
 }
 
@@ -85,9 +214,26 @@ header {
     justify-content: center;
     padding: 50px;
 
+    @include responsive("laptop") {
+        padding: 25px;
+    }
+
+    // mobile
+    @include responsive("Mobile") {
+        padding: 15px;
+
+    }
+
+
     table {
         width: 60%;
         border-collapse: collapse;
+
+        // mobile
+        @include responsive("Mobile") {
+            width: 65%;
+
+        }
 
     }
 
@@ -98,6 +244,12 @@ td {
     border: 1px solid;
     padding: 10px;
     box-shadow: $box-shadow-color;
+    font-size: 20px;
+
+    // mobile
+    @include responsive("Mobile") {
+        font-size: 10px;
+    }
 }
 
 tbody tr:nth-child(1) td:nth-child(1) {
@@ -117,12 +269,50 @@ tbody tr:nth-child(3) td:nth-child(1) {
 .tittle-cheif {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
+
+    
+
+    @include responsive("Tablet") {
+        margin-top: 35px;
+    }
+
+    // mobile
+    @include responsive("Mobile") {
+        margin-top: 50px;
+        gap: 10px;
+
+    }
+
+    h1:nth-child(1) {
+        font-size: 40px;
+        @include responsive("Tablet") {
+            font-size: 30px;
+
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            font-size: 25px;
+
+        }
+    }
 
 
 
     h1:nth-child(2) {
+        font-size: 40px;
         color: $primary-color;
+
+        @include responsive("Tablet") {
+            font-size: 30px;
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            font-size: 25px;
+
+        }
     }
 }
 
@@ -134,6 +324,13 @@ tbody tr:nth-child(3) td:nth-child(1) {
     justify-content: space-evenly;
     padding-top: 30px;
 
+    // mobile
+    @include responsive("Mobile") {
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
+
     .cheif {
         width: 18%;
         display: flex;
@@ -141,12 +338,34 @@ tbody tr:nth-child(3) td:nth-child(1) {
         justify-content: space-evenly;
         align-items: center;
 
+        @include responsive("Tablet") {
+            width: 20%
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            width: 40%;
+
+        }
+
         img {
             width: 170px;
             height: 170px;
             border: 5px solid $secondary-color;
             border-radius: 500px;
             box-shadow: $box-shadow-color;
+
+            @include responsive("Tablet") {
+                width: 120px;
+                height: 120px;
+            }
+
+            // mobile
+            @include responsive("Mobile") {
+                width: 150px;
+                height: 150px;
+
+            }
         }
 
         .name-cheif {
@@ -154,17 +373,29 @@ tbody tr:nth-child(3) td:nth-child(1) {
             flex-direction: column;
             gap: 10px;
 
+
             h3 {
                 padding-top: 15px;
                 text-align: center;
                 color: $secondary-color;
                 font-family: $font-family1;
                 font-size: 25px;
+
+                @include responsive("Tablet") {
+                    font-size: 16px;
+
+                }
             }
 
             p {
                 text-align: center;
                 font-family: sans-serif;
+
+                @include responsive("Tablet") {
+                    font-size: 10px;
+
+                }
+
             }
 
 
@@ -175,9 +406,42 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 
 .tittle-service {
-    text-align: center;
-    text-decoration: underline;
-    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 60px;
+    font-family: sans-serif;
+
+    h1:nth-child(1) {
+        @include responsive("Tablet") {
+            font-size: 30px;
+
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            font-size: 25px;
+
+        }
+    }
+
+
+    h1:nth-child(2) {
+        color: orange;
+
+        @include responsive("Tablet") {
+            font-size: 30px;
+
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            font-size: 25px;
+
+        }
+
+    }
+
 }
 
 .group-service {
@@ -186,24 +450,58 @@ tbody tr:nth-child(3) td:nth-child(1) {
     display: flex;
     justify-content: space-evenly;
 
+    // mobile
+    @include responsive("Mobile") {
+        margin-top: -20px;
+
+    }
+
     .service {
-        width: 22%;
+        width: 25%;
         height: auto;
         border: 2px solid $secondary-color;
         background-color: $sub-color1;
 
+        @include responsive("Tablet") {
+            width: 25%;
+
+        }
+
+        // mobile
+        @include responsive("Mobile") {
+            width: 30%;
+
+
+        }
+
 
         .service-img {
-
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
 
+
+
             img {
-                width: $font-size10;
-                height: $font-size10;
+                width: 100px;
+                height: 100px;
                 margin-top: $font-size8;
+
+                @include responsive("Tablet") {
+                    width: 50px;
+                    height: 50px;
+                    margin-top: 20px;
+
+                }
+
+                // mobile
+                @include responsive("Mobile") {
+                    width: 40px;
+                    height: 40px;
+                    margin-top: 10px;
+
+                }
 
             }
         }
@@ -214,12 +512,41 @@ tbody tr:nth-child(3) td:nth-child(1) {
             flex-direction: column;
             gap: 8px;
 
+            // mobile
+            @include responsive("Mobile") {
+                gap: 5px;
+
+            }
+
+
             h3 {
                 text-align: center;
+
+                @include responsive("Tablet") {
+                    font-size: 10px;
+
+                }
+
+                // mobile
+                @include responsive("Mobile") {
+                    font-size: 8px;
+
+                }
             }
 
             p {
                 text-align: center;
+
+                @include responsive("Tablet") {
+                    font-size: 10px;
+
+                }
+
+                // mobile
+                @include responsive("Mobile") {
+                    font-size: 7px;
+
+                }
             }
         }
 
@@ -232,66 +559,34 @@ tbody tr:nth-child(3) td:nth-child(1) {
                 color: $secondary-color;
                 font-size: 20px;
                 font-weight: bold;
+
+                @include responsive("Tablet") {
+                    font-size: 13px;
+
+                }
+
+                // mobile
+                @include responsive("Mobile") {
+                    font-size: 10px;
+
+                }
+
+            }
+
+            .icon i {
+                @include responsive("Tablet") {
+                    font-size: 12px;
+
+                }
+
+                // mobile
+                @include responsive("Mobile") {
+                    font-size: 9px;
+
+                }
             }
         }
 
     }
 
-}
-
-
-
-@media (min-width:720px) and (max-width: 1024px) {
-
-
-
-    //Navbar
-
-
-
-    //Header
-    header {
-        height: 90%;
-
-        .bg-img {
-            width: 60%;
-            height: 45%;
-            margin-left: -20px;
-            margin-top: 140px;
-
-            .bg-text h1 {
-                font-size: 30px;
-            }
-
-            .bg-text p {
-                font-size: 14px;
-            }
-
-        }
-
-    }
-
-
-    .titlle-menu {
-        // margin-top: 40px;
-        margin-top: 35px;
-
-        h1:nth-child(1) {
-            font-family: serif;
-            font-size: 30px;
-        }
-
-        h1:nth-child(2) {
-            font-size: 35px;
-
-        }
-    }
-
-    .sub-tittle {
-        width: 15%;
-        padding: 5px;
-        h3{
-            font-size: 13px;
-        }
-    }
 }

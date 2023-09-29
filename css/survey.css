@@ -87,12 +87,12 @@ footer .social-media img {
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 800px) {
   .footer-top {
     gap: 30px;
   }
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 800px) {
   .footer-top br {
     display: none;
   }
@@ -126,7 +126,7 @@ footer .social-media img {
 .footer-pages h3 {
   text-decoration: underline;
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 800px) {
   .footer-chef h3,
   .footer-service h3,
   .footer-schedule h3,
@@ -140,7 +140,7 @@ footer .social-media img {
   line-height: 1.5;
   list-style: disc;
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 800px) {
   .footer-top ul li {
     font-size: 12px;
   }
@@ -178,7 +178,7 @@ footer .social-media img {
 .address i {
   font-size: 30px;
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 800px) {
   .address {
     font-size: 12px;
   }
