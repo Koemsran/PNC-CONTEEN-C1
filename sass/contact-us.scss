@@ -74,6 +74,12 @@
         justify-content: center;
         margin-left: 0px;
     }
+    @include responsive('Tablet'){
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
 
 }
 
@@ -84,8 +90,14 @@
     flex-direction: column;
     gap: $font-size6;
     padding: $font-size14;
-    margin-bottom: 110px;
-
+    margin-top: -127px;
+    @include responsive('Tablet'){
+        margin-top: -290px;
+    }
+    @include responsive('Mobile'){
+        margin-top: 0;
+    }
+    
     .contact-card1 {
         @include flex1;
         width: 100%;
@@ -105,20 +117,16 @@
 
 
 .card .icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex2;
+    height: $font-size1;
+    width: $font-size1;
     color: rgb(146, 96, 3);
     font-size: $font-size3;
     gap: $font-size14;
     background-color: rgba(128, 128, 128, 0.384);
     border-radius: $font-size8;
-    height: $font-size1;
-    width: $font-size1;
     padding: $font-size21;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
 
@@ -144,7 +152,6 @@
     text-align: center;
     color: $sub-color1;
     padding: 7px;
-
     font-weight: bold;
 
 }

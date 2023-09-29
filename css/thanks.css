@@ -11,8 +11,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 60%;
-  height: 70vh;
+  width: auto;
+  padding: 30px;
+  height: auto;
   background-color: white;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   flex-direction: column;
@@ -30,6 +31,11 @@ body {
 .main-thanks .thanks-top h1 {
   font-size: 50px;
   font-family: sans-serif;
+}
+@media screen and (max-width: 620px) {
+  .main-thanks .thanks-top h1 {
+    font-size: 40px;
+  }
 }
 .main-thanks .thanks-top p {
   margin-top: -20px;
@@ -58,12 +64,19 @@ body {
   background-color: rgba(7, 146, 7, 0.884);
   font-family: sans-serif;
 }
+@media screen and (max-width: 620px) {
+  .main-thanks .thanks-bottom .card-right a {
+    font-size: 13px;
+  }
+}
 .main-thanks .thanks-bottom .card-left,
 .main-thanks .thanks-bottom .card-right {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 28%;
+  width: auto;
+  padding-left: 30px;
+  padding-right: 30px;
   height: 150px;
   margin-top: 30px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -73,4 +86,10 @@ body {
 .main-thanks .thanks-bottom .card-right h3 {
   margin-top: 30px;
   font-family: sans-serif;
+}
+@media screen and (max-width: 620px) {
+  .main-thanks .thanks-bottom .card-left h3,
+  .main-thanks .thanks-bottom .card-right h3 {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=thanks.css.map */

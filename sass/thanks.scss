@@ -1,5 +1,6 @@
 @import './components/group-variable';
 @import './mixins/group-mixins';
+@import './mixins/group-responsive';
 
 body {
     @include centered;
@@ -10,8 +11,9 @@ body {
 
 .main-thanks {
     @include centered;
-    width: 60%;
-    height: 70vh;
+    width: auto;
+    padding: 30px;
+    height: auto;
     background-color: white;
     box-shadow: $box-shadow-color;
     flex-direction: column;
@@ -28,6 +30,9 @@ body {
         h1 {
             font-size: 50px;
             font-family: sans-serif;
+            @include responsive('Mobile'){
+                font-size: 40px;
+            }
         }
 
         p {
@@ -62,6 +67,9 @@ body {
                 text-decoration: none;
                 background-color: rgba(7, 146, 7, 0.884);
                 font-family: sans-serif;
+                @include responsive('Mobile'){
+                    font-size: 13px;
+                }
             }
 
         }
@@ -69,7 +77,9 @@ body {
         .card-left,
         .card-right {
             @include flex2;
-            width: 28%;
+            width: auto;
+            padding-left: 30px;
+            padding-right: 30px;
             height: 150px;
             margin-top: 30px;
             box-shadow: $box-shadow-color;
@@ -78,6 +88,9 @@ body {
             h3 {
                 margin-top: 30px;
                 font-family: sans-serif;
+                @include responsive('Mobile'){
+                    font-size: 16px;
+                }
             }
 
         }

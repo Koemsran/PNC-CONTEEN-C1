@@ -49,6 +49,12 @@ body {
   width: 80px;
   height: 55px;
 }
+@media screen and (max-width: 800px) {
+  .navbar .nav-center {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 .navbar .nav-center ul {
   display: flex;
   gap: 50px;
@@ -233,6 +239,12 @@ form {
   margin-left: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+@media screen and (max-width: 800px) {
+  form {
+    width: 100%;
+    margin-top: -60px;
+  }
+}
 @media screen and (max-width: 620px) {
   form {
     font-size: 15px;
@@ -242,14 +254,20 @@ form {
 form .email-number,
 form .student {
   display: flex;
-  gap: 50px;
+  gap: 40px;
 }
-form .submit {
-  margin-left: 380px;
+@media screen and (max-width: 800px) {
+  form .email-number,
+  form .student {
+    gap: 10px;
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 620px) {
-  form .submit {
-    margin-left: 0;
+  form .email-number,
+  form .student {
+    gap: 10px;
+    flex-direction: row;
   }
 }
 form .submit a {
@@ -261,14 +279,29 @@ form .submit a {
   color: white;
   font-weight: bold;
 }
+@media screen and (max-width: 800px) {
+  form .submit a {
+    margin-left: 0;
+  }
+}
 
 .input h3 {
   text-align: center;
   font-size: 30px;
 }
+@media screen and (max-width: 800px) {
+  .input h3 {
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 620px) {
   .input h3 {
     font-size: 25px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .input p {
+    display: none;
   }
 }
 @media screen and (max-width: 620px) {
@@ -284,6 +317,11 @@ textarea {
   background: white;
   border: 1px solid rgba(128, 128, 128, 0.411);
 }
+@media screen and (max-width: 800px) {
+  textarea {
+    width: 100%;
+  }
+}
 
 input {
   width: auto;
@@ -291,6 +329,11 @@ input {
   padding: 7px;
   background: white;
   border: 1px solid rgba(128, 128, 128, 0.454);
+}
+@media screen and (max-width: 800px) {
+  input {
+    width: 100%;
+  }
 }
 
 .main-header {
@@ -372,13 +415,31 @@ input {
     margin-left: 0px;
   }
 }
+@media screen and (max-width: 800px) {
+  .main-contact {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
 
 .contact {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 10px;
-  margin-bottom: 110px;
+  margin-top: -127px;
+}
+@media screen and (max-width: 800px) {
+  .contact {
+    margin-top: -290px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .contact {
+    margin-top: 0;
+  }
 }
 .contact .contact-card1 {
   display: flex;
@@ -396,19 +457,16 @@ input {
 
 .card .icon {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  height: 40px;
+  width: 40px;
   color: rgb(146, 96, 3);
   font-size: 25px;
   gap: 10px;
   background-color: rgba(128, 128, 128, 0.384);
   border-radius: 30px;
-  height: 40px;
-  width: 40px;
   padding: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .card {
