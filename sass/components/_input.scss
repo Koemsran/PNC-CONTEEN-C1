@@ -2,14 +2,17 @@
 @import '../mixins/group-mixins';
 
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include flex2;
     gap: 10px;
     background: $sub-color1;
     padding: 35px;
     margin-left: 10px;
     box-shadow: $box-shadow-color;
+
+    @include responsive('Mobile') {
+        font-size: 15px;
+        margin-left: 0;
+    }
 
     .email-number,
     .student {
@@ -20,33 +23,53 @@ form {
     .submit {
         margin-left: 380px;
 
+        @include responsive('Mobile') {
+            margin-left: 0;
+        }
+
         a {
             @include btn;
             padding-left: 20px;
             padding-right: 20px;
             color: $sub-color1;
             font-weight: bold;
+
         }
     }
 
 }
 
-.input h3 {
-    text-align: center;
-    font-size: $font-size8;
+.input {
+    h3 {
+        text-align: center;
+        font-size: $font-size8;
+
+        @include responsive('Mobile') {
+            font-size: 25px;
+        }
+
+    }
+
+    @include responsive('Mobile') {
+        p {
+            display: none;
+        }
+    }
 
 }
 
 textarea {
-    width: 450px;
+    width: auto;
     @include input-format;
 
 }
 
 input {
-    width: $font-size13;
+    width: auto;
     border-radius: $font-size21;
     padding: $font-size20;
-    background: white;
+    background: $sub-color1;
     border: 1px solid rgba(128, 128, 128, 0.454);
+
+
 }

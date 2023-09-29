@@ -108,7 +108,11 @@ footer .social-media img {
     gap: 30px;
   }
 }
+<<<<<<< HEAD
 @media screen and (max-width: 1024px) {
+=======
+@media screen and (max-width: 1200px) {
+>>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .footer-top {
     gap: 30px;
   }
@@ -152,7 +156,11 @@ footer .social-media img {
 .footer-pages h3 {
   text-decoration: underline;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 1024px) {
+=======
+@media screen and (max-width: 1200px) {
+>>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .footer-chef h3,
   .footer-service h3,
   .footer-schedule h3,
@@ -166,7 +174,11 @@ footer .social-media img {
   line-height: 1.5;
   list-style: disc;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 1024px) {
+=======
+@media screen and (max-width: 1200px) {
+>>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .footer-top ul li {
     font-size: 12px;
   }
@@ -204,7 +216,11 @@ footer .social-media img {
 .address i {
   font-size: 30px;
 }
+<<<<<<< HEAD
 @media screen and (max-width: 1024px) {
+=======
+@media screen and (max-width: 1200px) {
+>>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .address {
     font-size: 12px;
   }
@@ -233,6 +249,12 @@ form {
   margin-left: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+@media screen and (max-width: 620px) {
+  form {
+    font-size: 15px;
+    margin-left: 0;
+  }
+}
 form .email-number,
 form .student {
   display: flex;
@@ -240,6 +262,11 @@ form .student {
 }
 form .submit {
   margin-left: 380px;
+}
+@media screen and (max-width: 620px) {
+  form .submit {
+    margin-left: 0;
+  }
 }
 form .submit a {
   background-color: orange;
@@ -255,9 +282,19 @@ form .submit a {
   text-align: center;
   font-size: 30px;
 }
+@media screen and (max-width: 620px) {
+  .input h3 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .input p {
+    display: none;
+  }
+}
 
 textarea {
-  width: 450px;
+  width: auto;
   border-radius: 3px;
   padding: 7px;
   background: white;
@@ -265,7 +302,7 @@ textarea {
 }
 
 input {
-  width: 200px;
+  width: auto;
   border-radius: 3px;
   padding: 7px;
   background: white;
@@ -288,10 +325,8 @@ input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 30%;
-  height: 30%;
   margin: 80px;
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 150px;
   background-color: rgba(0, 0, 0, 0.466);
   color: white;
@@ -301,6 +336,11 @@ input {
 .bg-header h2 {
   font-family: serif;
   font-size: 35px;
+}
+@media screen and (max-width: 620px) {
+  .bg-header h2 {
+    font-size: 30px;
+  }
 }
 
 .text-h1 {
@@ -312,10 +352,20 @@ input {
   color: #33A6EA;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+@media screen and (max-width: 620px) {
+  .text-h1 h1 {
+    font-size: 40px;
+  }
+}
 .text-h1 h3 {
   margin-top: 10px;
   font-size: 40px;
   font-family: serif;
+}
+@media screen and (max-width: 620px) {
+  .text-h1 h3 {
+    font-size: 30px;
+  }
 }
 
 .main-contact {
@@ -328,6 +378,15 @@ input {
   padding: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   background-color: #F5EEEE;
+}
+@media screen and (max-width: 620px) {
+  .main-contact {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
 }
 
 .contact {
