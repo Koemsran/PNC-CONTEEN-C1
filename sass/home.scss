@@ -81,6 +81,8 @@
     padding-left: 100px;
     @include responsive('Mobile') {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     img {
@@ -167,18 +169,6 @@
         display: flex;
         gap: 10px;
         font-family: $font-family1;
-
-        h1 {
-            font-size: 60px;
-            color: $sub-color3;
-            @include responsive('Tablet'){
-                font-size: 30px;
-            }
-            @include responsive('Mobile'){
-                font-size: 40px;
-            }
-            
-        }
 
     }
 

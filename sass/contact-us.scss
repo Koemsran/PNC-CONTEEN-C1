@@ -13,19 +13,21 @@
 
 .bg-header {
     @include flex1;
-    width: 30%;
-    height: 30%;
     margin: 80px;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 150px;
     background-color: rgba(0, 0, 0, 0.466);
     color: $sub-color1;
     border: 1px solid $sub-color8;
     box-shadow: $box-shadow-color;
 
+
     h2 {
         font-family: $font-family3;
         font-size: 35px;
+        @include responsive('Mobile'){
+            font-size: 30px ;
+        }
     }
 }
 
@@ -33,16 +35,25 @@
     display: flex;
     gap: $font-size5;
     font-size: $font-size8;
-
+    
+    
     h1 {
         color: $secondary-color;
         font-family: $font-family1;
+        @include responsive('Mobile'){
+            font-size: 40px ;
+        }
+    
     }
 
     h3 {
         margin-top: 10px;
         font-size: 40px;
         font-family: $font-family3;
+        @include responsive('Mobile'){
+            font-size: 30px ;
+        }
+        
     }
 
 }
@@ -56,6 +67,13 @@
     padding: 20px;
     box-shadow: $box-shadow-color;
     background-color: $sub-color6;
+    @include responsive('Mobile'){
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
 
 }
 
@@ -133,4 +151,5 @@
 
 .map {
     margin-top: 50px;
+
 }

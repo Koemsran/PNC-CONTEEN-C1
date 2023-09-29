@@ -108,10 +108,6 @@ footer .social-media img {
     gap: 30px;
   }
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-  .footer-top br {
-=======
 @media screen and (max-width: 1200px) {
   .footer-top {
     gap: 30px;
@@ -119,7 +115,6 @@ footer .social-media img {
 }
 @media screen and (max-width: 620px) {
   .footer-top .name-pnc {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
     display: none;
   }
 }
@@ -157,11 +152,7 @@ footer .social-media img {
 .footer-pages h3 {
   text-decoration: underline;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
   .footer-chef h3,
   .footer-service h3,
   .footer-schedule h3,
@@ -175,11 +166,7 @@ footer .social-media img {
   line-height: 1.5;
   list-style: disc;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
   .footer-top ul li {
     font-size: 12px;
   }
@@ -217,11 +204,7 @@ footer .social-media img {
 .address i {
   font-size: 30px;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 800px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> feb7920125e7ad71ca94053afb5e12ad5b98e909
   .address {
     font-size: 12px;
   }
@@ -326,6 +309,8 @@ p {
 @media screen and (max-width: 620px) {
   .main-content {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 .main-content img {
@@ -422,20 +407,6 @@ p {
   display: flex;
   gap: 10px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-}
-.group-text .text h1 {
-  font-size: 60px;
-  color: black;
-}
-@media screen and (max-width: 800px) {
-  .group-text .text h1 {
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 620px) {
-  .group-text .text h1 {
-    font-size: 40px;
-  }
 }
 
 .content-menu {
