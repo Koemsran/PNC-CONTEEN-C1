@@ -114,11 +114,7 @@ footer .social-media img {
     gap: 30px;
   }
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .footer-top {
     gap: 30px;
   }
@@ -162,11 +158,7 @@ footer .social-media img {
 .footer-pages h3 {
   text-decoration: underline;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .footer-chef h3,
   .footer-service h3,
   .footer-schedule h3,
@@ -180,11 +172,7 @@ footer .social-media img {
   line-height: 1.5;
   list-style: disc;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .footer-top ul li {
     font-size: 12px;
   }
@@ -222,16 +210,12 @@ footer .social-media img {
 .address i {
   font-size: 30px;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .address {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .address br {
     display: none;
   }
@@ -266,7 +250,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .group-card .card {
     width: 25%;
     height: 380px;
@@ -288,7 +272,7 @@ p {
   width: 100%;
   height: 200px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .group-card .card img {
     height: 140px;
   }
@@ -307,7 +291,7 @@ p {
   padding: 20px;
   font-size: 20px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .group-card .card p {
     font-size: 18px;
   }
@@ -337,7 +321,7 @@ p {
   color: orange;
   font-size: 20px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .group-card .card .icon i {
     margin-bottom: 20px;
     font-size: 16px;
@@ -373,7 +357,7 @@ header .bg-img {
   border: 1px solid rgba(0, 0, 0, 0.457);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   header .bg-img {
     width: 50%;
     height: 45%;
@@ -400,11 +384,7 @@ header .bg-img .bg-text h1 {
   color: orange;
   font-size: 50px;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   header .bg-img .bg-text h1 {
     font-size: 40px;
     margin-top: -8px;
@@ -427,7 +407,7 @@ header .bg-img .bg-text p {
   color: white;
   font-size: 20px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   header .bg-img .bg-text p {
     font-size: 16px;
     margin-top: 8px;
@@ -527,7 +507,7 @@ header .bg-img .bg-text p {
   gap: 10px;
   margin-top: 70px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .tittle-scedule {
     margin-top: 80px;
   }
@@ -576,11 +556,7 @@ header .bg-img .bg-text p {
   justify-content: center;
   margin-top: 30px;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .table-schedul {
     padding: 25px;
   }
@@ -636,7 +612,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
   gap: 10px;
   margin-top: 70px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .tittle-cheif {
     margin-top: 70px;
   }
@@ -804,7 +780,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
   justify-content: space-evenly;
   margin-top: -10px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .group-service {
     margin-top: -20px;
   }
@@ -888,6 +864,11 @@ tbody tr:nth-child(3) td:nth-child(1) {
   text-align: center;
   font-size: 18px;
 }
+@media screen and (max-width: 1200px) {
+  .group-service .service .text-service p {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 800px) {
   .group-service .service .text-service p {
     font-size: 14px;
@@ -895,7 +876,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 @media screen and (max-width: 620px) {
   .group-service .service .text-service p {
-    font-size: 9px;
+    font-size: 10px;
   }
 }
 .group-service .service .service-icon {
@@ -913,8 +894,18 @@ tbody tr:nth-child(3) td:nth-child(1) {
     font-size: 13px;
   }
 }
+@media screen and (max-width: 620px) {
+  .group-service .service .service-icon .number {
+    font-size: 10px;
+  }
+}
 @media screen and (max-width: 800px) {
   .group-service .service .service-icon .icon i {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .group-service .service .service-icon .icon i {
+    font-size: 10px;
   }
 }/*# sourceMappingURL=about-us.css.map */

@@ -25,13 +25,23 @@ body {
         img {
             width: 80px;
             margin-top: 50px;
+            @include responsive("Tablet") {
+                width: 70px;
+            }
+            @include responsive("Mobile") {
+                width: 60px;
+                margin-top: -8px;
+            }
         }
 
         h1 {
             font-size: 50px;
             font-family: sans-serif;
+            @include responsive("Tablet") {
+                font-size: 28px;
+            }
             @include responsive('Mobile'){
-                font-size: 40px;
+                font-size: 25px;
             }
         }
 
@@ -40,6 +50,13 @@ body {
             text-align: center;
             line-height: 1.5;
             font-family: sans-serif;
+            @include responsive("Tablet") {
+                font-size: 12px;
+            }
+            @include responsive("Mobile") {
+                font-size: 12px;
+                margin-top: -10px;
+            }
         }
     }
 
@@ -47,18 +64,32 @@ body {
         @include centered;
         width: 100%;
         gap: 30px;
+        @include responsive("Mobile") {
+            width: 80%;
+        }
 
         .card-left {
+            @include responsive("Tablet") {
+                margin-left: -20px;
+            }
+            @include responsive("Mobile") {
+                margin-left: -15px;
+            }
             .media i {
                 font-size: 30px;
                 margin-top: 10px;
                 color: black;
+                @include responsive("Mobile") {
+                    font-size: 20px;
+                }
             }
 
         }
 
         .card-right {
-
+            @include responsive("Mobile") {
+                // margin-left: -20px;
+            }
             a {
                 margin-top: 10px;
                 padding: 10px;
@@ -69,6 +100,7 @@ body {
                 font-family: sans-serif;
                 @include responsive('Mobile'){
                     font-size: 13px;
+                    padding: 8px;
                 }
             }
 
@@ -84,12 +116,18 @@ body {
             margin-top: 30px;
             box-shadow: $box-shadow-color;
             background-color: $sub-color6;
+            @include responsive("Mobile") {
+                height: 130px;
+                width: 150px;
+                // margin-left: -20px;
+            }
 
             h3 {
                 margin-top: 30px;
                 font-family: sans-serif;
                 @include responsive('Mobile'){
-                    font-size: 16px;
+                    font-size: 12px;
+
                 }
             }
 

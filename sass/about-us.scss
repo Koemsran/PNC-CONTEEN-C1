@@ -525,6 +525,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
         // mobile
         @include responsive("Mobile") {
             width: 29%
+            
 
 
         }
@@ -592,6 +593,10 @@ tbody tr:nth-child(3) td:nth-child(1) {
             p {
                 text-align: center;
                 font-size: 18px;
+                @include responsive("laptop") {
+                    font-size: 16px;
+
+                }
                 @include responsive("Tablet") {
                     font-size: 14px;
 
@@ -599,7 +604,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
                 // mobile
                 @include responsive("Mobile") {
-                    font-size: 9px;
+                    font-size: 10px;
 
                 }
             }
@@ -622,7 +627,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
                 // mobile
                 @include responsive("Mobile") {
-                    // font-size: 10px;
+                    font-size: 10px;
 
                 }
 
@@ -636,7 +641,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
                 // mobile
                 @include responsive("Mobile") {
-                    // font-size: 9px;
+                    font-size: 10px;
 
                 }
             }

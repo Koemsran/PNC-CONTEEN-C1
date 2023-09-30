@@ -114,11 +114,7 @@ footer .social-media img {
     gap: 30px;
   }
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .footer-top {
     gap: 30px;
   }
@@ -162,11 +158,7 @@ footer .social-media img {
 .footer-pages h3 {
   text-decoration: underline;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .footer-chef h3,
   .footer-service h3,
   .footer-schedule h3,
@@ -180,11 +172,7 @@ footer .social-media img {
   line-height: 1.5;
   list-style: disc;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .footer-top ul li {
     font-size: 12px;
   }
@@ -222,16 +210,12 @@ footer .social-media img {
 .address i {
   font-size: 30px;
 }
-<<<<<<< HEAD
-@media screen and (max-width: 1024px) {
-=======
 @media screen and (max-width: 1200px) {
->>>>>>> af5563b06edcfa43a2e5901b8fe3659e34268832
   .address {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .address br {
     display: none;
   }
@@ -271,17 +255,17 @@ p {
   border: 1px solid rgba(128, 128, 128, 0.411);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-@media screen and (max-width: 620px) {
-  .main-header .bg-main {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 150px;
-  }
-}
 @media screen and (max-width: 800px) {
   .main-header .bg-main {
     width: 70%;
     margin-left: 0;
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .main-header .bg-main {
+    width: 70%;
+    margin-left: -30px;
     margin-top: 150px;
   }
 }
@@ -291,7 +275,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .main-header .bg-main h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 .main-header .bg-main .bg-header p {
@@ -317,7 +301,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .main-header .bg-main .bg-header .text-menu h1 {
-    font-size: 50px;
+    font-size: 35px;
   }
 }
 
@@ -330,16 +314,14 @@ p {
 }
 @media screen and (max-width: 620px) {
   .main-content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: -70px;
   }
 }
 .main-content img {
   padding-right: 50px;
   rotate: 10deg;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .main-content img {
     width: 400px;
     height: 300px;
@@ -348,8 +330,8 @@ p {
 }
 @media screen and (max-width: 800px) {
   .main-content img {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     padding-right: 10px;
   }
 }
@@ -357,7 +339,7 @@ p {
   font-family: serif;
   font-size: 50px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .main-content .text-content h2 {
     font-size: 40px;
   }
@@ -369,7 +351,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .main-content .text-content h2 {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 .main-content .text-content .btn-menu {
@@ -402,7 +384,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .group-text p {
-    font-size: 13px;
+    display: none;
   }
 }
 .group-text h1 {
@@ -410,7 +392,7 @@ p {
   color: orange;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .group-text h1 {
     font-size: 50px;
   }
@@ -422,7 +404,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .group-text h1 {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 .group-text .text {
@@ -454,7 +436,7 @@ p {
   width: 18%;
   border-radius: 20px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .content-menu .card-menu {
     width: 16%;
     margin-top: 40px;
@@ -478,7 +460,7 @@ p {
   padding-bottom: 30px;
   width: 70%;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .content-menu .group-card {
     width: 100%;
     font-size: 13px;
@@ -498,7 +480,7 @@ p {
   margin-top: -90px;
   margin-left: -70px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .content-menu .group-img img {
     width: 180px;
     margin-top: -70px;
@@ -524,7 +506,7 @@ p {
   background-color: orange;
   color: white;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .content-menu .group-img button {
     display: none;
   }
@@ -545,7 +527,7 @@ p {
   margin-left: -50px;
   margin-top: -80px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .content-menu .card-menu:nth-child(3) .group-img:nth-child(1) img {
     width: 150px;
     margin-top: -60px;
