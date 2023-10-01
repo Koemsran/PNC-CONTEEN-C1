@@ -13,13 +13,15 @@
     position: fixed;
     top: 0;
     z-index: 1;
+
     @include responsive('Mobile') {
         flex-wrap: wrap;
     }
 
     .nav-right {
         display: flex;
-        @include responsive("Mobile"){
+
+        @include responsive("Mobile") {
             width: 100%;
             justify-content: center;
         }
@@ -28,7 +30,7 @@
             font-size: 40px;
             font-family: $font-family1;
             color: black;
-            
+
         }
 
         img {
@@ -39,25 +41,31 @@
     }
 
     .nav-center {
-        @include responsive("Tablet"){
+        @include responsive("Tablet") {
             padding-left: 20px;
             padding-right: 20px;
-            
+
         }
+
         ul {
             display: flex;
             gap: 50px;
-            @include responsive("Tablet"){
+
+            @include responsive("Tablet") {
                 gap: 20px;
 
             }
 
-            li a {
-                color: $sub-color3;
-                font-weight: bold;
-                hover {
-                    border-bottom: 3px solid $primary-color;
+            li {
+                a {
+                    color: $sub-color3;
+                    font-weight: bold;
+
+                    
                 }
+                a:hover {
+                        border-bottom: 3px solid $primary-color;
+                    }
 
             }
         }

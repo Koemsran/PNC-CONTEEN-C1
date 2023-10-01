@@ -11,6 +11,7 @@ footer {
     flex-direction: column;
     gap: 50px;
     padding: 30px;
+    
 }
 
 footer .social-media img {
@@ -37,6 +38,9 @@ footer .social-media img {
         @include responsive("Mobile"){
             display: none;
         }
+        p{
+            font-size: 20px;
+        }
     }
 
 }
@@ -58,6 +62,7 @@ footer .social-media img {
 .footer-logo h2 {
     margin-top: 5px;
     font-family: $font-family1;
+    font-size: 30px;
 }
 
 .footer-chef,
@@ -69,6 +74,7 @@ footer .social-media img {
     gap: 10px;
 
     h3 {
+        font-size: 25px;
         text-decoration: underline;
         @include responsive("laptop"){
             font-size: 15px;
@@ -77,7 +83,7 @@ footer .social-media img {
 }
 
 .footer-top ul li {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
     list-style: disc;
     @include responsive("laptop"){
@@ -111,8 +117,9 @@ footer .social-media img {
     display: flex;
     gap: 10px;
     margin-top: 10px;
+    font-size: 20px;
     i{
-        font-size: 30px;
+        font-size: 35px;
     }
     @include responsive("laptop"){
         font-size: 12px;

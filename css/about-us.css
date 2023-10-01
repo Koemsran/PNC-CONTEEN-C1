@@ -68,7 +68,7 @@ body {
   color: black;
   font-weight: bold;
 }
-.navbar .nav-center ul li a hover {
+.navbar .nav-center ul li a:hover {
   border-bottom: 3px solid orange;
 }
 .navbar .nav-left {
@@ -124,6 +124,9 @@ footer .social-media img {
     display: none;
   }
 }
+.footer-top .name-pnc p {
+  font-size: 20px;
+}
 
 .footer-logo {
   display: flex;
@@ -142,6 +145,7 @@ footer .social-media img {
 .footer-logo h2 {
   margin-top: 5px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
 }
 
 .footer-chef,
@@ -156,6 +160,7 @@ footer .social-media img {
 .footer-service h3,
 .footer-schedule h3,
 .footer-pages h3 {
+  font-size: 25px;
   text-decoration: underline;
 }
 @media screen and (max-width: 1200px) {
@@ -168,7 +173,7 @@ footer .social-media img {
 }
 
 .footer-top ul li {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   list-style: disc;
 }
@@ -206,9 +211,10 @@ footer .social-media img {
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  font-size: 20px;
 }
 .address i {
-  font-size: 30px;
+  font-size: 35px;
 }
 @media screen and (max-width: 1200px) {
   .address {
@@ -426,46 +432,46 @@ header .bg-img .bg-text p {
   }
 }
 
-.titlle-menu {
+#title-menu {
   margin-top: 40px;
   text-align: center;
 }
 @media screen and (max-width: 800px) {
-  .titlle-menu {
+  #title-menu {
     margin-top: 20px;
   }
 }
 @media screen and (max-width: 620px) {
-  .titlle-menu {
+  #title-menu {
     margin-top: 10px;
   }
 }
-.titlle-menu h1:nth-child(1) {
+#title-menu h1:nth-child(1) {
   font-family: serif;
   font-size: 40px;
 }
 @media screen and (max-width: 800px) {
-  .titlle-menu h1:nth-child(1) {
+  #title-menu h1:nth-child(1) {
     font-size: 25px;
   }
 }
 @media screen and (max-width: 620px) {
-  .titlle-menu h1:nth-child(1) {
+  #title-menu h1:nth-child(1) {
     font-size: 20px;
   }
 }
-.titlle-menu h1:nth-child(2) {
+#title-menu h1:nth-child(2) {
   color: orange;
   font-size: 45px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 @media screen and (max-width: 800px) {
-  .titlle-menu h1:nth-child(2) {
+  #title-menu h1:nth-child(2) {
     font-size: 35px;
   }
 }
 @media screen and (max-width: 620px) {
-  .titlle-menu h1:nth-child(2) {
+  #title-menu h1:nth-child(2) {
     font-size: 25px;
   }
 }
@@ -500,7 +506,7 @@ header .bg-img .bg-text p {
   }
 }
 
-.tittle-scedule {
+.title-schedule {
   display: flex;
   justify-content: center;
   margin-top: 30px;
@@ -508,45 +514,45 @@ header .bg-img .bg-text p {
   margin-top: 70px;
 }
 @media screen and (max-width: 1200px) {
-  .tittle-scedule {
+  .title-schedule {
     margin-top: 80px;
   }
 }
 @media screen and (max-width: 800px) {
-  .tittle-scedule {
+  .title-schedule {
     margin-top: 50px;
   }
 }
 @media screen and (max-width: 620px) {
-  .tittle-scedule {
+  .title-schedule {
     margin-top: 50px;
     gap: 10px;
   }
 }
-.tittle-scedule h1:nth-child(1) {
+.title-schedule h1:nth-child(1) {
   font-size: 40px;
 }
 @media screen and (max-width: 800px) {
-  .tittle-scedule h1:nth-child(1) {
+  .title-schedule h1:nth-child(1) {
     font-size: 30px;
   }
 }
 @media screen and (max-width: 620px) {
-  .tittle-scedule h1:nth-child(1) {
+  .title-schedule h1:nth-child(1) {
     font-size: 25px;
   }
 }
-.tittle-scedule h1:nth-child(2) {
+.title-schedule h1:nth-child(2) {
   font-size: 40px;
   color: orange;
 }
 @media screen and (max-width: 800px) {
-  .tittle-scedule h1:nth-child(2) {
+  .title-schedule h1:nth-child(2) {
     font-size: 30px;
   }
 }
 @media screen and (max-width: 620px) {
-  .tittle-scedule h1:nth-child(2) {
+  .title-schedule h1:nth-child(2) {
     font-size: 25px;
   }
 }

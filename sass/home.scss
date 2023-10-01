@@ -8,8 +8,9 @@
     background-image: url(../images/background/eat_food.jpg);
     height: 600px;
     padding: 50px;
+
     @include responsive('Mobile') {
-       height: 500px;
+        height: 500px;
     }
 
 
@@ -22,11 +23,13 @@
         margin-left: 30px;
         border: 1px solid $sub-color8;
         box-shadow: $box-shadow-color;
+
         @include responsive('Mobile') {
             width: 100%;
             margin-left: 0;
             margin-top: 150px;
         }
+
         @include responsive('Tablet') {
             width: 70%;
             margin-left: 0;
@@ -36,7 +39,8 @@
         h2 {
             font-family: serif;
             font-size: 40px;
-            @include responsive("Mobile"){
+
+            @include responsive("Mobile") {
                 font-size: 30px;
             }
         }
@@ -45,8 +49,10 @@
             p {
                 line-height: 1.5;
                 margin-top: 15px;
+                font-size: 20px;
+
                 @include responsive('Mobile') {
-                    display:none;
+                    display: none;
                 }
             }
 
@@ -62,7 +68,8 @@
                     color: $primary-color;
                     font-size: 60px;
                     font-family: $font-family1;
-                    @include responsive("Mobile"){
+
+                    @include responsive("Mobile") {
                         font-size: 50px;
                     }
                 }
@@ -79,6 +86,7 @@
     display: flex;
     padding: 20px;
     padding-left: 100px;
+
     @include responsive('Mobile') {
         flex-direction: column;
         justify-content: center;
@@ -88,34 +96,40 @@
     img {
         padding-right: 50px;
         rotate: 10deg;
-        @include responsive('laptop'){
+
+        @include responsive('laptop') {
             width: 400px;
             height: 300px;
             padding-right: 10px;
         }
-        @include responsive('Tablet'){
+
+        @include responsive('Tablet') {
             width: 300px;
             height: 200px;
             padding-right: 10px;
         }
-        
+
     }
 
     .text-content {
         h2 {
             font-family: serif;
             font-size: 50px;
-            @include responsive('laptop'){
+
+            @include responsive('laptop') {
                 font-size: 40px;
             }
-            @include responsive('Tablet'){
+
+            @include responsive('Tablet') {
                 font-size: 30px;
             }
-            @include responsive('Mobile'){
+
+            @include responsive('Mobile') {
                 font-size: 35px;
             }
-            
+
         }
+
         .btn-menu {
             margin-top: 20px;
 
@@ -125,14 +139,15 @@
                 box-shadow: $box-shadow-color;
                 color: $sub-color1;
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 15px;
+                font-size: 20px;
 
-                :hover {
-                    text-decoration: underline;
-                }
-                @include responsive("Mobile"){
+                @include responsive("Mobile") {
                     font-size: 12px;
                 }
+            }
+
+            a:hover {
+                text-decoration: underline;
             }
         }
     }
@@ -141,9 +156,12 @@
 
 .group-text {
     width: 100%;
+
     p {
-        margin-top: 20px;
-        @include responsive("Mobile"){
+        margin-top: 15px;
+        font-size: 20px;
+
+        @include responsive("Mobile") {
             font-size: 13px;
         }
     }
@@ -152,17 +170,20 @@
         font-size: 60px;
         color: $primary-color;
         font-family: $font-family1;
-        @include responsive('laptop'){
+
+        @include responsive('laptop') {
             font-size: 50px;
         }
-        @include responsive('Tablet'){
+
+        @include responsive('Tablet') {
             font-size: 45px;
         }
-        @include responsive('Mobile'){
+
+        @include responsive('Mobile') {
             font-size: 45px;
         }
-        
-        
+
+
     }
 
     .text {
@@ -179,38 +200,43 @@
     justify-content: space-evenly;
     width: 100%;
     margin-top: 60px;
+
     @include responsive('Tablet') {
         flex-wrap: wrap;
         gap: 50px;
     }
+
     @include responsive('Mobile') {
         flex-wrap: wrap;
         gap: 30px;
     }
-    
-  
+
+
 
     .card-menu {
         background-color: $sub-color9;
         width: 18%;
         border-radius: $font-size6;
+
         @include responsive('laptop') {
             width: 16%;
             margin-top: 40px;
-        
+
         }
+
         @include responsive('Tablet') {
             width: 35%;
             margin-top: 40px;
-        
+
         }
+
         @include responsive('Mobile') {
             width: 34%;
             margin-top: 20px;
-        
+
         }
-       
-        
+
+
 
     }
 
@@ -219,17 +245,19 @@
         padding-left: 30px;
         padding-bottom: 30px;
         width: 70%;
+
         @include responsive('laptop') {
             width: 100%;
             font-size: 13px;
 
         }
+
         @include responsive('Mobile') {
             width: 100%;
             font-size: 12px;
 
         }
-        
+
     }
 
     .group-img {
@@ -239,20 +267,23 @@
             width: 230px;
             margin-top: -90px;
             margin-left: -70px;
-            @include responsive('laptop'){
+
+            @include responsive('laptop') {
                 width: 180px;
                 margin-top: -70px;
             }
-            @include responsive('Tablet'){
+
+            @include responsive('Tablet') {
                 margin-left: -60px;
             }
-            @include responsive('Mobile'){
-                margin-left:-50px;
+
+            @include responsive('Mobile') {
+                margin-left: -50px;
                 margin-top: -50px;
                 width: 180px;
             }
-            
-           
+
+
         }
 
         button {
@@ -262,14 +293,16 @@
             margin-top: 20px;
             background-color: $primary-color;
             color: $sub-color1;
-            @include responsive('laptop'){
+
+            @include responsive('laptop') {
                 display: none;
             }
-            @include responsive('Tablet'){
+
+            @include responsive('Tablet') {
                 // width: 100%;
             }
-            
-            @include responsive('Mobile'){
+
+            @include responsive('Mobile') {
                 display: none;
             }
         }
@@ -290,21 +323,24 @@
         width: 200px;
         margin-left: -50px;
         margin-top: -80px;
-        @include responsive('laptop'){
+
+        @include responsive('laptop') {
             width: 150px;
             margin-top: -60px;
         }
-        @include responsive('Tablet'){
+
+        @include responsive('Tablet') {
             margin-top: -67px;
             margin-left: -48px;
         }
-        @include responsive('Mobile'){
-            margin-left:-35px;
+
+        @include responsive('Mobile') {
+            margin-left: -35px;
             margin-top: -40px;
             width: 155px;
         }
-        
-        
+
+
 
     }
 
@@ -323,14 +359,16 @@
     margin-top: $font-size1;
     background-image: url(/images/background/ingre.jpg);
     height: $font-size17;
-    @include responsive('Mobile'){
+
+    @include responsive('Mobile') {
         height: 300px;
     }
 
     .bg-ingre {
         padding-top: 170px;
         padding-bottom: 200px;
-        @include responsive('Mobile'){
+
+        @include responsive('Mobile') {
             padding-top: 80px;
         }
 
@@ -338,15 +376,17 @@
             color: $sub-color1;
             background-color: rgba(0, 0, 0, 0.392);
             padding: 70px;
-            @include responsive("Mobile"){
+
+            @include responsive("Mobile") {
                 padding: 40px;
             }
-    
+
 
             h1 {
                 font-size: 60px;
                 font-family: serif;
-                @include responsive('Mobile'){
+
+                @include responsive('Mobile') {
                     font-size: 35px;
                     width: 100%;
                 }
@@ -377,7 +417,8 @@
                 height: 170px;
                 border-radius: 200px;
                 border: 1px solid $secondary-color;
-                @include responsive('Mobile'){
+
+                @include responsive('Mobile') {
                     width: 130px;
                     height: 130px;
                 }
@@ -390,11 +431,15 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            
-            p{
-                @include responsive('Mobile'){
-                font-size: 12px;
+
+            p {
+                font-size: 20px;
+                @include responsive('Mobile') {
+                    font-size: 12px;
+                }
             }
+            h3{
+                font-size: 25px;
             }
         }
     }

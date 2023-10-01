@@ -99,7 +99,7 @@ header {
 
 }
 
-.titlle-menu {
+#title-menu{
     margin-top: $font-size1;
     text-align: center;
 
@@ -175,7 +175,7 @@ header {
 }
 
 
-.tittle-scedule {
+.title-schedule {
     @include flex;
     gap: 10px;
     // padding-top: 30px;

@@ -68,7 +68,7 @@ body {
   color: black;
   font-weight: bold;
 }
-.navbar .nav-center ul li a hover {
+.navbar .nav-center ul li a:hover {
   border-bottom: 3px solid orange;
 }
 .navbar .nav-left {
@@ -124,6 +124,9 @@ footer .social-media img {
     display: none;
   }
 }
+.footer-top .name-pnc p {
+  font-size: 20px;
+}
 
 .footer-logo {
   display: flex;
@@ -142,6 +145,7 @@ footer .social-media img {
 .footer-logo h2 {
   margin-top: 5px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
 }
 
 .footer-chef,
@@ -156,6 +160,7 @@ footer .social-media img {
 .footer-service h3,
 .footer-schedule h3,
 .footer-pages h3 {
+  font-size: 25px;
   text-decoration: underline;
 }
 @media screen and (max-width: 1200px) {
@@ -168,7 +173,7 @@ footer .social-media img {
 }
 
 .footer-top ul li {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   list-style: disc;
 }
@@ -206,9 +211,10 @@ footer .social-media img {
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  font-size: 20px;
 }
 .address i {
-  font-size: 30px;
+  font-size: 35px;
 }
 @media screen and (max-width: 1200px) {
   .address {
