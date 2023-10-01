@@ -17,6 +17,8 @@
     // mobile
     @include responsive("Mobile") {
         flex-wrap: wrap;
+        gap: 30px;
+        margin-top: -5px;
 
     }
 
@@ -52,7 +54,7 @@
             width: 100%;
             height: 200px;
             @include responsive("laptop") {
-                height: 140px;
+                height: 160px;
             }
             @include responsive("Tablet") {
                 height: 130px;

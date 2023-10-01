@@ -93,6 +93,11 @@ footer {
   gap: 50px;
   padding: 30px;
 }
+@media screen and (max-width: 620px) {
+  footer {
+    padding: 20px;
+  }
+}
 
 footer .social-media img {
   width: 40px;

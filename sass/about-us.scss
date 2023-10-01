@@ -22,17 +22,18 @@ header {
         box-shadow: $box-shadow-color;
 
         @include responsive("laptop") {
-            width: 50%;
-            height: 45%;
+            width: 60%;
+            height: 35%;
+            margin-top: 270px;
 
         }
 
         @include responsive("Tablet") {
             width: 70%;
             height: 40%;
-            margin-top: 160px;
+            margin-top: 190px;
             margin-left: -20px;
-            padding: 10px;
+            // padding: 10px;
 
         }
 
@@ -40,7 +41,7 @@ header {
             width: 70%;
             height: 40%;
             margin-left: -30px;
-            margin-top: 130px;
+            margin-top: 180px;
         }
 
 
@@ -49,13 +50,13 @@ header {
                 color: $primary-color;
                 font-size: 50px;
                 @include responsive("laptop") {
-                    font-size: 40px;
-                    margin-top: -8px;
+                    font-size: 45px;
+                    // margin-top: -8px;
                     
                 }
 
                 @include responsive("Tablet") {
-                    font-size: 35px;
+                    font-size: 50px;
 
                 }
 
@@ -71,14 +72,14 @@ header {
                 margin-top: 10px;
                 line-height: 1.5;
                 color: $sub-color1;
-                font-size: 20px;
+                font-size: 28px;
                 @include responsive("laptop") {
-                    font-size: 16px;
+                    font-size: 25px;
                     margin-top: 8px;
                 }
 
                 @include responsive("Tablet") {
-                    font-size: 15px;
+                    font-size: 25px;
                 }
 
                 // mobile
@@ -102,25 +103,28 @@ header {
     text-align: center;
 
     @include responsive("Tablet") {
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     // mobile
     @include responsive("Mobile") {
-        margin-top: 10px;
+        margin-top: 20px;
     }
 
     h1:nth-child(1) {
         font-family: serif;
-        font-size: 40px;
+        font-size: 50px;
+        @include responsive("laptop"){
+            font-size: 50px;
+        }
 
         @include responsive("Tablet") {
-            font-size: 25px;
+            font-size: 35px;
         }
 
         // mobile
         @include responsive("Mobile") {
-            font-size: 20px;
+            font-size: 25px;
         }
     }
 
@@ -131,7 +135,7 @@ header {
         font-family: $font-family1;
 
         @include responsive("Tablet") {
-            font-size: 35px;
+            font-size: 40px;
         }
 
         // mobile
@@ -149,23 +153,30 @@ header {
     align-items: center;
     padding: 10px;
     margin-top: 30px;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 25px 25px 0;
     background-color: $sub-color3;
     color: $sub-color1;
 
     @include responsive("Tablet") {
         width: 18%;
-        padding: 5px;
+        padding: 10px;
+    }
+    @include responsive("Mobile"){
+        width: 30%;
+        
     }
 
     h3 {
+        font-size: 25px;
         @include responsive("Tablet") {
-            font-size: 15px;
+            font-size: 20px;
         }
 
         // mobile
         @include responsive("Mobile") {
-            font-size: 14px;
+            // width: 20%;
+            font-size: 20px;
+            // padding: 15px;
         }
     }
 
@@ -190,7 +201,7 @@ header {
 
     // mobile
     @include responsive("Mobile") {
-        margin-top: 50px;
+        margin-top: 35px;
         gap: 10px;
 
     }
@@ -247,10 +258,13 @@ header {
     table {
         width: 60%;
         border-collapse: collapse;
-
+        @include responsive("laptop"){
+            margin-top: -15px;
+        }
         // mobile
         @include responsive("Mobile") {
-            width: 70%;
+            margin-top: 15px;
+            width: 90%;
 
         }
 
@@ -455,7 +469,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
     h1:nth-child(1) {
 
-        // font-size: 40px;
+        font-size: 40px;
         @include responsive("Tablet") {
             font-size: 30px;
 
@@ -470,8 +484,9 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
 
     h1:nth-child(2) {
-        // font-size: 40px;
+        font-size: 40px;
         color: orange;
+        @include responsive("Tablet"){}
 
         @include responsive("Tablet") {
             font-size: 30px;
@@ -511,18 +526,22 @@ tbody tr:nth-child(3) td:nth-child(1) {
 
     .service {
         width: 25%;
-        height: auto;
+        // height: auto;
+        height: 300px;
         border: 2px solid $secondary-color;
         background-color: $sub-color1;
 
         @include responsive("Tablet") {
             width: 30%;
+            height: 250px;
 
         }
 
         // mobile
         @include responsive("Mobile") {
-            width: 29%
+            width: 30%;
+            height: 230px;
+
             
 
 
