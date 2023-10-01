@@ -29,6 +29,7 @@ body {
 @media screen and (max-width: 620px) {
   .navbar {
     flex-wrap: wrap;
+    gap: 10px;
   }
 }
 .navbar .nav-right {
@@ -95,7 +96,11 @@ footer {
 }
 @media screen and (max-width: 620px) {
   footer {
+<<<<<<< HEAD
     padding: 20px;
+=======
+    align-items: center;
+>>>>>>> 19a06bb302b2337a23501bf0a4f197aa6420317b
   }
 }
 
@@ -275,7 +280,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .main-header .bg-main {
-    width: 70%;
+    width: auto;
     margin-left: -30px;
     margin-top: 150px;
   }
@@ -326,6 +331,9 @@ p {
 }
 @media screen and (max-width: 620px) {
   .main-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-left: -70px;
   }
 }
@@ -345,11 +353,6 @@ p {
     width: 280px;
     height: 250px;
     padding-right: 10px;
-  }
-}
-@media screen and (max-width: 620px) {
-  .main-content img {
-    margin-top: -20px;
   }
 }
 .main-content .text-content h2 {
@@ -455,7 +458,7 @@ p {
 }
 .content-menu .card-menu {
   background-color: rgba(0, 0, 0, 0.863);
-  width: 18%;
+  width: 16%;
   border-radius: 20px;
 }
 @media screen and (max-width: 1200px) {
@@ -515,9 +518,9 @@ p {
 }
 @media screen and (max-width: 620px) {
   .content-menu .group-img img {
-    margin-left: -50px;
+    margin-left: -40px;
     margin-top: -50px;
-    width: 180px;
+    width: 160px;
   }
 }
 .content-menu .group-img button {
@@ -563,9 +566,9 @@ p {
 }
 @media screen and (max-width: 620px) {
   .content-menu .card-menu:nth-child(3) .group-img:nth-child(1) img {
-    margin-left: -35px;
-    margin-top: -40px;
-    width: 155px;
+    margin-left: -30px;
+    margin-top: -35px;
+    width: 140px;
   }
 }
 .content-menu .card-menu:nth-child(3) .group-img:nth-child(1) button {
@@ -574,6 +577,16 @@ p {
 
 .content-menu .card-menu:nth-child(3) .group-card h3 {
   padding: 10px;
+}
+@media screen and (max-width: 620px) {
+  .content-menu .card-menu:nth-child(3) .group-card h3 {
+    padding-left: 7px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .content-menu .card-menu:nth-child(3) .group-card h3 span {
+    display: none;
+  }
 }
 
 .bg-ingredients {
@@ -670,4 +683,9 @@ p {
 }
 .eqiepment .group-eqiepment .text h3 {
   font-size: 25px;
+}
+@media screen and (max-width: 620px) {
+  .eqiepment .group-eqiepment .text h3 {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=home.css.map */

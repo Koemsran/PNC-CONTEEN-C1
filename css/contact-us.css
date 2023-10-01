@@ -29,6 +29,7 @@ body {
 @media screen and (max-width: 620px) {
   .navbar {
     flex-wrap: wrap;
+    gap: 10px;
   }
 }
 .navbar .nav-right {
@@ -95,7 +96,11 @@ footer {
 }
 @media screen and (max-width: 620px) {
   footer {
+<<<<<<< HEAD
     padding: 20px;
+=======
+    align-items: center;
+>>>>>>> 19a06bb302b2337a23501bf0a4f197aa6420317b
   }
 }
 
@@ -335,7 +340,6 @@ textarea {
 }
 
 input {
-  width: auto;
   border-radius: 3px;
   padding: 7px;
   background: white;
@@ -343,7 +347,31 @@ input {
 }
 @media screen and (max-width: 800px) {
   input {
+    width: 250%;
+    margin-left: -80px;
+  }
+}
+@media screen and (max-width: 620px) {
+  input {
     width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  label {
+    margin-left: -80px;
+  }
+}
+@media screen and (max-width: 620px) {
+  label {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .feedback label {
+    margin-left: 0;
   }
 }
 
@@ -370,6 +398,12 @@ input {
   color: white;
   border: 1px solid rgba(128, 128, 128, 0.411);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: auto;
+}
+@media screen and (max-width: 620px) {
+  .bg-header {
+    margin-left: 30px;
+  }
 }
 .bg-header h2 {
   font-family: serif;
@@ -470,6 +504,7 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 40px;
   width: 40px;
   color: rgb(146, 96, 3);
@@ -479,7 +514,16 @@ input {
   border-radius: 30px;
   padding: 3px;
 }
-
+@media screen and (max-width: 1200px) {
+  .card .icon {
+    padding: 7px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .card .icon {
+    padding: 7px;
+  }
+}
 .card {
   display: flex;
   gap: 20px;

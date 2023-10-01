@@ -68,6 +68,8 @@ body {
   .main-thanks .thanks-top p {
     font-size: 12px;
     margin-top: -10px;
+    padding-left: 35px;
+    padding-right: 60px;
   }
 }
 .main-thanks .thanks-bottom {

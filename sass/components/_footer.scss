@@ -11,8 +11,13 @@ footer {
     flex-direction: column;
     gap: 50px;
     padding: 30px;
+<<<<<<< HEAD
     @include responsive("Mobile"){
             padding: 20px;
+=======
+    @include responsive(Mobile){
+        align-items: center;
+>>>>>>> 19a06bb302b2337a23501bf0a4f197aa6420317b
     }
     
 }
