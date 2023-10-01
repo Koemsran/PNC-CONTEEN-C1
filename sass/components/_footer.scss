@@ -11,6 +11,9 @@ footer {
     flex-direction: column;
     gap: 50px;
     padding: 30px;
+    @include responsive(Mobile){
+        align-items: center;
+    }
     
 }
 

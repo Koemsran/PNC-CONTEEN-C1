@@ -29,6 +29,7 @@ body {
 @media screen and (max-width: 620px) {
   .navbar {
     flex-wrap: wrap;
+    gap: 10px;
   }
 }
 .navbar .nav-right {
@@ -92,6 +93,11 @@ footer {
   flex-direction: column;
   gap: 50px;
   padding: 30px;
+}
+@media screen and (max-width: 620px) {
+  footer {
+    align-items: center;
+  }
 }
 
 footer .social-media img {

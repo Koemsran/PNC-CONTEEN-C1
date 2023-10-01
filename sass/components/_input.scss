@@ -91,13 +91,35 @@ textarea {
 }
 
 input {
-    width: auto;
+    // width: auto;
     border-radius: 3px;
     padding:7px;
     background: $sub-color1;
     border: 1px solid rgba(128, 128, 128, 0.454);
     @include responsive('Tablet'){
+        width: 250%;
+        margin-left: -80px;
+ 
+    }
+    @include responsive('Mobile'){
         width: 100%;
+        margin-left: 0;
+ 
+    }
+}
+label{
+    @include responsive('Tablet'){
+        margin-left: -80px;
+ 
+    }
+    @include responsive('Mobile'){
+        margin-left: 0;
+ 
+    }
+}
+.feedback label{
+    @include responsive('Tablet'){
+        margin-left: 0;
  
     }
 }

@@ -20,8 +20,11 @@
     color: $sub-color1;
     border: 1px solid $sub-color8;
     box-shadow: $box-shadow-color;
+    width: auto;
+    @include responsive('Mobile'){
+        margin-left: 30px;
 
-
+    }
     h2 {
         font-family: $font-family3;
         font-size: 35px;
@@ -118,6 +121,7 @@
 
 .card .icon {
     @include flex2;
+    justify-content: center;
     height: 40px;
     width:40px;
     color: rgb(146, 96, 3);
@@ -126,6 +130,15 @@
     background-color: rgba(128, 128, 128, 0.384);
     border-radius: 30px;
     padding: 3px;
+    @include responsive('laptop'){
+        padding: 7px;
+    }
+    @include responsive('Tablet'){
+        padding: 7px;
+    }
+    @include responsive('Mobile'){
+        
+    }
 
 }
 
