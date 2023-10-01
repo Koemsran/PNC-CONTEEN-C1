@@ -6,6 +6,7 @@
     @include flex;
     width: 100%;
     gap: 15px;
+    // padding: 25px;
 
     // mobile
     @include responsive("Mobile") {
