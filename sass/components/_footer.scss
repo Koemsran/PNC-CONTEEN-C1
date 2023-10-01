@@ -39,7 +39,7 @@ footer .social-media img {
             display: none;
         }
         p{
-            font-size: 20px;
+            font-size: $font-size6;
         }
     }
 
@@ -74,10 +74,10 @@ footer .social-media img {
     gap: 10px;
 
     h3 {
-        font-size: 25px;
+        font-size: $font-size3;
         text-decoration: underline;
         @include responsive("laptop"){
-            font-size: 15px;
+            font-size: $font-size5;
         }
     }
 }

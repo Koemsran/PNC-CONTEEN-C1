@@ -4,7 +4,7 @@
     @include bg-img;
     display: flex;
     align-items: center;
-    margin-top: $font-size11;
+    margin-top: 5px;
     background-image: url(../images/background/eat_food.jpg);
     height: 600px;
     padding: 50px;
@@ -80,7 +80,7 @@
 
 .main-content {
     height: auto;
-    margin-top: $font-size5;
+    margin-top: 15px;
     display: flex;
     padding: 20px;
     padding-left: 100px;
@@ -99,9 +99,12 @@
             padding-right: 10px;
         }
         @include responsive('Tablet'){
-            width: 250px;
+            width: 280px;
             height: 250px;
             padding-right: 10px;
+        }
+        @include responsive('Mobile'){
+            margin-top: -20px;
         }
 
     }
@@ -135,6 +138,9 @@
                 font-family: Verdana, Geneva, Tahoma, sans-serif;
                 font-size: 20px;
 
+                @include responsive("Tablet") {
+                    font-size: 15px;
+                }
                 @include responsive("Mobile") {
                     font-size: 12px;
                 }
@@ -207,7 +213,7 @@
     .card-menu {
         background-color: $sub-color9;
         width: 18%;
-        border-radius: $font-size6;
+        border-radius: 20px;
 
         @include responsive('laptop') {
             width: 16%;
@@ -347,9 +353,9 @@
 
 .bg-ingredients {
     @include bg-img;
-    margin-top: $font-size1;
+    margin-top: 40px;
     background-image: url(/images/background/ingre.jpg);
-    height: $font-size17;
+    height: 500px;
 
     @include responsive('Mobile') {
         height: 300px;
@@ -425,6 +431,9 @@
 
             p {
                 font-size: 20px;
+                @include responsive('Tablet') {
+                    font-size: 15px;
+                }
                 @include responsive('Mobile') {
                     font-size: 12px;
                 }
