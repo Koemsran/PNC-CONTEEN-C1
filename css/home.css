@@ -261,17 +261,17 @@ p {
   border: 1px solid rgba(128, 128, 128, 0.411);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
-@media screen and (max-width: 620px) {
-  .main-header .bg-main {
-    width: 100%;
-    margin-left: 0;
-    margin-top: 150px;
-  }
-}
 @media screen and (max-width: 800px) {
   .main-header .bg-main {
     width: 70%;
     margin-left: 0;
+    margin-top: 150px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .main-header .bg-main {
+    width: 70%;
+    margin-left: -30px;
     margin-top: 150px;
   }
 }
@@ -281,7 +281,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .main-header .bg-main h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 .main-header .bg-main .bg-header p {
@@ -308,7 +308,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .main-header .bg-main .bg-header .text-menu h1 {
-    font-size: 50px;
+    font-size: 35px;
   }
 }
 
@@ -321,9 +321,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .main-content {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-left: -70px;
   }
 }
 .main-content img {
@@ -339,8 +337,8 @@ p {
 }
 @media screen and (max-width: 800px) {
   .main-content img {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     padding-right: 10px;
   }
 }
@@ -360,7 +358,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .main-content .text-content h2 {
-    font-size: 35px;
+    font-size: 25px;
   }
 }
 .main-content .text-content .btn-menu {
@@ -394,7 +392,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .group-text p {
-    font-size: 13px;
+    display: none;
   }
 }
 .group-text h1 {
@@ -414,7 +412,7 @@ p {
 }
 @media screen and (max-width: 620px) {
   .group-text h1 {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 .group-text .text {

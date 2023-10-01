@@ -242,6 +242,16 @@ p {
   width: 100%;
   gap: 15px;
 }
+@media screen and (max-width: 1200px) {
+  .group-card {
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .group-card {
+    padding: 25px;
+  }
+}
 @media screen and (max-width: 620px) {
   .group-card {
     flex-wrap: wrap;
@@ -869,6 +879,11 @@ tbody tr:nth-child(3) td:nth-child(1) {
   text-align: center;
   font-size: 18px;
 }
+@media screen and (max-width: 1200px) {
+  .group-service .service .text-service p {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 800px) {
   .group-service .service .text-service p {
     font-size: 14px;
@@ -876,7 +891,7 @@ tbody tr:nth-child(3) td:nth-child(1) {
 }
 @media screen and (max-width: 620px) {
   .group-service .service .text-service p {
-    font-size: 9px;
+    font-size: 10px;
   }
 }
 .group-service .service .service-icon {
@@ -894,8 +909,18 @@ tbody tr:nth-child(3) td:nth-child(1) {
     font-size: 13px;
   }
 }
+@media screen and (max-width: 620px) {
+  .group-service .service .service-icon .number {
+    font-size: 10px;
+  }
+}
 @media screen and (max-width: 800px) {
   .group-service .service .service-icon .icon i {
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .group-service .service .service-icon .icon i {
+    font-size: 10px;
   }
 }/*# sourceMappingURL=about-us.css.map */

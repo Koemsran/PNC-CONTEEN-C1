@@ -6,6 +6,13 @@
     @include flex;
     width: 100%;
     gap: 15px;
+    // padding: 25px;
+    @include responsive("laptop"){
+        padding: 30px;
+    }
+    @include responsive("Tablet"){
+        padding: 25px;
+    }
 
     // mobile
     @include responsive("Mobile") {
@@ -31,6 +38,7 @@
         @include responsive("Tablet") {
             width: 25%;
             height: 300px;
+            
         }
 
         // mobile

@@ -28,13 +28,29 @@ body {
   width: 80px;
   margin-top: 50px;
 }
+@media screen and (max-width: 800px) {
+  .main-thanks .thanks-top img {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .main-thanks .thanks-top img {
+    width: 60px;
+    margin-top: -8px;
+  }
+}
 .main-thanks .thanks-top h1 {
   font-size: 50px;
   font-family: sans-serif;
 }
+@media screen and (max-width: 800px) {
+  .main-thanks .thanks-top h1 {
+    font-size: 28px;
+  }
+}
 @media screen and (max-width: 620px) {
   .main-thanks .thanks-top h1 {
-    font-size: 40px;
+    font-size: 25px;
   }
 }
 .main-thanks .thanks-top p {
@@ -43,6 +59,17 @@ body {
   line-height: 1.5;
   font-family: sans-serif;
 }
+@media screen and (max-width: 800px) {
+  .main-thanks .thanks-top p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .main-thanks .thanks-top p {
+    font-size: 12px;
+    margin-top: -10px;
+  }
+}
 .main-thanks .thanks-bottom {
   display: flex;
   justify-content: center;
@@ -50,10 +77,30 @@ body {
   width: 100%;
   gap: 30px;
 }
+@media screen and (max-width: 620px) {
+  .main-thanks .thanks-bottom {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main-thanks .thanks-bottom .card-left {
+    margin-left: -20px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .main-thanks .thanks-bottom .card-left {
+    margin-left: -15px;
+  }
+}
 .main-thanks .thanks-bottom .card-left .media i {
   font-size: 30px;
   margin-top: 10px;
   color: black;
+}
+@media screen and (max-width: 620px) {
+  .main-thanks .thanks-bottom .card-left .media i {
+    font-size: 20px;
+  }
 }
 .main-thanks .thanks-bottom .card-right a {
   margin-top: 10px;
@@ -67,6 +114,7 @@ body {
 @media screen and (max-width: 620px) {
   .main-thanks .thanks-bottom .card-right a {
     font-size: 13px;
+    padding: 8px;
   }
 }
 .main-thanks .thanks-bottom .card-left,
@@ -82,6 +130,13 @@ body {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   background-color: #F5EEEE;
 }
+@media screen and (max-width: 620px) {
+  .main-thanks .thanks-bottom .card-left,
+  .main-thanks .thanks-bottom .card-right {
+    height: 130px;
+    width: 150px;
+  }
+}
 .main-thanks .thanks-bottom .card-left h3,
 .main-thanks .thanks-bottom .card-right h3 {
   margin-top: 30px;
@@ -90,6 +145,6 @@ body {
 @media screen and (max-width: 620px) {
   .main-thanks .thanks-bottom .card-left h3,
   .main-thanks .thanks-bottom .card-right h3 {
-    font-size: 16px;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=thanks.css.map */
